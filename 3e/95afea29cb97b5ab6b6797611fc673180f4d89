@@ -1,0 +1,205 @@
+backend/.dockerignore
+  s_1a8297fe401fa7::t_b3c47dfba4dc04 1-5
+backend/.python-version
+  s_1a8297fe401fa7::t_0a018cffb700ca 1
+backend/Dockerfile
+  s_1a8297fe401fa7::t_75cb928ac2db1e 1-17
+backend/app/config.py
+  s_1a8297fe401fa7::t_ecd2ce6a3fc455 1-30
+backend/app/live/service.py
+  s_1a8297fe401fa7::t_cc51256920a2ef 1-145
+backend/app/llm.py
+  s_1a8297fe401fa7::t_f2eb4f2d055a60 1-22
+backend/app/main.py
+  s_1a8297fe401fa7::t_73e070231644b1 1-14
+backend/app/replays/core.py
+  s_1a8297fe401fa7::t_9606bf15a29697 1-612
+backend/app/replays/data/catalog.json
+  s_1a8297fe401fa7::t_111904c70c8722 1-891
+backend/app/replays/data/reasons.json
+  s_1a8297fe401fa7::t_fcdfe1ff2b3e9e 1
+backend/app/replays/service.py
+  s_1a8297fe401fa7::t_5b8821e51c1243 1-255
+backend/pyproject.toml
+  s_1a8297fe401fa7::t_daf09354d52cff 1-25
+backend/tests/test_health.py
+  s_1a8297fe401fa7::t_b9801877e10d17 1-10
+backend/tests/test_live.py
+  s_1a8297fe401fa7::t_95e08b466dc081 1-36
+backend/tests/test_replays.py
+  s_1a8297fe401fa7::t_9e9c72083fd4ee 1-138
+backend/uv.lock
+  s_1a8297fe401fa7::t_27680ea67942cf 1-1184
+docker-compose.yml
+  s_1a8297fe401fa7::t_250dce965fc468 1-41
+eval/.gitignore
+  s_1a8297fe401fa7::t_75656a3bfce2be 1-2
+eval/LLM_BANK.md
+  s_1a8297fe401fa7::t_ea37710ddde98f 1-88
+eval/profile_fields/out/claude/sup_70340.json
+  s_1a8297fe401fa7::t_a204aeeccdf50c 1-107
+eval/profile_fields/out/claude/sup_70350.json
+  s_1a8297fe401fa7::t_2673e75a568ec3 1-141
+eval/profile_fields/out/claude/sup_70360.json
+  s_1a8297fe401fa7::t_a308412cf5abc8 1-103
+eval/profile_fields/out/claude/sup_70410.json
+  s_1a8297fe401fa7::t_871c1a6e662fe6 1-139
+eval/profile_fields/out/claude/sup_70420.json
+  s_1a8297fe401fa7::t_35f5a6cf949364 1-129
+eval/profile_fields/out/claude/sup_70430.json
+  s_1a8297fe401fa7::t_5cae07bd6a59a1 1-99
+eval/profile_fields/out/claude/sup_70440.json
+  s_1a8297fe401fa7::t_52d410e733d709 1-147
+eval/profile_fields/out/claude/sup_70510.json
+  s_1a8297fe401fa7::t_8f3f6805c389e8 1-108
+eval/profile_fields/out/claude/sup_70520.json
+  s_1a8297fe401fa7::t_4d89dbb8af8a53 1-129
+eval/profile_fields/out/claude/sup_70530.json
+  s_1a8297fe401fa7::t_f97baf67ddae3f 1-141
+eval/profile_fields/out/claude/sup_70540.json
+  s_1a8297fe401fa7::t_d40c3a9f502b2f 1-151
+eval/profile_fields/out/claude/sup_70550.json
+  s_1a8297fe401fa7::t_bcb48e08231934 1-113
+eval/profile_fields/out/claude/sup_70560.json
+  s_1a8297fe401fa7::t_86a186d64c5504 1-120
+eval/profile_fields/out/claude/sup_70570.json
+  s_1a8297fe401fa7::t_d6f3e7d63e89f7 1-129
+eval/profile_fields/out/claude/sup_70580.json
+  s_1a8297fe401fa7::t_6eeec837cc9d29 1-131
+eval/profile_fields/out/claude/sup_70610.json
+  s_1a8297fe401fa7::t_d7023ff404db37 1-113
+eval/profile_fields/out/claude/sup_70620.json
+  s_1a8297fe401fa7::t_7018729a0574ba 1-145
+eval/profile_fields/out/claude/sup_70630.json
+  s_1a8297fe401fa7::t_6ced7916e2e41e 1-182
+eval/profile_fields/out/claude/sup_70640.json
+  s_1a8297fe401fa7::t_9075efd698f6eb 1-114
+eval/profile_fields/out/gemini/sup_70320.json
+  s_1a8297fe401fa7::t_cf97c0fbac83b3 1-98
+eval/profile_fields/out/gemini/sup_70330.json
+  s_1a8297fe401fa7::t_9f2f38bac4ab12 1-103
+eval/profile_fields/out/gemini/sup_70340.json
+  s_1a8297fe401fa7::t_2b5a8ca6a3567a 1-99
+eval/profile_fields/out/gemini/sup_70350.json
+  s_1a8297fe401fa7::t_ad0b6ba8d141fc 1-115
+eval/profile_fields/out/gemini/sup_70360.json
+  s_1a8297fe401fa7::t_33e5e86873f683 1-95
+eval/profile_fields/out/gemini/sup_70410.json
+  s_1a8297fe401fa7::t_95cfc05bd43a06 1-139
+eval/profile_fields/out/gemini/sup_70420.json
+  s_1a8297fe401fa7::t_92206e819e35c8 1-137
+eval/profile_fields/out/gemini/sup_70430.json
+  s_1a8297fe401fa7::t_177c9ed11320cd 1-95
+eval/profile_fields/out/gemini/sup_70440.json
+  s_1a8297fe401fa7::t_e832101284281e 1-135
+eval/profile_fields/out/gemini/sup_70510.json
+  s_1a8297fe401fa7::t_f9c975b2f9aa55 1-116
+eval/profile_fields/out/gemini/sup_70520.json
+  s_1a8297fe401fa7::t_be25bf3292f78d 1-145
+eval/profile_fields/out/gemini/sup_70530.json
+  s_1a8297fe401fa7::t_df7acd761e87ea 1-137
+eval/profile_fields/out/gemini/sup_70540.json
+  s_1a8297fe401fa7::t_a437fde6234233 1-117
+eval/profile_fields/out/gemini/sup_70550.json
+  s_1a8297fe401fa7::t_160d7f7f7f9165 1-117
+eval/profile_fields/out/gemini/sup_70560.json
+  s_1a8297fe401fa7::t_f65b719912b365 1-116
+eval/profile_fields/out/gemini/sup_70570.json
+  s_1a8297fe401fa7::t_27353a29b8f94a 1-137
+eval/profile_fields/out/gemini/sup_70580.json
+  s_1a8297fe401fa7::t_4b234b166e0ff3 1-131
+eval/profile_fields/out/gemini/sup_70610.json
+  s_1a8297fe401fa7::t_6031a13bb7103f 1-109
+eval/profile_fields/out/gemini/sup_70620.json
+  s_1a8297fe401fa7::t_cccb07ffe49001 1-141
+eval/profile_fields/out/gemini/sup_70630.json
+  s_1a8297fe401fa7::t_a22a451c1d3006 1-178
+eval/profile_fields/out/gemini/sup_70640.json
+  s_1a8297fe401fa7::t_1cb7b04a175fa6 1-130
+eval/profile_fields/out/gemini/sup_70650.json
+  s_1a8297fe401fa7::t_74d24ff761cb6c 1-123
+eval/profile_fields/out/gemini/sup_70710.json
+  s_1a8297fe401fa7::t_b69d9959480f52 1-137
+eval/profile_fields/out/gemini/sup_70720.json
+  s_1a8297fe401fa7::t_572585cba6abc5 1-111
+eval/profile_fields/out/gemini/sup_70730.json
+  s_1a8297fe401fa7::t_f153eee8fe0fc2 1-147
+frontend/public/replays/3a6fb4b15b2dc8af/replay.json
+  s_1a8297fe401fa7::t_9390dd45c8c7c6 1-491
+frontend/public/replays/3b124d9df0913e41/replay.json
+  s_1a8297fe401fa7::t_1eebb99f0efea2 1-929
+frontend/public/replays/4913d295df7a3ec7/replay.json
+  s_1a8297fe401fa7::t_c64f5a6b145071 1-453
+frontend/public/replays/7983b1418291c42d/replay.json
+  s_1a8297fe401fa7::t_f9206e1442ce00 1-313
+frontend/public/replays/8a44439983a4fe59/replay.json
+  s_1a8297fe401fa7::t_9235b9a5d866b5 1-443
+frontend/public/replays/a14f88aedcbf4da7/replay.json
+  s_1a8297fe401fa7::t_b05e74aa343f8a 1-595
+frontend/public/replays/ae9206fd259e5f01/replay.json
+  s_1a8297fe401fa7::t_c20b1b15368636 1-573
+frontend/public/replays/af65b1c2fd218acd/replay.json
+  s_1a8297fe401fa7::t_e43e40820c9751 1-315
+frontend/public/replays/c12a25eaacdd98b6/replay.json
+  s_1a8297fe401fa7::t_43e163a0fcff6e 1-507
+frontend/public/replays/c46ccd08c8a5d029/replay.json
+  s_1a8297fe401fa7::t_b480b8644727c7 1-587
+frontend/public/replays/d32610531740b53a/replay.json
+  s_1a8297fe401fa7::t_0b26379c0c462a 1-388
+frontend/public/replays/d731b32b8d39528b/replay.json
+  s_1a8297fe401fa7::t_b46e9323a13691 1-551
+frontend/public/replays/e642aeb72a327558/replay.json
+  s_1a8297fe401fa7::t_c6b19bba5a92ac 1-731
+frontend/public/replays/ebb8dfc4e615d2e1/replay.json
+  s_1a8297fe401fa7::t_1bd88509047228 1-560
+frontend/public/replays/ebe0c9d87c1f3cc8/replay.json
+  s_1a8297fe401fa7::t_3d923e22ddfcf2 1-443
+frontend/public/replays/index.json
+  s_1a8297fe401fa7::t_d02853ffea8f29 1-514
+frontend/public/replays/portraits/70110.svg
+  s_1a8297fe401fa7::t_3d8c8ec01134f1 1
+frontend/public/replays/portraits/70570.svg
+  s_1a8297fe401fa7::t_431c82a78c6e3a 1
+frontend/public/replays/portraits/70580.svg
+  s_1a8297fe401fa7::t_67e0374c87015f 1
+frontend/public/replays/portraits/70610.svg
+  s_1a8297fe401fa7::t_1d5c10c808f7d2 1
+frontend/public/replays/portraits/70620.svg
+  s_1a8297fe401fa7::t_e037a302d3a4c1 1
+frontend/public/replays/portraits/70630.svg
+  s_1a8297fe401fa7::t_9eba79377b64bf 1
+frontend/public/replays/portraits/70640.svg
+  s_1a8297fe401fa7::t_422d4e4146343a 1
+frontend/public/replays/portraits/70650.svg
+  s_1a8297fe401fa7::t_ef245e5f4b15ea 1
+frontend/public/replays/portraits/70710.svg
+  s_1a8297fe401fa7::t_11d072060e0ea9 1
+frontend/public/replays/portraits/70720.svg
+  s_1a8297fe401fa7::t_1f8da0c1cb3890 1
+frontend/public/replays/portraits/70730.svg
+  s_1a8297fe401fa7::t_d53d056bacf85a 1
+frontend/public/replays/portraits/70740.svg
+  s_1a8297fe401fa7::t_4bff63004ba383 1
+frontend/public/replays/portraits/DEMO-C1.svg
+  s_1a8297fe401fa7::t_36b8e38516f0c4 1
+frontend/public/replays/portraits/DEMO-F1.svg
+  s_1a8297fe401fa7::t_3ab7ad67aebfbe 1
+frontend/public/replays/portraits/DEMO-J1.svg
+  s_1a8297fe401fa7::t_3295e8d73bd517 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3e95afea29cb97b5ab6b6797611fc673180f4d89",
+  "prompts": {},
+  "sessions": {
+    "s_1a8297fe401fa7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "be4ffa31-f562-4ba7-b3c4-5ec54d7b6fdc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "NWichter <niklaswichter@gmail.com>"
+    }
+  }
+}
