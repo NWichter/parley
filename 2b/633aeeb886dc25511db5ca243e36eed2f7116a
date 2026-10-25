@@ -1,0 +1,796 @@
+.env.example
+  h_8fcfcced4b72ef 1-14
+.gitattributes
+  h_8fcfcced4b72ef 1-6
+.gitignore
+  h_8fcfcced4b72ef 1-17
+ARCHITECTURE.md
+  h_8fcfcced4b72ef 1-185
+README.md
+  h_8fcfcced4b72ef 1-317
+agent/.gitignore
+  h_8fcfcced4b72ef 1-6
+agent/MERGES.md
+  h_8fcfcced4b72ef 1-142
+agent/README.md
+  h_8fcfcced4b72ef 1-91
+agent/cache/ATTRIBUTION.md
+  h_8fcfcced4b72ef 1-8
+agent/cache/personas.json
+  h_8fcfcced4b72ef 1-937
+agent/cache/profile_fields.json
+  h_8fcfcced4b72ef 1-13696
+agent/parley/analyst.py
+  h_8fcfcced4b72ef 1-164
+agent/parley/cli.py
+  h_8fcfcced4b72ef 1-240
+agent/parley/dossier.py
+  h_8fcfcced4b72ef 1-966
+agent/parley/kit/LICENSE
+  h_8fcfcced4b72ef 1-21
+agent/parley/kit/__init__.py
+  h_8fcfcced4b72ef 1-3
+agent/parley/kit/client.py
+  h_8fcfcced4b72ef 1-172
+agent/parley/kit/cost.py
+  h_8fcfcced4b72ef 1-211
+agent/parley/kit/data.py
+  h_8fcfcced4b72ef 1-125
+agent/parley/kit/docs.py
+  h_8fcfcced4b72ef 1-85
+agent/parley/llm.py
+  h_8fcfcced4b72ef 1-204
+agent/parley/pacing.py
+  h_8fcfcced4b72ef 1-75
+agent/parley/policy.py
+  h_8fcfcced4b72ef 1-1645
+agent/parley/prepare.py
+  h_8fcfcced4b72ef 1-120
+agent/parley/rules.py
+  h_8fcfcced4b72ef 1-70
+agent/parley/runner.py
+  h_8fcfcced4b72ef 1-838
+agent/parley/valuation.py
+  h_8fcfcced4b72ef 1-213
+agent/parley/writer.py
+  h_8fcfcced4b72ef 1-409
+agent/pyproject.toml
+  h_8fcfcced4b72ef 1-37
+agent/tests/conftest.py
+  h_8fcfcced4b72ef 1-197
+agent/tests/fixtures/health_charge.json
+  h_8fcfcced4b72ef 1-142
+agent/tests/test_candidates.py
+  h_8fcfcced4b72ef 1-207
+agent/tests/test_dossier_fallback.py
+  h_8fcfcced4b72ef 1-49
+agent/tests/test_engine.py
+  h_8fcfcced4b72ef 1-787
+agent/tests/test_final_guards.py
+  h_8fcfcced4b72ef 1-49
+agent/tests/test_guards_g.py
+  h_8fcfcced4b72ef 1-282
+agent/tests/test_hedge_docs.py
+  h_8fcfcced4b72ef 1-50
+agent/tests/test_mail_lint.py
+  h_8fcfcced4b72ef 1-146
+agent/tests/test_no_overfit.py
+  h_8fcfcced4b72ef 1-65
+agent/tests/test_pacing.py
+  h_8fcfcced4b72ef 1-191
+agent/tests/test_panel_flags.py
+  h_8fcfcced4b72ef 1-226
+agent/tests/test_release.py
+  h_8fcfcced4b72ef 1-140
+agent/tests/test_review_fixes.py
+  h_8fcfcced4b72ef 1-222
+agent/tests/test_robust.py
+  h_8fcfcced4b72ef 1-437
+agent/tests/test_rules.py
+  h_8fcfcced4b72ef 1-41
+agent/tests/test_strength_guard.py
+  h_8fcfcced4b72ef 1-29
+agent/tests/test_v1_mechanisms.py
+  h_8fcfcced4b72ef 1-239
+agent/uv.lock
+  h_8fcfcced4b72ef 1-561
+audio/voices.json
+  h_8fcfcced4b72ef 1-989
+backend/.dockerignore
+  h_8fcfcced4b72ef 1-5
+backend/.python-version
+  h_8fcfcced4b72ef 1
+backend/Dockerfile
+  h_8fcfcced4b72ef 1-17
+backend/app/config.py
+  h_8fcfcced4b72ef 1-30
+backend/app/live/service.py
+  h_8fcfcced4b72ef 1-145
+backend/app/llm.py
+  h_8fcfcced4b72ef 1-22
+backend/app/main.py
+  h_8fcfcced4b72ef 1-14
+backend/app/replays/core.py
+  h_8fcfcced4b72ef 1-612
+backend/app/replays/data/catalog.json
+  h_8fcfcced4b72ef 1-891
+backend/app/replays/data/reasons.json
+  h_8fcfcced4b72ef 1
+backend/app/replays/service.py
+  h_8fcfcced4b72ef 1-255
+backend/pyproject.toml
+  h_8fcfcced4b72ef 1-25
+backend/tests/test_health.py
+  h_8fcfcced4b72ef 1-10
+backend/tests/test_live.py
+  h_8fcfcced4b72ef 1-36
+backend/tests/test_replays.py
+  h_8fcfcced4b72ef 1-138
+backend/uv.lock
+  h_8fcfcced4b72ef 1-1184
+docker-compose.local.yml
+  h_8fcfcced4b72ef 1-5
+docker-compose.yml
+  h_8fcfcced4b72ef 1-40
+eval/.gitignore
+  h_8fcfcced4b72ef 1-2
+eval/LLM_BANK.md
+  h_8fcfcced4b72ef 1-88
+eval/README.md
+  h_8fcfcced4b72ef 1-184
+eval/audit_mails.py
+  h_8fcfcced4b72ef 1-293
+eval/bank.py
+  h_8fcfcced4b72ef 1-655
+eval/cases.py
+  h_8fcfcced4b72ef 1-368
+eval/compare.py
+  h_8fcfcced4b72ef 1-134
+eval/guards/check.sh
+  h_8fcfcced4b72ef 1-13
+eval/guards/floors.json
+  h_8fcfcced4b72ef 1-19
+eval/guards/known/P01-75c7368273565590.json
+  h_8fcfcced4b72ef 1-360
+eval/guards/known/P03-9cf8f9554beb79df.json
+  h_8fcfcced4b72ef 1-448
+eval/guards/known/P03-b083e7444d90acab.json
+  h_8fcfcced4b72ef 1-498
+eval/guards/known/P04-3ac7459e437bab0c.json
+  h_8fcfcced4b72ef 1-397
+eval/guards/known/P04-8672a5d4e01f7446.json
+  h_8fcfcced4b72ef 1-397
+eval/guards/known/P04-d58f4fba99659487.json
+  h_8fcfcced4b72ef 1-399
+eval/guards/known/P07-1d983eaf6698c28c.json
+  h_8fcfcced4b72ef 1-469
+eval/guards/known/P07-caf3647934168309.json
+  h_8fcfcced4b72ef 1-468
+eval/guards/known/P07-ea8e6b7ce5c04778.json
+  h_8fcfcced4b72ef 1-406
+eval/guards/persona_floors.py
+  h_8fcfcced4b72ef 1-113
+eval/guards/strengths.py
+  h_8fcfcced4b72ef 1-289
+eval/guards/threads/P01-af66bc2509843aeb.json
+  h_8fcfcced4b72ef 1-362
+eval/guards/threads/P03-557a422a7c72dc48.json
+  h_8fcfcced4b72ef 1-535
+eval/guards/threads/P04-d92b96d520d60e60.json
+  h_8fcfcced4b72ef 1-407
+eval/guards/threads/P07-d0b1edc5a9aba03b.json
+  h_8fcfcced4b72ef 1-466
+eval/kit/LICENSE
+  h_8fcfcced4b72ef 1-21
+eval/kit/__init__.py
+  h_8fcfcced4b72ef 1-3
+eval/kit/client.py
+  h_8fcfcced4b72ef 1-141
+eval/kit/cost.py
+  h_8fcfcced4b72ef 1-211
+eval/kit/docs.py
+  h_8fcfcced4b72ef 1-81
+eval/kit/naive.py
+  h_8fcfcced4b72ef 1-51
+eval/kit/play.py
+  h_8fcfcced4b72ef 1-258
+eval/kit/sim.py
+  h_8fcfcced4b72ef 1-868
+eval/personas.py
+  h_8fcfcced4b72ef 1-1218
+eval/profile_fields/.gitignore
+  h_8fcfcced4b72ef 1-2
+eval/profile_fields/bundle.py
+  h_8fcfcced4b72ef 1-69
+eval/profile_fields/clean.py
+  h_8fcfcced4b72ef 1-93
+eval/profile_fields/cost.json
+  h_8fcfcced4b72ef 1
+eval/profile_fields/cost.py
+  h_8fcfcced4b72ef 1-12
+eval/profile_fields/doc_de.md
+  h_8fcfcced4b72ef 1-127
+eval/profile_fields/doc_en.md
+  h_8fcfcced4b72ef 1-127
+eval/profile_fields/docs.py
+  h_8fcfcced4b72ef 1-163
+eval/profile_fields/final.py
+  h_8fcfcced4b72ef 1-100
+eval/profile_fields/lib.py
+  h_8fcfcced4b72ef 1-67
+eval/profile_fields/merge.py
+  h_8fcfcced4b72ef 1-111
+eval/profile_fields/out/adjud/sup_70130.json
+  h_8fcfcced4b72ef 1-18
+eval/profile_fields/out/adjud/sup_70140.json
+  h_8fcfcced4b72ef 1-17
+eval/profile_fields/out/adjud/sup_70280.json
+  h_8fcfcced4b72ef 1-13
+eval/profile_fields/out/adjud/sup_70350.json
+  h_8fcfcced4b72ef 1-21
+eval/profile_fields/out/adjud/sup_70420.json
+  h_8fcfcced4b72ef 1-13
+eval/profile_fields/out/adjud/sup_70440.json
+  h_8fcfcced4b72ef 1-17
+eval/profile_fields/out/adjud/sup_70540.json
+  h_8fcfcced4b72ef 1-25
+eval/profile_fields/out/adjud/sup_70570.json
+  h_8fcfcced4b72ef 1-13
+eval/profile_fields/out/adjud/sup_70620.json
+  h_8fcfcced4b72ef 1-25
+eval/profile_fields/out/adjud/sup_70650.json
+  h_8fcfcced4b72ef 1-36
+eval/profile_fields/out/adjud/sup_70710.json
+  h_8fcfcced4b72ef 1-13
+eval/profile_fields/out/adjud/sup_70730.json
+  h_8fcfcced4b72ef 1-13
+eval/profile_fields/out/claude/sup_70110.json
+  h_8fcfcced4b72ef 1-138
+eval/profile_fields/out/claude/sup_70120.json
+  h_8fcfcced4b72ef 1-107
+eval/profile_fields/out/claude/sup_70130.json
+  h_8fcfcced4b72ef 1-146
+eval/profile_fields/out/claude/sup_70140.json
+  h_8fcfcced4b72ef 1-124
+eval/profile_fields/out/claude/sup_70150.json
+  h_8fcfcced4b72ef 1-142
+eval/profile_fields/out/claude/sup_70160.json
+  h_8fcfcced4b72ef 1-115
+eval/profile_fields/out/claude/sup_70170.json
+  h_8fcfcced4b72ef 1-102
+eval/profile_fields/out/claude/sup_70180.json
+  h_8fcfcced4b72ef 1-94
+eval/profile_fields/out/claude/sup_70190.json
+  h_8fcfcced4b72ef 1-116
+eval/profile_fields/out/claude/sup_70210.json
+  h_8fcfcced4b72ef 1-112
+eval/profile_fields/out/claude/sup_70220.json
+  h_8fcfcced4b72ef 1-137
+eval/profile_fields/out/claude/sup_70230.json
+  h_8fcfcced4b72ef 1-130
+eval/profile_fields/out/claude/sup_70240.json
+  h_8fcfcced4b72ef 1-115
+eval/profile_fields/out/claude/sup_70250.json
+  h_8fcfcced4b72ef 1-124
+eval/profile_fields/out/claude/sup_70260.json
+  h_8fcfcced4b72ef 1-126
+eval/profile_fields/out/claude/sup_70270.json
+  h_8fcfcced4b72ef 1-104
+eval/profile_fields/out/claude/sup_70280.json
+  h_8fcfcced4b72ef 1-155
+eval/profile_fields/out/claude/sup_70290.json
+  h_8fcfcced4b72ef 1-132
+eval/profile_fields/out/claude/sup_70295.json
+  h_8fcfcced4b72ef 1-138
+eval/profile_fields/out/claude/sup_70310.json
+  h_8fcfcced4b72ef 1-106
+eval/profile_fields/out/claude/sup_70320.json
+  h_8fcfcced4b72ef 1-106
+eval/profile_fields/out/claude/sup_70330.json
+  h_8fcfcced4b72ef 1-107
+eval/profile_fields/out/claude/sup_70340.json
+  h_8fcfcced4b72ef 1-107
+eval/profile_fields/out/claude/sup_70350.json
+  h_8fcfcced4b72ef 1-141
+eval/profile_fields/out/claude/sup_70360.json
+  h_8fcfcced4b72ef 1-103
+eval/profile_fields/out/claude/sup_70410.json
+  h_8fcfcced4b72ef 1-139
+eval/profile_fields/out/claude/sup_70420.json
+  h_8fcfcced4b72ef 1-129
+eval/profile_fields/out/claude/sup_70430.json
+  h_8fcfcced4b72ef 1-99
+eval/profile_fields/out/claude/sup_70440.json
+  h_8fcfcced4b72ef 1-147
+eval/profile_fields/out/claude/sup_70510.json
+  h_8fcfcced4b72ef 1-108
+eval/profile_fields/out/claude/sup_70520.json
+  h_8fcfcced4b72ef 1-129
+eval/profile_fields/out/claude/sup_70530.json
+  h_8fcfcced4b72ef 1-141
+eval/profile_fields/out/claude/sup_70540.json
+  h_8fcfcced4b72ef 1-151
+eval/profile_fields/out/claude/sup_70550.json
+  h_8fcfcced4b72ef 1-113
+eval/profile_fields/out/claude/sup_70560.json
+  h_8fcfcced4b72ef 1-120
+eval/profile_fields/out/claude/sup_70570.json
+  h_8fcfcced4b72ef 1-129
+eval/profile_fields/out/claude/sup_70580.json
+  h_8fcfcced4b72ef 1-131
+eval/profile_fields/out/claude/sup_70610.json
+  h_8fcfcced4b72ef 1-113
+eval/profile_fields/out/claude/sup_70620.json
+  h_8fcfcced4b72ef 1-145
+eval/profile_fields/out/claude/sup_70630.json
+  h_8fcfcced4b72ef 1-182
+eval/profile_fields/out/claude/sup_70640.json
+  h_8fcfcced4b72ef 1-114
+eval/profile_fields/out/claude/sup_70650.json
+  h_8fcfcced4b72ef 1-148
+eval/profile_fields/out/claude/sup_70710.json
+  h_8fcfcced4b72ef 1-134
+eval/profile_fields/out/claude/sup_70720.json
+  h_8fcfcced4b72ef 1-111
+eval/profile_fields/out/claude/sup_70730.json
+  h_8fcfcced4b72ef 1-136
+eval/profile_fields/out/claude/sup_70740.json
+  h_8fcfcced4b72ef 1-127
+eval/profile_fields/out/codex/sup_70110.json
+  h_8fcfcced4b72ef 1-122
+eval/profile_fields/out/codex/sup_70190.json
+  h_8fcfcced4b72ef 1-112
+eval/profile_fields/out/codex/sup_70230.json
+  h_8fcfcced4b72ef 1-126
+eval/profile_fields/out/codex/sup_70280.json
+  h_8fcfcced4b72ef 1-131
+eval/profile_fields/out/codex/sup_70350.json
+  h_8fcfcced4b72ef 1-116
+eval/profile_fields/out/codex/sup_70420.json
+  h_8fcfcced4b72ef 1-121
+eval/profile_fields/out/codex/sup_70520.json
+  h_8fcfcced4b72ef 1-121
+eval/profile_fields/out/codex/sup_70550.json
+  h_8fcfcced4b72ef 1-105
+eval/profile_fields/out/codex/sup_70650.json
+  h_8fcfcced4b72ef 1-115
+eval/profile_fields/out/codex/sup_70730.json
+  h_8fcfcced4b72ef 1-139
+eval/profile_fields/out/gemini/sup_70110.json
+  h_8fcfcced4b72ef 1-146
+eval/profile_fields/out/gemini/sup_70120.json
+  h_8fcfcced4b72ef 1-107
+eval/profile_fields/out/gemini/sup_70130.json
+  h_8fcfcced4b72ef 1-154
+eval/profile_fields/out/gemini/sup_70140.json
+  h_8fcfcced4b72ef 1-119
+eval/profile_fields/out/gemini/sup_70150.json
+  h_8fcfcced4b72ef 1-146
+eval/profile_fields/out/gemini/sup_70160.json
+  h_8fcfcced4b72ef 1-115
+eval/profile_fields/out/gemini/sup_70170.json
+  h_8fcfcced4b72ef 1-98
+eval/profile_fields/out/gemini/sup_70180.json
+  h_8fcfcced4b72ef 1-90
+eval/profile_fields/out/gemini/sup_70190.json
+  h_8fcfcced4b72ef 1-112
+eval/profile_fields/out/gemini/sup_70210.json
+  h_8fcfcced4b72ef 1-108
+eval/profile_fields/out/gemini/sup_70220.json
+  h_8fcfcced4b72ef 1-129
+eval/profile_fields/out/gemini/sup_70230.json
+  h_8fcfcced4b72ef 1-130
+eval/profile_fields/out/gemini/sup_70240.json
+  h_8fcfcced4b72ef 1-107
+eval/profile_fields/out/gemini/sup_70250.json
+  h_8fcfcced4b72ef 1-124
+eval/profile_fields/out/gemini/sup_70260.json
+  h_8fcfcced4b72ef 1-122
+eval/profile_fields/out/gemini/sup_70270.json
+  h_8fcfcced4b72ef 1-104
+eval/profile_fields/out/gemini/sup_70280.json
+  h_8fcfcced4b72ef 1-142
+eval/profile_fields/out/gemini/sup_70290.json
+  h_8fcfcced4b72ef 1-136
+eval/profile_fields/out/gemini/sup_70295.json
+  h_8fcfcced4b72ef 1-138
+eval/profile_fields/out/gemini/sup_70310.json
+  h_8fcfcced4b72ef 1-98
+eval/profile_fields/out/gemini/sup_70320.json
+  h_8fcfcced4b72ef 1-98
+eval/profile_fields/out/gemini/sup_70330.json
+  h_8fcfcced4b72ef 1-103
+eval/profile_fields/out/gemini/sup_70340.json
+  h_8fcfcced4b72ef 1-99
+eval/profile_fields/out/gemini/sup_70350.json
+  h_8fcfcced4b72ef 1-115
+eval/profile_fields/out/gemini/sup_70360.json
+  h_8fcfcced4b72ef 1-95
+eval/profile_fields/out/gemini/sup_70410.json
+  h_8fcfcced4b72ef 1-139
+eval/profile_fields/out/gemini/sup_70420.json
+  h_8fcfcced4b72ef 1-137
+eval/profile_fields/out/gemini/sup_70430.json
+  h_8fcfcced4b72ef 1-95
+eval/profile_fields/out/gemini/sup_70440.json
+  h_8fcfcced4b72ef 1-135
+eval/profile_fields/out/gemini/sup_70510.json
+  h_8fcfcced4b72ef 1-116
+eval/profile_fields/out/gemini/sup_70520.json
+  h_8fcfcced4b72ef 1-145
+eval/profile_fields/out/gemini/sup_70530.json
+  h_8fcfcced4b72ef 1-137
+eval/profile_fields/out/gemini/sup_70540.json
+  h_8fcfcced4b72ef 1-117
+eval/profile_fields/out/gemini/sup_70550.json
+  h_8fcfcced4b72ef 1-117
+eval/profile_fields/out/gemini/sup_70560.json
+  h_8fcfcced4b72ef 1-116
+eval/profile_fields/out/gemini/sup_70570.json
+  h_8fcfcced4b72ef 1-137
+eval/profile_fields/out/gemini/sup_70580.json
+  h_8fcfcced4b72ef 1-131
+eval/profile_fields/out/gemini/sup_70610.json
+  h_8fcfcced4b72ef 1-109
+eval/profile_fields/out/gemini/sup_70620.json
+  h_8fcfcced4b72ef 1-141
+eval/profile_fields/out/gemini/sup_70630.json
+  h_8fcfcced4b72ef 1-178
+eval/profile_fields/out/gemini/sup_70640.json
+  h_8fcfcced4b72ef 1-130
+eval/profile_fields/out/gemini/sup_70650.json
+  h_8fcfcced4b72ef 1-123
+eval/profile_fields/out/gemini/sup_70710.json
+  h_8fcfcced4b72ef 1-137
+eval/profile_fields/out/gemini/sup_70720.json
+  h_8fcfcced4b72ef 1-111
+eval/profile_fields/out/gemini/sup_70730.json
+  h_8fcfcced4b72ef 1-147
+eval/profile_fields/out/gemini/sup_70740.json
+  h_8fcfcced4b72ef 1-135
+eval/profile_fields/prompt_v1.txt
+  h_8fcfcced4b72ef 1-42
+eval/profile_fields/review_prompt.py
+  h_8fcfcced4b72ef 1-17
+eval/profile_fields/reviews/review_codex.txt
+  h_8fcfcced4b72ef 1-82
+eval/profile_fields/reviews/review_gemini.txt
+  h_8fcfcced4b72ef 1-212
+eval/profile_fields/run_claude.py
+  h_8fcfcced4b72ef 1-25
+eval/profile_fields/run_cli.py
+  h_8fcfcced4b72ef 1-32
+eval/profile_fields/schema_draft.md
+  h_8fcfcced4b72ef 1-49
+eval/profile_fields/setmeta.py
+  h_8fcfcced4b72ef 1-9
+eval/profile_fields/show.py
+  h_8fcfcced4b72ef 1-13
+eval/profile_fields/stats.json
+  h_8fcfcced4b72ef 1-192
+eval/profile_fields/stats.py
+  h_8fcfcced4b72ef 1-30
+eval/server.py
+  h_8fcfcced4b72ef 1-201
+eval/supplier_llm.py
+  h_8fcfcced4b72ef 1-555
+eval/tests/test_bank_health.py
+  h_8fcfcced4b72ef 1-81
+eval/writer_ab/.gitignore
+  h_8fcfcced4b72ef 1
+eval/writer_ab/aggregate.py
+  h_8fcfcced4b72ef 1-92
+eval/writer_ab/blind.py
+  h_8fcfcced4b72ef 1-57
+eval/writer_ab/collect.py
+  h_8fcfcced4b72ef 1-58
+eval/writer_ab/common.py
+  h_8fcfcced4b72ef 1-16
+eval/writer_ab/gen.py
+  h_8fcfcced4b72ef 1-162
+eval/writer_ab/judge.py
+  h_8fcfcced4b72ef 1-72
+experiments/REPORT.md
+  h_8fcfcced4b72ef 1-72
+experiments/hypotheses.md
+  h_8fcfcced4b72ef 1-118
+frontend/.dockerignore
+  h_8fcfcced4b72ef 1-2
+frontend/.gitignore
+  h_8fcfcced4b72ef 1-41
+frontend/Dockerfile
+  h_8fcfcced4b72ef 1-21
+frontend/bun.lock
+  h_8fcfcced4b72ef 1-1366
+frontend/components.json
+  h_8fcfcced4b72ef 1-25
+frontend/eslint.config.mjs
+  h_8fcfcced4b72ef 1-18
+frontend/next.config.ts
+  h_8fcfcced4b72ef 1-21
+frontend/package.json
+  h_8fcfcced4b72ef 1-42
+frontend/public/brand/logo.svg
+  h_8fcfcced4b72ef 1-7
+frontend/public/brand/mark.svg
+  h_8fcfcced4b72ef 1-6
+frontend/public/pitch/data.js
+  h_8fcfcced4b72ef 1-331
+frontend/public/pitch/img/qr-site.svg
+  h_8fcfcced4b72ef 1
+frontend/public/pitch/index.html
+  h_8fcfcced4b72ef 1-354
+frontend/public/pitch/pitch.css
+  h_8fcfcced4b72ef 1-2394
+frontend/public/pitch/pitch.js
+  h_8fcfcced4b72ef 1-266
+frontend/public/pitch/render.sh
+  h_8fcfcced4b72ef 1-27
+frontend/public/replays/0570f8f536396163/replay.json
+  h_8fcfcced4b72ef 1-705
+frontend/public/replays/18d04e37b3dfa06f/replay.json
+  h_8fcfcced4b72ef 1-604
+frontend/public/replays/1949af9c1a9ba379/replay.json
+  h_8fcfcced4b72ef 1-295
+frontend/public/replays/2f11a5e9780a77cc/replay.json
+  h_8fcfcced4b72ef 1-315
+frontend/public/replays/37acd418d7a987d8/replay.json
+  h_8fcfcced4b72ef 1-453
+frontend/public/replays/3a6fb4b15b2dc8af/replay.json
+  h_8fcfcced4b72ef 1-491
+frontend/public/replays/3b124d9df0913e41/replay.json
+  h_8fcfcced4b72ef 1-929
+frontend/public/replays/4913d295df7a3ec7/replay.json
+  h_8fcfcced4b72ef 1-453
+frontend/public/replays/7983b1418291c42d/replay.json
+  h_8fcfcced4b72ef 1-313
+frontend/public/replays/8a44439983a4fe59/replay.json
+  h_8fcfcced4b72ef 1-443
+frontend/public/replays/a14f88aedcbf4da7/replay.json
+  h_8fcfcced4b72ef 1-595
+frontend/public/replays/ae9206fd259e5f01/replay.json
+  h_8fcfcced4b72ef 1-573
+frontend/public/replays/af65b1c2fd218acd/replay.json
+  h_8fcfcced4b72ef 1-315
+frontend/public/replays/c12a25eaacdd98b6/replay.json
+  h_8fcfcced4b72ef 1-507
+frontend/public/replays/c46ccd08c8a5d029/replay.json
+  h_8fcfcced4b72ef 1-587
+frontend/public/replays/d32610531740b53a/replay.json
+  h_8fcfcced4b72ef 1-388
+frontend/public/replays/d731b32b8d39528b/replay.json
+  h_8fcfcced4b72ef 1-551
+frontend/public/replays/e642aeb72a327558/replay.json
+  h_8fcfcced4b72ef 1-731
+frontend/public/replays/ebb8dfc4e615d2e1/replay.json
+  h_8fcfcced4b72ef 1-560
+frontend/public/replays/ebe0c9d87c1f3cc8/replay.json
+  h_8fcfcced4b72ef 1-443
+frontend/public/replays/index.json
+  h_8fcfcced4b72ef 1-514
+frontend/public/replays/portraits/70110.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70120.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70130.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70140.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70150.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70160.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70170.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70180.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70190.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70210.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70220.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70230.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70240.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70250.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70260.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70270.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70280.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70290.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70295.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70310.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70320.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70330.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70340.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70350.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70360.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70410.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70420.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70430.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70440.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70510.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70520.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70530.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70540.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70550.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70560.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70570.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70580.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70610.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70620.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70630.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70640.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70650.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70710.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70720.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70730.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/70740.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/DEMO-C1.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/DEMO-F1.svg
+  h_8fcfcced4b72ef 1
+frontend/public/replays/portraits/DEMO-J1.svg
+  h_8fcfcced4b72ef 1
+frontend/scripts/journal-to-replay.py
+  h_8fcfcced4b72ef 1-146
+frontend/src/app/architecture/page.tsx
+  h_8fcfcced4b72ef 1-338
+frontend/src/app/demo/demo-hero.css
+  h_8fcfcced4b72ef 1-71
+frontend/src/app/demo/demo-hero.tsx
+  h_8fcfcced4b72ef 1-85
+frontend/src/app/demo/page.tsx
+  h_8fcfcced4b72ef 1-30
+frontend/src/app/demo/walkthrough.tsx
+  h_8fcfcced4b72ef 1-40
+frontend/src/app/globals.css
+  h_8fcfcced4b72ef 1-188
+frontend/src/app/icon.svg
+  h_8fcfcced4b72ef 1-6
+frontend/src/app/layout.tsx
+  h_8fcfcced4b72ef 1-36
+frontend/src/app/page.tsx
+  h_8fcfcced4b72ef 1-117
+frontend/src/app/replay/[id]/page.tsx
+  h_8fcfcced4b72ef 1-6
+frontend/src/app/replay/browser.tsx
+  h_8fcfcced4b72ef 1-397
+frontend/src/app/replay/bubbles.tsx
+  h_8fcfcced4b72ef 1-134
+frontend/src/app/replay/cases.ts
+  h_8fcfcced4b72ef 1-12
+frontend/src/app/replay/journal/page.tsx
+  h_8fcfcced4b72ef 1-371
+frontend/src/app/replay/journal/replay.json
+  h_8fcfcced4b72ef 1-519
+frontend/src/app/replay/p11.json
+  h_8fcfcced4b72ef 1-351
+frontend/src/app/replay/page.tsx
+  h_8fcfcced4b72ef 1-23
+frontend/src/app/replay/player.tsx
+  h_8fcfcced4b72ef 1-243
+frontend/src/app/replay/types.ts
+  h_8fcfcced4b72ef 1-85
+frontend/src/app/tech/page.tsx
+  h_8fcfcced4b72ef 1-30
+frontend/src/components/health-badge.tsx
+  h_8fcfcced4b72ef 1-21
+frontend/src/components/logo.tsx
+  h_8fcfcced4b72ef 1-23
+frontend/src/components/negotiation/stage.tsx
+  h_8fcfcced4b72ef 1-205
+frontend/src/components/persona/avatar.tsx
+  h_8fcfcced4b72ef 1-275
+frontend/src/components/site.tsx
+  h_8fcfcced4b72ef 1-83
+frontend/src/components/ui/badge.tsx
+  h_8fcfcced4b72ef 1-51
+frontend/src/components/ui/button.tsx
+  h_8fcfcced4b72ef 1-57
+frontend/src/components/ui/card.tsx
+  h_8fcfcced4b72ef 1-102
+frontend/src/components/ui/input.tsx
+  h_8fcfcced4b72ef 1-19
+frontend/src/components/ui/separator.tsx
+  h_8fcfcced4b72ef 1-24
+frontend/src/components/ui/textarea.tsx
+  h_8fcfcced4b72ef 1-17
+frontend/src/components/video-section.tsx
+  h_8fcfcced4b72ef 1-43
+frontend/src/lib/utils.ts
+  h_8fcfcced4b72ef 1-6
+frontend/src/proxy.ts
+  h_8fcfcced4b72ef 1-8
+frontend/tsconfig.json
+  h_8fcfcced4b72ef 1-34
+ops/README.md
+  h_8fcfcced4b72ef 1-45
+ops/_common.py
+  h_8fcfcced4b72ef 1-180
+ops/fault_proxy.py
+  h_8fcfcced4b72ef 1-227
+ops/final.ps1
+  h_8fcfcced4b72ef 1-4
+ops/final.py
+  h_8fcfcced4b72ef 1-675
+ops/final.sh
+  h_8fcfcced4b72ef 1-4
+ops/preflight.ps1
+  h_8fcfcced4b72ef 1-4
+ops/preflight.py
+  h_8fcfcced4b72ef 1-441
+ops/preflight.sh
+  h_8fcfcced4b72ef 1-4
+ops/reader_check.py
+  h_8fcfcced4b72ef 1-126
+ops/rehearsal.ps1
+  h_8fcfcced4b72ef 1-4
+ops/rehearsal.py
+  h_8fcfcced4b72ef 1-510
+ops/rehearsal.sh
+  h_8fcfcced4b72ef 1-4
+ops/slow_sim.py
+  h_8fcfcced4b72ef 1-38
+ops/smoke_dossier.py
+  h_8fcfcced4b72ef 1-80
+ops/status.ps1
+  h_8fcfcced4b72ef 1-4
+ops/status.py
+  h_8fcfcced4b72ef 1-135
+ops/status.sh
+  h_8fcfcced4b72ef 1-4
+ops/sunday-data.ps1
+  h_8fcfcced4b72ef 1-4
+ops/sunday-data.sh
+  h_8fcfcced4b72ef 1-4
+ops/sunday_data.py
+  h_8fcfcced4b72ef 1-432
+submission.md
+  h_8fcfcced4b72ef 1-153
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2b633aeeb886dc25511db5ca243e36eed2f7116a",
+  "prompts": {},
+  "humans": {
+    "h_8fcfcced4b72ef": {
+      "author": "NWichter <niklaswichter@gmail.com>"
+    }
+  }
+}
