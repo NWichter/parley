@@ -1,0 +1,801 @@
+.env.example
+  s_1a8297fe401fa7::t_47397c32c74b9e 1-15
+.gitattributes
+  s_1a8297fe401fa7::t_9bee8f8d3e79cb 1-6
+.gitignore
+  s_1a8297fe401fa7::t_75055f9f38f9a2 1-17
+ARCHITECTURE.md
+  s_1a8297fe401fa7::t_5caa6eb8ebe5ba 1-185
+LICENSE
+  s_1a8297fe401fa7::t_d87c91b9689897 1-26
+README.md
+  s_1a8297fe401fa7::t_0155f8991efe5f 1-265
+agent/.gitignore
+  s_1a8297fe401fa7::t_14ac7900e5263e 1-6
+agent/MERGES.md
+  s_1a8297fe401fa7::t_63874fe14ea748 1-135
+agent/README.md
+  s_1a8297fe401fa7::t_b3e18681f50d0d 1-91
+agent/cache/ATTRIBUTION.md
+  s_1a8297fe401fa7::t_193f9a487fafd3 1-8
+agent/cache/personas.json
+  s_1a8297fe401fa7::t_e4e7604497f5d2 1-937
+agent/cache/profile_fields.json
+  s_1a8297fe401fa7::t_a40b82969823ed 1-13696
+agent/parley/analyst.py
+  s_1a8297fe401fa7::t_2ba7d31a63987f 1-164
+agent/parley/cli.py
+  s_1a8297fe401fa7::t_9555b8de313784 1-240
+agent/parley/dossier.py
+  s_1a8297fe401fa7::t_c5774c626f0244 1-966
+agent/parley/kit/LICENSE
+  s_1a8297fe401fa7::t_fc064b0525ecd8 1-21
+agent/parley/kit/__init__.py
+  s_1a8297fe401fa7::t_681f3deb74de24 1-3
+agent/parley/kit/client.py
+  s_1a8297fe401fa7::t_c4200a16336350 1-172
+agent/parley/kit/cost.py
+  s_1a8297fe401fa7::t_b35362d5602d1a 1-211
+agent/parley/kit/data.py
+  s_1a8297fe401fa7::t_919d0e2479cad3 1-125
+agent/parley/kit/docs.py
+  s_1a8297fe401fa7::t_8bf8dae29c3c50 1-85
+agent/parley/llm.py
+  s_1a8297fe401fa7::t_c51c97a8676887 1-204
+agent/parley/pacing.py
+  s_1a8297fe401fa7::t_4f46d726aa0273 1-75
+agent/parley/policy.py
+  s_1a8297fe401fa7::t_76947b79bfdc1e 1-1641
+agent/parley/prepare.py
+  s_1a8297fe401fa7::t_be8f09d200cb54 1-120
+agent/parley/rules.py
+  s_1a8297fe401fa7::t_b2f51b70bb31b8 1-70
+agent/parley/runner.py
+  s_1a8297fe401fa7::t_4192601b2db177 1-838
+agent/parley/valuation.py
+  s_1a8297fe401fa7::t_2e804564b36ba7 1-213
+agent/parley/writer.py
+  s_1a8297fe401fa7::t_43204bf525a326 1-409
+agent/pyproject.toml
+  s_1a8297fe401fa7::t_d07b4f8582eaf0 1-37
+agent/tests/conftest.py
+  s_1a8297fe401fa7::t_01322ad91ea734 1-197
+agent/tests/fixtures/health_charge.json
+  s_1a8297fe401fa7::t_81a7dec1cfbc57 1-142
+agent/tests/test_candidates.py
+  s_1a8297fe401fa7::t_cee1fc76499a98 1-207
+agent/tests/test_dossier_fallback.py
+  s_1a8297fe401fa7::t_7916557b0abfa4 1-49
+agent/tests/test_engine.py
+  s_1a8297fe401fa7::t_985ed645f7b5e7 1-767
+agent/tests/test_final_guards.py
+  s_1a8297fe401fa7::t_e321ae663d7e25 1-49
+agent/tests/test_guards_g.py
+  s_1a8297fe401fa7::t_802622d3c7810a 1-282
+agent/tests/test_hedge_docs.py
+  s_1a8297fe401fa7::t_bba3ad2cc253c7 1-50
+agent/tests/test_mail_lint.py
+  s_1a8297fe401fa7::t_78fca94fc4660b 1-146
+agent/tests/test_no_overfit.py
+  s_1a8297fe401fa7::t_25b2d1fb94a9bf 1-65
+agent/tests/test_pacing.py
+  s_1a8297fe401fa7::t_16e65660026318 1-191
+agent/tests/test_panel_flags.py
+  s_1a8297fe401fa7::t_27637ff0026d53 1-226
+agent/tests/test_release.py
+  s_1a8297fe401fa7::t_c07d85b5b624cb 1-140
+agent/tests/test_review_fixes.py
+  s_1a8297fe401fa7::t_cf2bf4874fcf73 1-222
+agent/tests/test_robust.py
+  s_1a8297fe401fa7::t_1c577086ab392c 1-437
+agent/tests/test_rules.py
+  s_1a8297fe401fa7::t_157e97bc8c4648 1-41
+agent/tests/test_strength_guard.py
+  s_1a8297fe401fa7::t_739aeee1f4d5fd 1-29
+agent/tests/test_v1_mechanisms.py
+  s_1a8297fe401fa7::t_a44cc5869ba24d 1-239
+agent/uv.lock
+  s_1a8297fe401fa7::t_9f344af0a51e9e 1-561
+audio/voices.json
+  s_1a8297fe401fa7::t_31b3b368f4bfd5 1-989
+backend/.dockerignore
+  s_1a8297fe401fa7::t_87805953c3d83c 1-5
+backend/.python-version
+  s_1a8297fe401fa7::t_ce06e0827a3b77 1
+backend/Dockerfile
+  s_1a8297fe401fa7::t_a27d380ee3f2d4 1-17
+backend/app/config.py
+  s_1a8297fe401fa7::t_71f641179607c1 1-30
+backend/app/live/service.py
+  s_1a8297fe401fa7::t_cca1245d98fef0 1-140
+backend/app/llm.py
+  s_1a8297fe401fa7::t_5611aa0f1f3560 1-22
+backend/app/main.py
+  s_1a8297fe401fa7::t_1c975dede3573b 1-14
+backend/app/replays/core.py
+  s_1a8297fe401fa7::t_66b5d6496a3288 1-612
+backend/app/replays/data/catalog.json
+  s_1a8297fe401fa7::t_864e8d95c9579a 1-859
+backend/app/replays/data/reasons.json
+  s_1a8297fe401fa7::t_9e6819bd21695d 1
+backend/app/replays/service.py
+  s_1a8297fe401fa7::t_ce7901091d843f 1-255
+backend/pyproject.toml
+  s_1a8297fe401fa7::t_dc00719a4260ac 1-25
+backend/tests/test_health.py
+  s_1a8297fe401fa7::t_4d94ff22712994 1-10
+backend/tests/test_live.py
+  s_1a8297fe401fa7::t_ac130262392026 1-36
+backend/tests/test_replays.py
+  s_1a8297fe401fa7::t_3f5eeaa29f1933 1-138
+backend/uv.lock
+  s_1a8297fe401fa7::t_18534bc7909c3f 1-1184
+docker-compose.yml
+  s_1a8297fe401fa7::t_c13737075d6142 1-41
+eval/.gitignore
+  s_1a8297fe401fa7::t_8d4cdfd5542253 1-2
+eval/LLM_BANK.md
+  s_1a8297fe401fa7::t_907f376ff687b5 1-88
+eval/README.md
+  s_1a8297fe401fa7::t_f4574561622f19 1-184
+eval/audit_mails.py
+  s_1a8297fe401fa7::t_e1ec86bb3bab6d 1-293
+eval/bank.py
+  s_1a8297fe401fa7::t_db1a85eadaca88 1-655
+eval/cases.py
+  s_1a8297fe401fa7::t_d28093ed7c0d25 1-368
+eval/compare.py
+  s_1a8297fe401fa7::t_97d6be4bc810bd 1-134
+eval/guards/check.sh
+  s_1a8297fe401fa7::t_351153d24f5d28 1-13
+eval/guards/floors.json
+  s_1a8297fe401fa7::t_bdb094a604facf 1-19
+eval/guards/known/P01-75c7368273565590.json
+  s_1a8297fe401fa7::t_d48a81e5713602 1-360
+eval/guards/known/P03-9cf8f9554beb79df.json
+  s_1a8297fe401fa7::t_45a698ae0b1d08 1-448
+eval/guards/known/P03-b083e7444d90acab.json
+  s_1a8297fe401fa7::t_6c976cdf336715 1-498
+eval/guards/known/P04-3ac7459e437bab0c.json
+  s_1a8297fe401fa7::t_6534c20d8cb1ce 1-397
+eval/guards/known/P04-8672a5d4e01f7446.json
+  s_1a8297fe401fa7::t_db8db98b560a59 1-397
+eval/guards/known/P04-d58f4fba99659487.json
+  s_1a8297fe401fa7::t_b867d51238a6db 1-399
+eval/guards/known/P07-1d983eaf6698c28c.json
+  s_1a8297fe401fa7::t_4d988b570a0e9a 1-469
+eval/guards/known/P07-caf3647934168309.json
+  s_1a8297fe401fa7::t_69ef90ccf64f6e 1-468
+eval/guards/known/P07-ea8e6b7ce5c04778.json
+  s_1a8297fe401fa7::t_e3f068b11a6c05 1-406
+eval/guards/persona_floors.py
+  s_1a8297fe401fa7::t_54c811e10c2d5f 1-113
+eval/guards/strengths.py
+  s_1a8297fe401fa7::t_b7f7b6e4796a7f 1-289
+eval/guards/threads/P01-af66bc2509843aeb.json
+  s_1a8297fe401fa7::t_ac0fa3827a8e42 1-362
+eval/guards/threads/P03-557a422a7c72dc48.json
+  s_1a8297fe401fa7::t_7dbf48e4b6aa98 1-535
+eval/guards/threads/P04-d92b96d520d60e60.json
+  s_1a8297fe401fa7::t_896558995d027f 1-407
+eval/guards/threads/P07-d0b1edc5a9aba03b.json
+  s_1a8297fe401fa7::t_22b293064d98e0 1-466
+eval/kit/LICENSE
+  s_1a8297fe401fa7::t_4312fb79f08336 1-21
+eval/kit/__init__.py
+  s_1a8297fe401fa7::t_ad251433653c4a 1-3
+eval/kit/client.py
+  s_1a8297fe401fa7::t_89591827839b1b 1-141
+eval/kit/cost.py
+  s_1a8297fe401fa7::t_65f593e4d9f8ab 1-211
+eval/kit/docs.py
+  s_1a8297fe401fa7::t_ba573618c62046 1-81
+eval/kit/naive.py
+  s_1a8297fe401fa7::t_f2f38fa0847bc3 1-51
+eval/kit/play.py
+  s_1a8297fe401fa7::t_5c10e071c56875 1-258
+eval/kit/sim.py
+  s_1a8297fe401fa7::t_996b4696764444 1-868
+eval/personas.py
+  s_1a8297fe401fa7::t_3b776089854d76 1-1218
+eval/profile_fields/.gitignore
+  s_1a8297fe401fa7::t_2899647d58c291 1-2
+eval/profile_fields/bundle.py
+  s_1a8297fe401fa7::t_dab2eff26f5964 1-69
+eval/profile_fields/clean.py
+  s_1a8297fe401fa7::t_477472015bd399 1-93
+eval/profile_fields/cost.json
+  s_1a8297fe401fa7::t_60c96f90686c68 1
+eval/profile_fields/cost.py
+  s_1a8297fe401fa7::t_bbb9e5c0f1a902 1-12
+eval/profile_fields/doc_de.md
+  s_1a8297fe401fa7::t_9c7429b9f43e67 1-127
+eval/profile_fields/doc_en.md
+  s_1a8297fe401fa7::t_06e9105e023025 1-127
+eval/profile_fields/docs.py
+  s_1a8297fe401fa7::t_2302ea30afbb79 1-163
+eval/profile_fields/final.py
+  s_1a8297fe401fa7::t_7ce31ea54872c1 1-100
+eval/profile_fields/lib.py
+  s_1a8297fe401fa7::t_734a0c54f9b1d3 1-67
+eval/profile_fields/merge.py
+  s_1a8297fe401fa7::t_0ccaf111847b6b 1-111
+eval/profile_fields/out/adjud/sup_70130.json
+  s_1a8297fe401fa7::t_7fb94bb6765f88 1-18
+eval/profile_fields/out/adjud/sup_70140.json
+  s_1a8297fe401fa7::t_6d877f570628ce 1-17
+eval/profile_fields/out/adjud/sup_70280.json
+  s_1a8297fe401fa7::t_6fc39b11d5f788 1-13
+eval/profile_fields/out/adjud/sup_70350.json
+  s_1a8297fe401fa7::t_4b25556960d786 1-21
+eval/profile_fields/out/adjud/sup_70420.json
+  s_1a8297fe401fa7::t_36fdeb8faa7644 1-13
+eval/profile_fields/out/adjud/sup_70440.json
+  s_1a8297fe401fa7::t_20248a6746ef58 1-17
+eval/profile_fields/out/adjud/sup_70540.json
+  s_1a8297fe401fa7::t_cacf4e6399599a 1-25
+eval/profile_fields/out/adjud/sup_70570.json
+  s_1a8297fe401fa7::t_4de1728f165943 1-13
+eval/profile_fields/out/adjud/sup_70620.json
+  s_1a8297fe401fa7::t_6c072f6df51973 1-25
+eval/profile_fields/out/adjud/sup_70650.json
+  s_1a8297fe401fa7::t_426452d0ea4d14 1-36
+eval/profile_fields/out/adjud/sup_70710.json
+  s_1a8297fe401fa7::t_7fd6a2a40fb3b9 1-13
+eval/profile_fields/out/adjud/sup_70730.json
+  s_1a8297fe401fa7::t_59f15eed7de8f9 1-13
+eval/profile_fields/out/claude/sup_70110.json
+  s_1a8297fe401fa7::t_599eb6e55d7701 1-138
+eval/profile_fields/out/claude/sup_70120.json
+  s_1a8297fe401fa7::t_fe611c0bcb2561 1-107
+eval/profile_fields/out/claude/sup_70130.json
+  s_1a8297fe401fa7::t_7cba13467fc18f 1-146
+eval/profile_fields/out/claude/sup_70140.json
+  s_1a8297fe401fa7::t_6c9824d2a77f63 1-124
+eval/profile_fields/out/claude/sup_70150.json
+  s_1a8297fe401fa7::t_4d22023dbae90a 1-142
+eval/profile_fields/out/claude/sup_70160.json
+  s_1a8297fe401fa7::t_51b4049f68155d 1-115
+eval/profile_fields/out/claude/sup_70170.json
+  s_1a8297fe401fa7::t_6d2fbd3be5c1b1 1-102
+eval/profile_fields/out/claude/sup_70180.json
+  s_1a8297fe401fa7::t_71a5d118f51278 1-94
+eval/profile_fields/out/claude/sup_70190.json
+  s_1a8297fe401fa7::t_7b83b6004f3d87 1-116
+eval/profile_fields/out/claude/sup_70210.json
+  s_1a8297fe401fa7::t_8124be7a00921e 1-112
+eval/profile_fields/out/claude/sup_70220.json
+  s_1a8297fe401fa7::t_ebad95459ac4ff 1-137
+eval/profile_fields/out/claude/sup_70230.json
+  s_1a8297fe401fa7::t_85ba41e21b036d 1-130
+eval/profile_fields/out/claude/sup_70240.json
+  s_1a8297fe401fa7::t_5ca72d3fe94b04 1-115
+eval/profile_fields/out/claude/sup_70250.json
+  s_1a8297fe401fa7::t_d6b56105149cbc 1-124
+eval/profile_fields/out/claude/sup_70260.json
+  s_1a8297fe401fa7::t_ffbe0244ddbc70 1-126
+eval/profile_fields/out/claude/sup_70270.json
+  s_1a8297fe401fa7::t_58a7de3e548e3c 1-104
+eval/profile_fields/out/claude/sup_70280.json
+  s_1a8297fe401fa7::t_6173ae53334b51 1-155
+eval/profile_fields/out/claude/sup_70290.json
+  s_1a8297fe401fa7::t_0d7d3afe7d8a3d 1-132
+eval/profile_fields/out/claude/sup_70295.json
+  s_1a8297fe401fa7::t_6452ae6135b881 1-138
+eval/profile_fields/out/claude/sup_70310.json
+  s_1a8297fe401fa7::t_3e3f2b3230d36b 1-106
+eval/profile_fields/out/claude/sup_70320.json
+  s_1a8297fe401fa7::t_3710722e47c86d 1-106
+eval/profile_fields/out/claude/sup_70330.json
+  s_1a8297fe401fa7::t_2879caabc01746 1-107
+eval/profile_fields/out/claude/sup_70340.json
+  s_1a8297fe401fa7::t_aa0a7a86d1f1d3 1-107
+eval/profile_fields/out/claude/sup_70350.json
+  s_1a8297fe401fa7::t_df5ddc21af1894 1-141
+eval/profile_fields/out/claude/sup_70360.json
+  s_1a8297fe401fa7::t_bd34763afe915b 1-103
+eval/profile_fields/out/claude/sup_70410.json
+  s_1a8297fe401fa7::t_f527afed394ee2 1-139
+eval/profile_fields/out/claude/sup_70420.json
+  s_1a8297fe401fa7::t_d470fbca09940c 1-129
+eval/profile_fields/out/claude/sup_70430.json
+  s_1a8297fe401fa7::t_ccca294a2a7edd 1-99
+eval/profile_fields/out/claude/sup_70440.json
+  s_1a8297fe401fa7::t_af516eeaa143ca 1-147
+eval/profile_fields/out/claude/sup_70510.json
+  s_1a8297fe401fa7::t_29d4d1d2ece076 1-108
+eval/profile_fields/out/claude/sup_70520.json
+  s_1a8297fe401fa7::t_3bdb1ca90c453b 1-129
+eval/profile_fields/out/claude/sup_70530.json
+  s_1a8297fe401fa7::t_0818f804c2dfba 1-141
+eval/profile_fields/out/claude/sup_70540.json
+  s_1a8297fe401fa7::t_4fcfea617892e7 1-151
+eval/profile_fields/out/claude/sup_70550.json
+  s_1a8297fe401fa7::t_57ff512f96c5a8 1-113
+eval/profile_fields/out/claude/sup_70560.json
+  s_1a8297fe401fa7::t_e1cc7bd70e607c 1-120
+eval/profile_fields/out/claude/sup_70570.json
+  s_1a8297fe401fa7::t_8a2e85f2490fd4 1-129
+eval/profile_fields/out/claude/sup_70580.json
+  s_1a8297fe401fa7::t_167812cb01e99b 1-131
+eval/profile_fields/out/claude/sup_70610.json
+  s_1a8297fe401fa7::t_92a0f9a02afaf8 1-113
+eval/profile_fields/out/claude/sup_70620.json
+  s_1a8297fe401fa7::t_ddd208594ab4fd 1-145
+eval/profile_fields/out/claude/sup_70630.json
+  s_1a8297fe401fa7::t_b228eaa8392b61 1-182
+eval/profile_fields/out/claude/sup_70640.json
+  s_1a8297fe401fa7::t_43c573814d01b7 1-114
+eval/profile_fields/out/claude/sup_70650.json
+  s_1a8297fe401fa7::t_5da37586559261 1-148
+eval/profile_fields/out/claude/sup_70710.json
+  s_1a8297fe401fa7::t_4077e2f3c7e96d 1-134
+eval/profile_fields/out/claude/sup_70720.json
+  s_1a8297fe401fa7::t_95ec7f68431751 1-111
+eval/profile_fields/out/claude/sup_70730.json
+  s_1a8297fe401fa7::t_c3c17de6e5ba05 1-136
+eval/profile_fields/out/claude/sup_70740.json
+  s_1a8297fe401fa7::t_92142e1f31a2e7 1-127
+eval/profile_fields/out/codex/sup_70110.json
+  s_1a8297fe401fa7::t_e7fd5b7575f00f 1-122
+eval/profile_fields/out/codex/sup_70190.json
+  s_1a8297fe401fa7::t_525eb22557f741 1-112
+eval/profile_fields/out/codex/sup_70230.json
+  s_1a8297fe401fa7::t_ac06c6995859b5 1-126
+eval/profile_fields/out/codex/sup_70280.json
+  s_1a8297fe401fa7::t_9fb4c00c8c41d9 1-131
+eval/profile_fields/out/codex/sup_70350.json
+  s_1a8297fe401fa7::t_13612349825649 1-116
+eval/profile_fields/out/codex/sup_70420.json
+  s_1a8297fe401fa7::t_37a751ea5cc320 1-121
+eval/profile_fields/out/codex/sup_70520.json
+  s_1a8297fe401fa7::t_f5e167b3ecea61 1-121
+eval/profile_fields/out/codex/sup_70550.json
+  s_1a8297fe401fa7::t_d1494f90b53d89 1-105
+eval/profile_fields/out/codex/sup_70650.json
+  s_1a8297fe401fa7::t_ed80dfbeab2803 1-115
+eval/profile_fields/out/codex/sup_70730.json
+  s_1a8297fe401fa7::t_aadbfbf6cbb645 1-139
+eval/profile_fields/out/gemini/sup_70110.json
+  s_1a8297fe401fa7::t_552d5c084b6dd2 1-146
+eval/profile_fields/out/gemini/sup_70120.json
+  s_1a8297fe401fa7::t_d68c630e9892f3 1-107
+eval/profile_fields/out/gemini/sup_70130.json
+  s_1a8297fe401fa7::t_dd1bb4ada58179 1-154
+eval/profile_fields/out/gemini/sup_70140.json
+  s_1a8297fe401fa7::t_142a5bb0ef7e39 1-119
+eval/profile_fields/out/gemini/sup_70150.json
+  s_1a8297fe401fa7::t_8cf2ca06f24f25 1-146
+eval/profile_fields/out/gemini/sup_70160.json
+  s_1a8297fe401fa7::t_73b675baa9d13e 1-115
+eval/profile_fields/out/gemini/sup_70170.json
+  s_1a8297fe401fa7::t_db92e264c53a09 1-98
+eval/profile_fields/out/gemini/sup_70180.json
+  s_1a8297fe401fa7::t_bf9023c136efca 1-90
+eval/profile_fields/out/gemini/sup_70190.json
+  s_1a8297fe401fa7::t_43ac45ea9da306 1-112
+eval/profile_fields/out/gemini/sup_70210.json
+  s_1a8297fe401fa7::t_72d4b8b9603e46 1-108
+eval/profile_fields/out/gemini/sup_70220.json
+  s_1a8297fe401fa7::t_ea948a31200c44 1-129
+eval/profile_fields/out/gemini/sup_70230.json
+  s_1a8297fe401fa7::t_8d21b6c49eda0a 1-130
+eval/profile_fields/out/gemini/sup_70240.json
+  s_1a8297fe401fa7::t_4c3f9661dea8a6 1-107
+eval/profile_fields/out/gemini/sup_70250.json
+  s_1a8297fe401fa7::t_f85f0fcf986c58 1-124
+eval/profile_fields/out/gemini/sup_70260.json
+  s_1a8297fe401fa7::t_bfb15296e67a29 1-122
+eval/profile_fields/out/gemini/sup_70270.json
+  s_1a8297fe401fa7::t_723d405453ceec 1-104
+eval/profile_fields/out/gemini/sup_70280.json
+  s_1a8297fe401fa7::t_6aa40146901b00 1-142
+eval/profile_fields/out/gemini/sup_70290.json
+  s_1a8297fe401fa7::t_b4517298a40d05 1-136
+eval/profile_fields/out/gemini/sup_70295.json
+  s_1a8297fe401fa7::t_4b5a2b4d35a244 1-138
+eval/profile_fields/out/gemini/sup_70310.json
+  s_1a8297fe401fa7::t_4319186ce82f20 1-98
+eval/profile_fields/out/gemini/sup_70320.json
+  s_1a8297fe401fa7::t_4e84b8ec246a60 1-98
+eval/profile_fields/out/gemini/sup_70330.json
+  s_1a8297fe401fa7::t_4d8de230e8a303 1-103
+eval/profile_fields/out/gemini/sup_70340.json
+  s_1a8297fe401fa7::t_60f4b23d56364c 1-99
+eval/profile_fields/out/gemini/sup_70350.json
+  s_1a8297fe401fa7::t_adb88ea7259b24 1-115
+eval/profile_fields/out/gemini/sup_70360.json
+  s_1a8297fe401fa7::t_da0dbd3d2e721f 1-95
+eval/profile_fields/out/gemini/sup_70410.json
+  s_1a8297fe401fa7::t_c4bc1cc5a23628 1-139
+eval/profile_fields/out/gemini/sup_70420.json
+  s_1a8297fe401fa7::t_72513ec54fb53d 1-137
+eval/profile_fields/out/gemini/sup_70430.json
+  s_1a8297fe401fa7::t_b1e4d2366bf098 1-95
+eval/profile_fields/out/gemini/sup_70440.json
+  s_1a8297fe401fa7::t_c9afeadab2e0a1 1-135
+eval/profile_fields/out/gemini/sup_70510.json
+  s_1a8297fe401fa7::t_823a3e04eae942 1-116
+eval/profile_fields/out/gemini/sup_70520.json
+  s_1a8297fe401fa7::t_1c6c090c152d0f 1-145
+eval/profile_fields/out/gemini/sup_70530.json
+  s_1a8297fe401fa7::t_0cebbe50c9e67b 1-137
+eval/profile_fields/out/gemini/sup_70540.json
+  s_1a8297fe401fa7::t_26e829213d29ee 1-117
+eval/profile_fields/out/gemini/sup_70550.json
+  s_1a8297fe401fa7::t_a737c25672354a 1-117
+eval/profile_fields/out/gemini/sup_70560.json
+  s_1a8297fe401fa7::t_569d83498607ff 1-116
+eval/profile_fields/out/gemini/sup_70570.json
+  s_1a8297fe401fa7::t_bf22c9ccc2b9db 1-137
+eval/profile_fields/out/gemini/sup_70580.json
+  s_1a8297fe401fa7::t_a7557a3e05bad9 1-131
+eval/profile_fields/out/gemini/sup_70610.json
+  s_1a8297fe401fa7::t_74844c42236181 1-109
+eval/profile_fields/out/gemini/sup_70620.json
+  s_1a8297fe401fa7::t_a574fee3707570 1-141
+eval/profile_fields/out/gemini/sup_70630.json
+  s_1a8297fe401fa7::t_91f8116fff7b6f 1-178
+eval/profile_fields/out/gemini/sup_70640.json
+  s_1a8297fe401fa7::t_564f4bc669fd80 1-130
+eval/profile_fields/out/gemini/sup_70650.json
+  s_1a8297fe401fa7::t_1372da1ad6d93f 1-123
+eval/profile_fields/out/gemini/sup_70710.json
+  s_1a8297fe401fa7::t_cf6f010135e6cb 1-137
+eval/profile_fields/out/gemini/sup_70720.json
+  s_1a8297fe401fa7::t_45b69dcbc162d5 1-111
+eval/profile_fields/out/gemini/sup_70730.json
+  s_1a8297fe401fa7::t_0b32cf215b70eb 1-147
+eval/profile_fields/out/gemini/sup_70740.json
+  s_1a8297fe401fa7::t_2d3030ad1c8874 1-135
+eval/profile_fields/prompt_v1.txt
+  s_1a8297fe401fa7::t_8c1552de53bb37 1-42
+eval/profile_fields/review_prompt.py
+  s_1a8297fe401fa7::t_bbe568322b3090 1-17
+eval/profile_fields/reviews/review_codex.txt
+  s_1a8297fe401fa7::t_77f2f719bea128 1-82
+eval/profile_fields/reviews/review_gemini.txt
+  s_1a8297fe401fa7::t_b817d9a241c311 1-212
+eval/profile_fields/run_claude.py
+  s_1a8297fe401fa7::t_b869bca14e5742 1-25
+eval/profile_fields/run_cli.py
+  s_1a8297fe401fa7::t_1a479905be2980 1-32
+eval/profile_fields/schema_draft.md
+  s_1a8297fe401fa7::t_3af0dc1e47d21e 1-49
+eval/profile_fields/setmeta.py
+  s_1a8297fe401fa7::t_98c8d9dbafa74f 1-9
+eval/profile_fields/show.py
+  s_1a8297fe401fa7::t_c8c3290d15a35b 1-13
+eval/profile_fields/stats.json
+  s_1a8297fe401fa7::t_459a105a6fa6a4 1-192
+eval/profile_fields/stats.py
+  s_1a8297fe401fa7::t_c7b956b04451f3 1-30
+eval/server.py
+  s_1a8297fe401fa7::t_b956b439cfea4d 1-201
+eval/supplier_llm.py
+  s_1a8297fe401fa7::t_512b549b486e52 1-555
+eval/tests/test_bank_health.py
+  s_1a8297fe401fa7::t_d07d666a9ad738 1-81
+eval/writer_ab/.gitignore
+  s_1a8297fe401fa7::t_8aa7196e63444c 1
+eval/writer_ab/aggregate.py
+  s_1a8297fe401fa7::t_9956a37bbd95f8 1-92
+eval/writer_ab/blind.py
+  s_1a8297fe401fa7::t_2e5bc81aaefc4d 1-57
+eval/writer_ab/collect.py
+  s_1a8297fe401fa7::t_6f74ae9730001a 1-58
+eval/writer_ab/common.py
+  s_1a8297fe401fa7::t_bae60009332d65 1-16
+eval/writer_ab/gen.py
+  s_1a8297fe401fa7::t_52d0df262db544 1-162
+eval/writer_ab/judge.py
+  s_1a8297fe401fa7::t_ae5591c8af8685 1-72
+experiments/REPORT.md
+  s_1a8297fe401fa7::t_3894f294272957 1-70
+experiments/hypotheses.md
+  s_1a8297fe401fa7::t_62215900f789ec 1-85
+frontend/.dockerignore
+  s_1a8297fe401fa7::t_e3217e975cb032 1-2
+frontend/.gitignore
+  s_1a8297fe401fa7::t_2886990b2c8771 1-41
+frontend/Dockerfile
+  s_1a8297fe401fa7::t_3c44e4b840d868 1-21
+frontend/bun.lock
+  s_1a8297fe401fa7::t_7a08fbe1336d96 1-1366
+frontend/components.json
+  s_1a8297fe401fa7::t_148287c41f15a0 1-25
+frontend/eslint.config.mjs
+  s_1a8297fe401fa7::t_3a8b37ed243608 1-18
+frontend/next.config.ts
+  s_1a8297fe401fa7::t_b480ce00fe0e0e 1-21
+frontend/package.json
+  s_1a8297fe401fa7::t_0efaabb8b7ddc4 1-42
+frontend/public/brand/logo.svg
+  s_1a8297fe401fa7::t_25163d7a589a11 1-7
+frontend/public/brand/mark.svg
+  s_1a8297fe401fa7::t_8f24b310d19a81 1-6
+frontend/public/pitch/data.js
+  s_1a8297fe401fa7::t_1535281fa4c71c 1-528
+frontend/public/pitch/img/qr-site.svg
+  s_1a8297fe401fa7::t_e93d459c6ab6e5 1
+frontend/public/pitch/index.html
+  s_1a8297fe401fa7::t_565bfd6cbe0dfd 1-343
+frontend/public/pitch/pitch.css
+  s_1a8297fe401fa7::t_43e42fcffb8d64 1-2394
+frontend/public/pitch/pitch.js
+  s_1a8297fe401fa7::t_5c65d1f22338a6 1-282
+frontend/public/pitch/render.sh
+  s_1a8297fe401fa7::t_bc110b6d284a58 1-27
+frontend/public/replays/0570f8f536396163/replay.json
+  s_1a8297fe401fa7::t_aac0cc0cbec6cc 1-705
+frontend/public/replays/18d04e37b3dfa06f/replay.json
+  s_1a8297fe401fa7::t_69f4760eb1672e 1-604
+frontend/public/replays/1949af9c1a9ba379/replay.json
+  s_1a8297fe401fa7::t_1717eec4cd7926 1-295
+frontend/public/replays/2f11a5e9780a77cc/replay.json
+  s_1a8297fe401fa7::t_39cb6af711e24c 1-315
+frontend/public/replays/37acd418d7a987d8/replay.json
+  s_1a8297fe401fa7::t_e0fbc82beae2a5 1-453
+frontend/public/replays/3a6fb4b15b2dc8af/replay.json
+  s_1a8297fe401fa7::t_01dffb6aefdef5 1-491
+frontend/public/replays/3b124d9df0913e41/replay.json
+  s_1a8297fe401fa7::t_6b4d2703a9ad13 1-929
+frontend/public/replays/4913d295df7a3ec7/replay.json
+  s_1a8297fe401fa7::t_6e5c2de4611aa7 1-453
+frontend/public/replays/7983b1418291c42d/replay.json
+  s_1a8297fe401fa7::t_1b4bc8a270dbeb 1-313
+frontend/public/replays/8a44439983a4fe59/replay.json
+  s_1a8297fe401fa7::t_2eed36078d5799 1-443
+frontend/public/replays/a14f88aedcbf4da7/replay.json
+  s_1a8297fe401fa7::t_fec7c2555a9b9f 1-595
+frontend/public/replays/ae9206fd259e5f01/replay.json
+  s_1a8297fe401fa7::t_87dbc80ab148e4 1-573
+frontend/public/replays/af65b1c2fd218acd/replay.json
+  s_1a8297fe401fa7::t_243c3e03c5bcfe 1-315
+frontend/public/replays/c12a25eaacdd98b6/replay.json
+  s_1a8297fe401fa7::t_3c7ddb49e65028 1-507
+frontend/public/replays/c46ccd08c8a5d029/replay.json
+  s_1a8297fe401fa7::t_e7c1068d35a70b 1-587
+frontend/public/replays/d32610531740b53a/replay.json
+  s_1a8297fe401fa7::t_ff922b9d3451c7 1-388
+frontend/public/replays/d731b32b8d39528b/replay.json
+  s_1a8297fe401fa7::t_ec19f9a0b4169e 1-551
+frontend/public/replays/e642aeb72a327558/replay.json
+  s_1a8297fe401fa7::t_47a3f98a445ae0 1-731
+frontend/public/replays/ebb8dfc4e615d2e1/replay.json
+  s_1a8297fe401fa7::t_ab413c9be48741 1-560
+frontend/public/replays/ebe0c9d87c1f3cc8/replay.json
+  s_1a8297fe401fa7::t_43cd11b7dbcfa6 1-443
+frontend/public/replays/index.json
+  s_1a8297fe401fa7::t_0396cf630706d4 1-514
+frontend/public/replays/portraits/70110.svg
+  s_1a8297fe401fa7::t_93c8c059e6153e 1
+frontend/public/replays/portraits/70120.svg
+  s_1a8297fe401fa7::t_b7907e93b85080 1
+frontend/public/replays/portraits/70130.svg
+  s_1a8297fe401fa7::t_e6cee0e8de86fa 1
+frontend/public/replays/portraits/70140.svg
+  s_1a8297fe401fa7::t_0139e96fe52dad 1
+frontend/public/replays/portraits/70150.svg
+  s_1a8297fe401fa7::t_5ab8a31d8dfb44 1
+frontend/public/replays/portraits/70160.svg
+  s_1a8297fe401fa7::t_02423239b9ec80 1
+frontend/public/replays/portraits/70170.svg
+  s_1a8297fe401fa7::t_7f2d3057a04a8f 1
+frontend/public/replays/portraits/70180.svg
+  s_1a8297fe401fa7::t_c08d7a70fbaa13 1
+frontend/public/replays/portraits/70190.svg
+  s_1a8297fe401fa7::t_03020dad03a073 1
+frontend/public/replays/portraits/70210.svg
+  s_1a8297fe401fa7::t_96460e86acd5f0 1
+frontend/public/replays/portraits/70220.svg
+  s_1a8297fe401fa7::t_9a809ab6a7879f 1
+frontend/public/replays/portraits/70230.svg
+  s_1a8297fe401fa7::t_d48b4c05834027 1
+frontend/public/replays/portraits/70240.svg
+  s_1a8297fe401fa7::t_2b8e93018cc3d2 1
+frontend/public/replays/portraits/70250.svg
+  s_1a8297fe401fa7::t_f448c8805d4522 1
+frontend/public/replays/portraits/70260.svg
+  s_1a8297fe401fa7::t_36c5a8577a4f8e 1
+frontend/public/replays/portraits/70270.svg
+  s_1a8297fe401fa7::t_15f25a51336311 1
+frontend/public/replays/portraits/70280.svg
+  s_1a8297fe401fa7::t_616c85a653329d 1
+frontend/public/replays/portraits/70290.svg
+  s_1a8297fe401fa7::t_84524ada388c0f 1
+frontend/public/replays/portraits/70295.svg
+  s_1a8297fe401fa7::t_9dc8051aee3909 1
+frontend/public/replays/portraits/70310.svg
+  s_1a8297fe401fa7::t_550c25c294d358 1
+frontend/public/replays/portraits/70320.svg
+  s_1a8297fe401fa7::t_5c7c1fcfdac10a 1
+frontend/public/replays/portraits/70330.svg
+  s_1a8297fe401fa7::t_aa7732f6eae4ee 1
+frontend/public/replays/portraits/70340.svg
+  s_1a8297fe401fa7::t_0291d2b1291609 1
+frontend/public/replays/portraits/70350.svg
+  s_1a8297fe401fa7::t_873d774b239038 1
+frontend/public/replays/portraits/70360.svg
+  s_1a8297fe401fa7::t_9e4dda606bbba9 1
+frontend/public/replays/portraits/70410.svg
+  s_1a8297fe401fa7::t_54866e5947f1be 1
+frontend/public/replays/portraits/70420.svg
+  s_1a8297fe401fa7::t_117a8133285f3c 1
+frontend/public/replays/portraits/70430.svg
+  s_1a8297fe401fa7::t_6948b321dfa323 1
+frontend/public/replays/portraits/70440.svg
+  s_1a8297fe401fa7::t_01842a86954676 1
+frontend/public/replays/portraits/70510.svg
+  s_1a8297fe401fa7::t_5e15e8c67b9a67 1
+frontend/public/replays/portraits/70520.svg
+  s_1a8297fe401fa7::t_53f1aaf4166715 1
+frontend/public/replays/portraits/70530.svg
+  s_1a8297fe401fa7::t_b20537c6236561 1
+frontend/public/replays/portraits/70540.svg
+  s_1a8297fe401fa7::t_b8ca0a8b2dea8e 1
+frontend/public/replays/portraits/70550.svg
+  s_1a8297fe401fa7::t_ac0b9d3c3aab7d 1
+frontend/public/replays/portraits/70560.svg
+  s_1a8297fe401fa7::t_99e21f14c15b5a 1
+frontend/public/replays/portraits/70570.svg
+  s_1a8297fe401fa7::t_d95a8d408f6161 1
+frontend/public/replays/portraits/70580.svg
+  s_1a8297fe401fa7::t_1285316f21d137 1
+frontend/public/replays/portraits/70610.svg
+  s_1a8297fe401fa7::t_aad701df1d65de 1
+frontend/public/replays/portraits/70620.svg
+  s_1a8297fe401fa7::t_4ddca8b9d3ed91 1
+frontend/public/replays/portraits/70630.svg
+  s_1a8297fe401fa7::t_cb941bee15edd6 1
+frontend/public/replays/portraits/70640.svg
+  s_1a8297fe401fa7::t_89fcdf6ebc7e3a 1
+frontend/public/replays/portraits/70650.svg
+  s_1a8297fe401fa7::t_a3b4aabc5767d6 1
+frontend/public/replays/portraits/70710.svg
+  s_1a8297fe401fa7::t_b5035be93e21a1 1
+frontend/public/replays/portraits/70720.svg
+  s_1a8297fe401fa7::t_ecb3b144a082dc 1
+frontend/public/replays/portraits/70730.svg
+  s_1a8297fe401fa7::t_074dd645f0a663 1
+frontend/public/replays/portraits/70740.svg
+  s_1a8297fe401fa7::t_b5e8fba5dd54e4 1
+frontend/public/replays/portraits/DEMO-C1.svg
+  s_1a8297fe401fa7::t_2cf3cf11e2d4c5 1
+frontend/public/replays/portraits/DEMO-F1.svg
+  s_1a8297fe401fa7::t_984111c7be61f7 1
+frontend/public/replays/portraits/DEMO-J1.svg
+  s_1a8297fe401fa7::t_fc9688869aece6 1
+frontend/scripts/journal-to-replay.py
+  s_1a8297fe401fa7::t_3aace313676079 1-146
+frontend/src/app/architecture/page.tsx
+  s_1a8297fe401fa7::t_b671f0916d2b4d 1-325
+frontend/src/app/demo/demo-hero.css
+  s_1a8297fe401fa7::t_f140450ce3fe31 1-71
+frontend/src/app/demo/demo-hero.tsx
+  s_1a8297fe401fa7::t_08b1e7de4cd557 1-85
+frontend/src/app/demo/page.tsx
+  s_1a8297fe401fa7::t_3ea5c704aa4677 1-30
+frontend/src/app/demo/walkthrough.tsx
+  s_1a8297fe401fa7::t_faa9d56845e8a6 1-40
+frontend/src/app/globals.css
+  s_1a8297fe401fa7::t_1a9baa3b0fa208 1-188
+frontend/src/app/icon.svg
+  s_1a8297fe401fa7::t_ff80e19a33ee2d 1-6
+frontend/src/app/layout.tsx
+  s_1a8297fe401fa7::t_04f1b4f1e61509 1-36
+frontend/src/app/page.tsx
+  s_1a8297fe401fa7::t_b93db691b0f48a 1-113
+frontend/src/app/replay/[id]/page.tsx
+  s_1a8297fe401fa7::t_cd528e3eb24906 1-6
+frontend/src/app/replay/browser.tsx
+  s_1a8297fe401fa7::t_14426d94bffff9 1-395
+frontend/src/app/replay/bubbles.tsx
+  s_1a8297fe401fa7::t_43585a656291b5 1-124
+frontend/src/app/replay/cases.ts
+  s_1a8297fe401fa7::t_ed2fc37dc1d725 1-12
+frontend/src/app/replay/journal/page.tsx
+  s_1a8297fe401fa7::t_327c73746d8f2a 1-371
+frontend/src/app/replay/journal/replay.json
+  s_1a8297fe401fa7::t_ebba3f7259d395 1-519
+frontend/src/app/replay/p11.json
+  s_1a8297fe401fa7::t_a1cd4b14a5fbce 1-351
+frontend/src/app/replay/page.tsx
+  s_1a8297fe401fa7::t_d052483afecbde 1-23
+frontend/src/app/replay/player.tsx
+  s_1a8297fe401fa7::t_e75d75d8790647 1-244
+frontend/src/app/replay/types.ts
+  s_1a8297fe401fa7::t_3fb2d486dd4a78 1-85
+frontend/src/app/tech/page.tsx
+  s_1a8297fe401fa7::t_a5b9d704365b23 1-30
+frontend/src/components/health-badge.tsx
+  s_1a8297fe401fa7::t_2f6a0e53d0fdf0 1-21
+frontend/src/components/logo.tsx
+  s_1a8297fe401fa7::t_c23af6a9a14d0b 1-23
+frontend/src/components/negotiation/stage.tsx
+  s_1a8297fe401fa7::t_b2927208968c13 1-205
+frontend/src/components/persona/avatar.tsx
+  s_1a8297fe401fa7::t_41e6a6ba900f59 1-275
+frontend/src/components/site.tsx
+  s_1a8297fe401fa7::t_599713aac269f9 1-83
+frontend/src/components/ui/badge.tsx
+  s_1a8297fe401fa7::t_4d94887f3a0054 1-51
+frontend/src/components/ui/button.tsx
+  s_1a8297fe401fa7::t_69857b48aa9275 1-57
+frontend/src/components/ui/card.tsx
+  s_1a8297fe401fa7::t_c107bb8aa96982 1-102
+frontend/src/components/ui/input.tsx
+  s_1a8297fe401fa7::t_8b0f2d2dcf7535 1-19
+frontend/src/components/ui/separator.tsx
+  s_1a8297fe401fa7::t_7797accb02df83 1-24
+frontend/src/components/ui/textarea.tsx
+  s_1a8297fe401fa7::t_daa13072ee08ac 1-17
+frontend/src/components/video-section.tsx
+  s_1a8297fe401fa7::t_dc97349a6ae060 1-43
+frontend/src/lib/utils.ts
+  s_1a8297fe401fa7::t_26dc51167d390e 1-6
+frontend/src/proxy.ts
+  s_1a8297fe401fa7::t_9ff6ef83101102 1-9
+frontend/tsconfig.json
+  s_1a8297fe401fa7::t_ed1bde5587c8e2 1-34
+ops/README.md
+  s_1a8297fe401fa7::t_078130b627c4ea 1-45
+ops/_common.py
+  s_1a8297fe401fa7::t_f703450697a0ff 1-180
+ops/fault_proxy.py
+  s_1a8297fe401fa7::t_84e1e0179f6d2d 1-227
+ops/final.ps1
+  s_1a8297fe401fa7::t_521268cd7b2e40 1-4
+ops/final.py
+  s_1a8297fe401fa7::t_9278ba686f77b9 1-675
+ops/final.sh
+  s_1a8297fe401fa7::t_cde7cfb2ab1705 1-4
+ops/preflight.ps1
+  s_1a8297fe401fa7::t_643b4d248748a0 1-4
+ops/preflight.py
+  s_1a8297fe401fa7::t_3ca9ca2c47a0a4 1-441
+ops/preflight.sh
+  s_1a8297fe401fa7::t_21fda973a4d8b2 1-4
+ops/reader_check.py
+  s_1a8297fe401fa7::t_b3062a6488d8b0 1-126
+ops/rehearsal.ps1
+  s_1a8297fe401fa7::t_6c91668a755651 1-4
+ops/rehearsal.py
+  s_1a8297fe401fa7::t_5b7e0ec2d3e8e3 1-510
+ops/rehearsal.sh
+  s_1a8297fe401fa7::t_9fed578217a310 1-4
+ops/slow_sim.py
+  s_1a8297fe401fa7::t_c603b8dbf0a2c2 1-38
+ops/smoke_dossier.py
+  s_1a8297fe401fa7::t_cc807802973452 1-80
+ops/status.ps1
+  s_1a8297fe401fa7::t_6606d3182f61e3 1-4
+ops/status.py
+  s_1a8297fe401fa7::t_24dbe1599cbd98 1-135
+ops/status.sh
+  s_1a8297fe401fa7::t_1683ea8c2d8bb6 1-4
+ops/sunday-data.ps1
+  s_1a8297fe401fa7::t_5bd610b39011ac 1-4
+ops/sunday-data.sh
+  s_1a8297fe401fa7::t_ce2134e492c24c 1-4
+ops/sunday_data.py
+  s_1a8297fe401fa7::t_0342198dfecea8 1-432
+submission.md
+  s_1a8297fe401fa7::t_9fa4ba8763de0d 1-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ec1d0ba07f6b15f7d1962184b118ffac0e029613",
+  "prompts": {},
+  "sessions": {
+    "s_1a8297fe401fa7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "be4ffa31-f562-4ba7-b3c4-5ec54d7b6fdc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "NWichter <niklaswichter@gmail.com>"
+    }
+  }
+}
