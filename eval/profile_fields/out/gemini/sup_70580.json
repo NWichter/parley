@@ -1,0 +1,131 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70580\", \"approval_threshold_pct\": {\"value\": 2, \"evidence\": [{\"source\": \"doc:20260322-70580-M2\", \"quote\": \"price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"approval_cycle\": {\"value\": \"pricing committee, every two weeks\", \"evidence\": [{\"source\": \"doc:20260322-70580-M2\", \"quote\": \"price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"approval_cycle_days\": {\"value\": 14, \"evidence\": [{\"source\": \"doc:20260322-70580-M2\", \"quote\": \"price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"preferred_levers\": [], \"avoid_levers\": [{\"lever\": \"payment_days_long\", \"stance\": \"rejected\", \"condition\": null, \"evidence\": [{\"source\": \"doc:20260612-70580-P\", \"quote\": \"Several of our invoices are overdue again. We ask you to keep to the agreed payment terms; otherwise we will have to review our conditions.\"}], \"confidence\": \"high\"}], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"sales_director\", \"evidence\": [{\"source\": \"doc:20260926-70580-M1\", \"quote\": \"Their new sales director said Hollerau's volumes are 'not strategic' for Motorenwerk Saalach GmbH any more; replies have become slower since the summer.\"}, {\"source\": \"doc:20260908-70580-M3\", \"quote\": \"The sales director of Motorenwerk Saalach GmbH said they are reviewing small accounts and will focus on customers with volume.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260908-70580-M3\", \"quote\": \"The sales director of Motorenwerk Saalach GmbH said they are reviewing small accounts and will focus on customers with volume.\"}, {\"source\": \"news:20260327-07\", \"quote\": \"Motorenwerk Saalach GmbH will concentrate on larger key accounts and new product lines; smaller customers are to be served increasingly from standard ranges.\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260926-70580-M1\", \"quote\": \"Their new sales director said Hollerau's volumes are 'not strategic' for Motorenwerk Saalach GmbH any more; replies have become slower since the summer.\"}], \"confidence\": \"high\"}}\n",
+ "data": {
+  "supplier_id": "sup:70580",
+  "approval_threshold_pct": {
+   "value": 2,
+   "evidence": [
+    {
+     "source": "doc:20260322-70580-M2",
+     "quote": "price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle": {
+   "value": "pricing committee, every two weeks",
+   "evidence": [
+    {
+     "source": "doc:20260322-70580-M2",
+     "quote": "price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle_days": {
+   "value": 14,
+   "evidence": [
+    {
+     "source": "doc:20260322-70580-M2",
+     "quote": "price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "preferred_levers": [],
+  "avoid_levers": [
+   {
+    "lever": "payment_days_long",
+    "stance": "rejected",
+    "condition": null,
+    "evidence": [
+     {
+      "source": "doc:20260612-70580-P",
+      "quote": "Several of our invoices are overdue again. We ask you to keep to the agreed payment terms; otherwise we will have to review our conditions."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "sales_director",
+   "evidence": [
+    {
+     "source": "doc:20260926-70580-M1",
+     "quote": "Their new sales director said Hollerau's volumes are 'not strategic' for Motorenwerk Saalach GmbH any more; replies have become slower since the summer."
+    },
+    {
+     "source": "doc:20260908-70580-M3",
+     "quote": "The sales director of Motorenwerk Saalach GmbH said they are reviewing small accounts and will focus on customers with volume."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260908-70580-M3",
+     "quote": "The sales director of Motorenwerk Saalach GmbH said they are reviewing small accounts and will focus on customers with volume."
+    },
+    {
+     "source": "news:20260327-07",
+     "quote": "Motorenwerk Saalach GmbH will concentrate on larger key accounts and new product lines; smaller customers are to be served increasingly from standard ranges."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260926-70580-M1",
+     "quote": "Their new sales director said Hollerau's volumes are 'not strategic' for Motorenwerk Saalach GmbH any more; replies have become slower since the summer."
+    }
+   ],
+   "confidence": "high"
+  }
+ },
+ "s": 132.0
+}

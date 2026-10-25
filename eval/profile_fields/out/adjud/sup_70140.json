@@ -1,0 +1,17 @@
+{
+ "choices": {
+  "decision_maker": {
+   "choice": "A",
+   "reason": "The managing director personally led the call and made the price statement 'cannot sign anything that lowers our margin'. Owner is the closest category; no other negotiator appears."
+  }
+ },
+ "labels": {
+  "decision_maker": {
+   "A": "owner"
+  }
+ },
+ "usage": {
+  "in": 5463,
+  "out": 706
+ }
+}

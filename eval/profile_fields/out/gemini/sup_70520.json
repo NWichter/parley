@@ -1,0 +1,145 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70520\", \"approval_threshold_pct\": {\"value\": 2, \"evidence\": [{\"source\": \"doc:20260218-70520-M3\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}, {\"source\": \"doc:20260426-70520-M5\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"approval_cycle\": {\"value\": \"pricing committee, every two weeks\", \"evidence\": [{\"source\": \"doc:20260218-70520-M3\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}, {\"source\": \"doc:20260426-70520-M5\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"approval_cycle_days\": {\"value\": 14, \"evidence\": [{\"source\": \"doc:20260218-70520-M3\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}, {\"source\": \"doc:20260426-70520-M5\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"preferred_levers\": [], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [{\"input\": \"copper\", \"until\": \"2027-03\", \"evidence\": [{\"source\": \"doc:20260620-70520-M1\", \"quote\": \"our copper requirement is covered at fixed prices until March 2027. Market movements reach our costs only after that.\"}, {\"source\": \"doc:20260701-70520-M4\", \"quote\": \"they bought their copper forward until March 2027 and said the market price is 'not our reality' before then.\"}, {\"source\": \"quote:7300054\", \"quote\": \"Remarks: Material covered until March 2027; price valid accordingly.\"}, {\"source\": \"quote:7300077\", \"quote\": \"Remarks: Material covered until March 2027; price valid accordingly.\"}], \"confidence\": \"high\"}], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"kam\", \"evidence\": [{\"source\": \"doc:20260426-70520-M5\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}, {\"source\": \"doc:20260218-70520-M3\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260413-70520-M2\", \"quote\": \"The sales director of Vesmo Elektromotory a.s. said they are reviewing small accounts and will focus on customers with volume.\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70520",
+  "approval_threshold_pct": {
+   "value": 2,
+   "evidence": [
+    {
+     "source": "doc:20260218-70520-M3",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    },
+    {
+     "source": "doc:20260426-70520-M5",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle": {
+   "value": "pricing committee, every two weeks",
+   "evidence": [
+    {
+     "source": "doc:20260218-70520-M3",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    },
+    {
+     "source": "doc:20260426-70520-M5",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle_days": {
+   "value": 14,
+   "evidence": [
+    {
+     "source": "doc:20260218-70520-M3",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    },
+    {
+     "source": "doc:20260426-70520-M5",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "preferred_levers": [],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [
+   {
+    "input": "copper",
+    "until": "2027-03",
+    "evidence": [
+     {
+      "source": "doc:20260620-70520-M1",
+      "quote": "our copper requirement is covered at fixed prices until March 2027. Market movements reach our costs only after that."
+     },
+     {
+      "source": "doc:20260701-70520-M4",
+      "quote": "they bought their copper forward until March 2027 and said the market price is 'not our reality' before then."
+     },
+     {
+      "source": "quote:7300054",
+      "quote": "Remarks: Material covered until March 2027; price valid accordingly."
+     },
+     {
+      "source": "quote:7300077",
+      "quote": "Remarks: Material covered until March 2027; price valid accordingly."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "kam",
+   "evidence": [
+    {
+     "source": "doc:20260426-70520-M5",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    },
+    {
+     "source": "doc:20260218-70520-M3",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260413-70520-M2",
+     "quote": "The sales director of Vesmo Elektromotory a.s. said they are reviewing small accounts and will focus on customers with volume."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 70.7
+}

@@ -1,0 +1,121 @@
+{
+ "raw": "{\n  \"supplier_id\": \"sup:70420\",\n  \"approval_threshold_pct\": {\n    \"value\": 2,\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260302-70420-M2\",\n        \"quote\": \"price changes above 2 % need the approval of their pricing committee\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"approval_cycle\": {\n    \"value\": \"pricing committee, every two weeks\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260302-70420-M2\",\n        \"quote\": \"their pricing committee, which meets every two weeks.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"approval_cycle_days\": {\n    \"value\": 14,\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260302-70420-M2\",\n        \"quote\": \"their pricing committee, which meets every two weeks.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"preferred_levers\": [\n    {\n      \"lever\": \"lead_time_slack\",\n      \"stance\": \"open\",\n      \"condition\": null,\n      \"evidence\": [\n        {\n          \"source\": \"doc:20260823-70420-M1\",\n          \"quote\": \"He was open on payment terms and call-off flexibility.\"\n        }\n      ],\n      \"confidence\": \"high\"\n    }\n  ],\n  \"avoid_levers\": [],\n  \"capacity_tight\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"price_freeze\": {\n    \"value\": {\n      \"until\": \"2027-12\",\n      \"scope\": \"Head office has frozen all price reductions.\"\n    },\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260823-70420-M1\",\n        \"quote\": \"head office has frozen all price reductions until December 2027.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"cash_need\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"hedged_inputs\": [],\n  \"uninformed_owner\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"decision_maker\": {\n    \"value\": \"sales_director\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260823-70420-M1\",\n        \"quote\": \"Their sales director said there is no room on price this year\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"patience\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"past_goodwill_claim\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"volume_posture\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"open_calculation\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"margin_floor\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"account_deprioritised\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  }\n}\n",
+ "data": {
+  "supplier_id": "sup:70420",
+  "approval_threshold_pct": {
+   "value": 2,
+   "evidence": [
+    {
+     "source": "doc:20260302-70420-M2",
+     "quote": "price changes above 2 % need the approval of their pricing committee"
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle": {
+   "value": "pricing committee, every two weeks",
+   "evidence": [
+    {
+     "source": "doc:20260302-70420-M2",
+     "quote": "their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle_days": {
+   "value": 14,
+   "evidence": [
+    {
+     "source": "doc:20260302-70420-M2",
+     "quote": "their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "preferred_levers": [
+   {
+    "lever": "lead_time_slack",
+    "stance": "open",
+    "condition": null,
+    "evidence": [
+     {
+      "source": "doc:20260823-70420-M1",
+      "quote": "He was open on payment terms and call-off flexibility."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": {
+    "until": "2027-12",
+    "scope": "Head office has frozen all price reductions."
+   },
+   "evidence": [
+    {
+     "source": "doc:20260823-70420-M1",
+     "quote": "head office has frozen all price reductions until December 2027."
+    }
+   ],
+   "confidence": "high"
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "sales_director",
+   "evidence": [
+    {
+     "source": "doc:20260823-70420-M1",
+     "quote": "Their sales director said there is no room on price this year"
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 55.0
+}

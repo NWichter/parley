@@ -1,0 +1,36 @@
+{
+ "choices": {
+  "capacity_tight": {
+   "choice": "A",
+   "reason": "The call note explicitly states free capacity: they could take additional parts at short notice, and the second shift is on hold."
+  },
+  "price_freeze": {
+   "choice": "A",
+   "reason": "A blanket move to list conditions with no individual agreements extended restricts individual price reductions; later quotes confirm list conditions."
+  },
+  "decision_maker": {
+   "choice": "B",
+   "reason": "The new sales director leads the most recent account discussions in the June notes, after the KAM's March annual review."
+  },
+  "avoid_levers:contract_months_longer": {
+   "choice": "keep",
+   "reason": "The supplier explicitly refuses to extend individual agreements, which is a rejection of a longer contract term."
+  }
+ },
+ "labels": {
+  "capacity_tight": {
+   "A": false
+  },
+  "price_freeze": {
+   "A": "freeze@None"
+  },
+  "decision_maker": {
+   "A": "kam",
+   "B": "sales_director"
+  }
+ },
+ "usage": {
+  "in": 5956,
+  "out": 926
+ }
+}

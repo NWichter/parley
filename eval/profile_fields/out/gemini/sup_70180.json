@@ -1,0 +1,90 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70180\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"owner\", \"evidence\": [{\"source\": \"doc:20260924-70180-M1\", \"quote\": \"Visit by the owner of Feinguss Allgäu-Reiter GmbH. He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260924-70180-M1\", \"quote\": \"He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return.\"}], \"confidence\": \"high\"}, \"volume_posture\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70180",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "owner",
+   "evidence": [
+    {
+     "source": "doc:20260924-70180-M1",
+     "quote": "Visit by the owner of Feinguss Allgäu-Reiter GmbH. He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260924-70180-M1",
+     "quote": "He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return."
+    }
+   ],
+   "confidence": "high"
+  },
+  "volume_posture": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 29.7
+}

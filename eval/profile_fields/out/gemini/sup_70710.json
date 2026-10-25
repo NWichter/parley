@@ -1,0 +1,137 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70710\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [{\"lever\": \"index_clause\", \"stance\": \"requested\", \"condition\": null, \"evidence\": [{\"source\": \"doc:20260912-70710-P08\", \"quote\": \"we propose to agree the price basis for the coming period, including a price adjustment clause based on AS-14404.\"}], \"confidence\": \"high\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [{\"input\": \"nickel\", \"until\": \"2027-03\", \"evidence\": [{\"source\": \"doc:20260706-70710-M1\", \"quote\": \"our nickel and alloys requirement is covered at fixed prices until March 2027.\"}], \"confidence\": \"high\"}, {\"input\": \"alloy\", \"until\": \"2027-03\", \"evidence\": [{\"source\": \"doc:20260706-70710-M1\", \"quote\": \"our nickel and alloys requirement is covered at fixed prices until March 2027.\"}], \"confidence\": \"high\"}, {\"input\": \"material\", \"until\": \"2027-03\", \"evidence\": [{\"source\": \"quote:7300008\", \"quote\": \"Material covered until March 2027; price valid accordingly.\"}], \"confidence\": \"high\"}], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"owner\", \"evidence\": [{\"source\": \"doc:20260421-70710-M2\", \"quote\": \"Call with the owner of Edelstahl-Service Donautal GmbH: he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"open_calculation\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260421-70710-M2\", \"quote\": \"he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices.\"}], \"confidence\": \"high\"}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70710",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "index_clause",
+    "stance": "requested",
+    "condition": null,
+    "evidence": [
+     {
+      "source": "doc:20260912-70710-P08",
+      "quote": "we propose to agree the price basis for the coming period, including a price adjustment clause based on AS-14404."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [
+   {
+    "input": "nickel",
+    "until": "2027-03",
+    "evidence": [
+     {
+      "source": "doc:20260706-70710-M1",
+      "quote": "our nickel and alloys requirement is covered at fixed prices until March 2027."
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "input": "alloy",
+    "until": "2027-03",
+    "evidence": [
+     {
+      "source": "doc:20260706-70710-M1",
+      "quote": "our nickel and alloys requirement is covered at fixed prices until March 2027."
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "input": "material",
+    "until": "2027-03",
+    "evidence": [
+     {
+      "source": "quote:7300008",
+      "quote": "Material covered until March 2027; price valid accordingly."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "owner",
+   "evidence": [
+    {
+     "source": "doc:20260421-70710-M2",
+     "quote": "Call with the owner of Edelstahl-Service Donautal GmbH: he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "open_calculation": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260421-70710-M2",
+     "quote": "he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices."
+    }
+   ],
+   "confidence": "high"
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 213.5
+}

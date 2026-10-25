@@ -1,0 +1,13 @@
+{
+ "choices": {
+  "preferred_levers:payment_days_long": {
+   "choice": "keep",
+   "reason": "Sales director was 'open on payment terms' while refusing price cuts. That most plausibly means granting longer payment as a non-price concession; no cash-need signal."
+  }
+ },
+ "labels": {},
+ "usage": {
+  "in": 4474,
+  "out": 506
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "raw": "{\n  \"supplier_id\": \"sup:70110\",\n  \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"preferred_levers\": [\n    {\n      \"lever\": \"payment_days_short\",\n      \"stance\": \"requested\",\n      \"condition\": \"Payment within 10 days in return for a cash discount\",\n      \"evidence\": [\n        {\n          \"source\": \"doc:20260902-70110-M2\",\n          \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"\n        }\n      ],\n      \"confidence\": \"high\"\n    }\n  ],\n  \"avoid_levers\": [],\n  \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"cash_need\": {\n    \"value\": \"weak\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260902-70110-M2\",\n        \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"hedged_inputs\": [],\n  \"uninformed_owner\": {\n    \"value\": true,\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260824-70110-M1\",\n        \"quote\": \"he asked where we get our index figures from - he works from his own spreadsheet, last updated two years ago.\"\n      },\n      {\n        \"source\": \"doc:20260909-70110-M4\",\n        \"quote\": \"admitted he had not followed his material and energy prices closely since the 2022 peak\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"decision_maker\": {\n    \"value\": \"owner\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260824-70110-M1\",\n        \"quote\": \"Call with the owner of Gießerei Brandlhuber GmbH & Co. KG\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"past_goodwill_claim\": {\n    \"value\": true,\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260917-70110-M3\",\n        \"quote\": \"He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"volume_posture\": {\n    \"value\": \"accepts_below_cost\",\n    \"evidence\": [\n      {\n        \"source\": \"EV-2026-70110-310010\",\n        \"quote\": \"accepted below full cost to keep the volume\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}\n}\n",
+ "data": {
+  "supplier_id": "sup:70110",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "payment_days_short",
+    "stance": "requested",
+    "condition": "Payment within 10 days in return for a cash discount",
+    "evidence": [
+     {
+      "source": "doc:20260902-70110-M2",
+      "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": "weak",
+   "evidence": [
+    {
+     "source": "doc:20260902-70110-M2",
+     "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+    }
+   ],
+   "confidence": "high"
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260824-70110-M1",
+     "quote": "he asked where we get our index figures from - he works from his own spreadsheet, last updated two years ago."
+    },
+    {
+     "source": "doc:20260909-70110-M4",
+     "quote": "admitted he had not followed his material and energy prices closely since the 2022 peak"
+    }
+   ],
+   "confidence": "high"
+  },
+  "decision_maker": {
+   "value": "owner",
+   "evidence": [
+    {
+     "source": "doc:20260824-70110-M1",
+     "quote": "Call with the owner of Gießerei Brandlhuber GmbH & Co. KG"
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260917-70110-M3",
+     "quote": "He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return."
+    }
+   ],
+   "confidence": "high"
+  },
+  "volume_posture": {
+   "value": "accepts_below_cost",
+   "evidence": [
+    {
+     "source": "EV-2026-70110-310010",
+     "quote": "accepted below full cost to keep the volume"
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 57.6
+}

@@ -1,0 +1,154 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70130\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [{\"lever\": \"payment_days_short\", \"stance\": \"requested\", \"condition\": \"within 10 days against a cash discount\", \"evidence\": [{\"source\": \"doc:20260321-70130-M5\", \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"}, {\"source\": \"doc:20260607-70130-M2\", \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"}, {\"source\": \"doc:20260802-70130-M1\", \"quote\": \"he asked twice whether we could pay earlier\"}, {\"source\": \"quote:7300051\", \"quote\": \"Remarks: Payment within 10 days requested.\"}, {\"source\": \"quote:7300078\", \"quote\": \"Remarks: Payment within 10 days requested.\"}], \"confidence\": \"high\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": false, \"evidence\": [{\"source\": \"doc:20260602-70130-M4\", \"quote\": \"half the shop floor was idle, two shifts are on short hours\"}], \"confidence\": \"high\"}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": \"strong\", \"evidence\": [{\"source\": \"doc:20260802-70130-M1\", \"quote\": \"he asked twice whether we could pay earlier and said the bank is watching every month.\"}, {\"source\": \"doc:20260602-70130-M4\", \"quote\": \"half the shop floor was idle, two shifts are on short hours, and the MD spoke mostly about cash and the banks.\"}], \"confidence\": \"high\"}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"sales_director\", \"evidence\": [{\"source\": \"doc:20260911-70130-M3\", \"quote\": \"The sales director of Gießerei Wimbacher GmbH said they are reviewing small accounts and will focus on customers with volume.\"}, {\"source\": \"doc:20260322-70130-M6\", \"quote\": \"The sales director of Gießerei Wimbacher GmbH said they are reviewing small accounts and will focus on customers with volume.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"accepts_below_cost\", \"evidence\": [{\"source\": \"EV-2026-70130-310011\", \"quote\": \"Note: accepted below full cost to keep the volume\"}, {\"source\": \"EV-2025-70130-310011\", \"quote\": \"Note: accepted below full cost to keep the volume\"}, {\"source\": \"EV-2024-70130-310011\", \"quote\": \"Note: accepted below full cost to keep the volume\"}, {\"source\": \"EV-2023-70130-310011\", \"quote\": \"Note: accepted below full cost to keep the volume\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260802-70130-M1\", \"quote\": \"I cannot sign anything that lowers our margin now.\"}], \"confidence\": \"high\"}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70130",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "payment_days_short",
+    "stance": "requested",
+    "condition": "within 10 days against a cash discount",
+    "evidence": [
+     {
+      "source": "doc:20260321-70130-M5",
+      "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+     },
+     {
+      "source": "doc:20260607-70130-M2",
+      "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+     },
+     {
+      "source": "doc:20260802-70130-M1",
+      "quote": "he asked twice whether we could pay earlier"
+     },
+     {
+      "source": "quote:7300051",
+      "quote": "Remarks: Payment within 10 days requested."
+     },
+     {
+      "source": "quote:7300078",
+      "quote": "Remarks: Payment within 10 days requested."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": false,
+   "evidence": [
+    {
+     "source": "doc:20260602-70130-M4",
+     "quote": "half the shop floor was idle, two shifts are on short hours"
+    }
+   ],
+   "confidence": "high"
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": "strong",
+   "evidence": [
+    {
+     "source": "doc:20260802-70130-M1",
+     "quote": "he asked twice whether we could pay earlier and said the bank is watching every month."
+    },
+    {
+     "source": "doc:20260602-70130-M4",
+     "quote": "half the shop floor was idle, two shifts are on short hours, and the MD spoke mostly about cash and the banks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "sales_director",
+   "evidence": [
+    {
+     "source": "doc:20260911-70130-M3",
+     "quote": "The sales director of Gießerei Wimbacher GmbH said they are reviewing small accounts and will focus on customers with volume."
+    },
+    {
+     "source": "doc:20260322-70130-M6",
+     "quote": "The sales director of Gießerei Wimbacher GmbH said they are reviewing small accounts and will focus on customers with volume."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "accepts_below_cost",
+   "evidence": [
+    {
+     "source": "EV-2026-70130-310011",
+     "quote": "Note: accepted below full cost to keep the volume"
+    },
+    {
+     "source": "EV-2025-70130-310011",
+     "quote": "Note: accepted below full cost to keep the volume"
+    },
+    {
+     "source": "EV-2024-70130-310011",
+     "quote": "Note: accepted below full cost to keep the volume"
+    },
+    {
+     "source": "EV-2023-70130-310011",
+     "quote": "Note: accepted below full cost to keep the volume"
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260802-70130-M1",
+     "quote": "I cannot sign anything that lowers our margin now."
+    }
+   ],
+   "confidence": "high"
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 133.7
+}

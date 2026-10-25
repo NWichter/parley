@@ -1,0 +1,18 @@
+{
+ "choices": {
+  "decision_maker": {
+   "choice": "A",
+   "reason": "The sales director appears in the most recent meeting note. Calling the managing director the owner relies on a news item, which this field excludes."
+  }
+ },
+ "labels": {
+  "decision_maker": {
+   "A": "sales_director",
+   "B": "owner"
+  }
+ },
+ "usage": {
+  "in": 5818,
+  "out": 546
+ }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 64" role="img" aria-label="Parley">
+  <rect width="64" height="64" fill="#16191d"/>
+  <path d="M13 29V13h16" fill="none" stroke="#fbfaf7" stroke-width="6" stroke-linecap="square"/>
+  <path d="M51 35v16H35" fill="none" stroke="#fbfaf7" stroke-width="6" stroke-linecap="square"/>
+  <rect x="25" y="25" width="14" height="14" fill="#f2541b"/>
+  <text x="80" y="55" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-weight="700" font-size="68" letter-spacing="1" fill="#16191d" textLength="112" lengthAdjust="spacingAndGlyphs">PARLEY</text>
+</svg>

@@ -1,0 +1,130 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70640\", \"approval_threshold_pct\": {\"value\": 2, \"evidence\": [{\"source\": \"doc:20260228-70640-M3\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}, {\"source\": \"doc:20260512-70640-M2\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"approval_cycle\": {\"value\": \"pricing committee, every two weeks\", \"evidence\": [{\"source\": \"doc:20260228-70640-M3\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}, {\"source\": \"doc:20260512-70640-M2\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"approval_cycle_days\": {\"value\": 14, \"evidence\": [{\"source\": \"doc:20260228-70640-M3\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}, {\"source\": \"doc:20260512-70640-M2\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"preferred_levers\": [], \"avoid_levers\": [], \"capacity_tight\": {\"value\": false, \"evidence\": [{\"source\": \"doc:20260201-70640-M5\", \"quote\": \"they could take additional parts at short notice; the second shift has been on hold since spring.\"}, {\"source\": \"doc:20260715-70640-M4\", \"quote\": \"they could take additional parts at short notice; the second shift has been on hold since spring.\"}], \"confidence\": \"high\"}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"kam\", \"evidence\": [{\"source\": \"doc:20260512-70640-M2\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}, {\"source\": \"doc:20260228-70640-M3\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260819-70640-M1\", \"quote\": \"The sales director of Kugellager-Vertrieb Inntal GmbH said they are reviewing small accounts and will focus on customers with volume.\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70640",
+  "approval_threshold_pct": {
+   "value": 2,
+   "evidence": [
+    {
+     "source": "doc:20260228-70640-M3",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    },
+    {
+     "source": "doc:20260512-70640-M2",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle": {
+   "value": "pricing committee, every two weeks",
+   "evidence": [
+    {
+     "source": "doc:20260228-70640-M3",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    },
+    {
+     "source": "doc:20260512-70640-M2",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle_days": {
+   "value": 14,
+   "evidence": [
+    {
+     "source": "doc:20260228-70640-M3",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    },
+    {
+     "source": "doc:20260512-70640-M2",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "preferred_levers": [],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": false,
+   "evidence": [
+    {
+     "source": "doc:20260201-70640-M5",
+     "quote": "they could take additional parts at short notice; the second shift has been on hold since spring."
+    },
+    {
+     "source": "doc:20260715-70640-M4",
+     "quote": "they could take additional parts at short notice; the second shift has been on hold since spring."
+    }
+   ],
+   "confidence": "high"
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "kam",
+   "evidence": [
+    {
+     "source": "doc:20260512-70640-M2",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    },
+    {
+     "source": "doc:20260228-70640-M3",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260819-70640-M1",
+     "quote": "The sales director of Kugellager-Vertrieb Inntal GmbH said they are reviewing small accounts and will focus on customers with volume."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 111.9
+}

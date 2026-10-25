@@ -1,0 +1,937 @@
+{
+ "_meta": {
+  "data": "package-v1+release-1866",
+  "inferred": "Fields listed in `inferred` are model judgements, not recorded facts: patience everywhere, cash_short where only a payment preference supports it."
+ },
+ "sup:70110": {
+  "summary": "The family owner of Gießerei Brandlhuber, a family-owned foundry founded in 1921 with 185 staff and EUR 25.8 M turnover, negotiates personally and has visited twice to remind us that in 2022 they kept supplying at the old price for a quarter. He is asking for +9.5% on Volute casing HN 50-200 (part:310010), from EUR 126.53 to EUR 138.55 from 01 Nov 2026, and wants faster payment. His cost basis looks weak: he has not followed material and energy prices closely since 2022, works from a spreadsheet last updated two years ago, and his office manager does the costing. Approach him respectfully and as a partner, review the index figures with him transparently rather than using them against him, and offer faster payment or volume security in exchange for a moderate settlement, remembering he has accepted prices below full cost to keep the volume in past rounds.",
+  "patience": "low",
+  "levers": [
+   "faster payment (10 days) against a cash discount",
+   "binding volume / keeping the volume",
+   "explicit recognition of the 2022 old-price supply as partnership",
+   "jointly reviewing index sources and costing with him",
+   "longer contract or planning security"
+  ],
+  "avoid": [
+   "dismissing or ignoring his 2022 goodwill gesture and partnership expectation",
+   "embarrassing him over his outdated spreadsheet or lack of cost tracking",
+   "slow or delayed payment",
+   "threatening to move volume away",
+   "dragging the negotiation out with repeated rounds"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience",
+   "cash_short"
+  ]
+ },
+ "sup:70120": {
+  "summary": "Eisengießerei Velkenreith GmbH is a family-owned foundry founded in 1936 with 240 staff and 34.2 M EUR turnover. It has a 38.5% equity ratio, a stable credit index of 239 and VDA 6.3 grade A. The owner is personally involved: at the July 2026 visit the owner reminded us that in 2022 they kept supplying at the old price for a quarter and said they expect partnership in return. Day-to-day sales contact has moved to a new inside-sales colleague. Velkenreith is now competing with Tarsevi Döküm for the HX 80-200 volute casing (4200 pc/yr, EN-GJS-500-7, SOP March 2027). It has repeatedly accepted prices below full cost to keep volume, so approach it as a long-standing partner: acknowledge its past goodwill and offer volume security rather than simply pressing on price.",
+  "patience": "medium",
+  "levers": [
+   "binding annual volume for the HX series",
+   "longer contract term covering the HX series ramp-up",
+   "explicit recognition of the 2022 goodwill (supplying at the old price for a quarter)",
+   "owner-level partnership gesture"
+  ],
+  "avoid": [
+   "ignoring or downplaying the 2022 goodwill the owner raised",
+   "treating the relationship as purely transactional after repeated below-full-cost settlements",
+   "pushing for another price that is below full cost without anything in return"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70130": {
+  "summary": "Expect the managing director, who is focused on cash and the banks, and possibly the sales director. Gießerei Wimbacher is a family-owned foundry with about 120 staff and 19.3 M EUR turnover. It is under clear liquidity pressure: half the shop floor was idle at our June visit, two shifts are on short hours, and the bank is watching every month. It wants faster payment from us, offers a cash discount in return, and is concentrating on customers with volume. In past renewals it repeatedly settled below its ask and below full cost to keep volume, but the MD now says they cannot sign anything that lowers margin. Approach this as a cash-and-volume trade rather than a price squeeze, and keep supplier-risk exposure in mind.",
+  "patience": "low",
+  "levers": [
+   "faster payment (invoices within 10 days) in exchange for a cash discount",
+   "binding volume commitments",
+   "positioning us as a volume account rather than a small one",
+   "longer contract to secure volume"
+  ],
+  "avoid": [
+   "demands that lower its margin",
+   "pushing for another below-cost settlement",
+   "slow or delayed payment",
+   "small or uncommitted volumes"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70140": {
+  "summary": "The arena mails are signed by Marek Lis, Export Manager of Odlewnia Kalwisz, a 210-staff Polish foundry with about 9.8 M EUR turnover. Since September 2026 it has been in a restructuring programme with its banks after two loss-making years. The company has asked twice to be paid earlier, says the bank is watching every month, and has offered a cash discount for payment within 10 days. Our side also has a red quality scorecard (63.5 % on-time delivery, 2376 ppm) and needs a binding improvement plan for part:310020. Offer faster payment in exchange for the cash discount and firm delivery and quality commitments, rather than pushing for direct price cuts that reduce its margin.",
+  "patience": "low",
+  "levers": [
+   "faster payment (invoices within 10 days) in exchange for a cash discount",
+   "early-payment terms linked to a binding delivery and quality improvement plan for part:310020"
+  ],
+  "avoid": [
+   "demands that lower its margin now ('I cannot sign anything that lowers our margin now.')",
+   "late January call-offs: the plant is closed 23 Dec to 6 Jan and wants January call-offs by 10 Dec"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70150": {
+  "summary": "Tarsevi Döküm is a family-owned Turkish foundry (380 staff, about 15.8 M EUR turnover, 30.7% equity ratio). Previous talks involved the managing director and the owner, who are focused on cash and the banks; who joins this negotiation is not recorded. After two loss-making years the company has started a restructuring programme with its banks: half the shop floor was idle, two shifts are on short hours and the second shift has been on hold since spring. It wants faster payment of invoices and offers a cash discount, and it has spare capacity for additional parts at short notice. Approach with liquidity and volume offers rather than straight price cuts: trade quicker payment and extra or binding volume for price, and take up the owner's offer of an open-book review of hourly rates and material.",
+  "patience": "low",
+  "levers": [
+   "faster payment (they asked for payment within 10 days in return for a cash discount)",
+   "additional parts or volume to fill idle capacity, which they can take at short notice",
+   "binding volume commitments that support utilisation and reassure the banks",
+   "open-book walkthrough of their calculation (hourly rates and material), which the owner offered",
+   "predictability and stability towards their banks during restructuring"
+  ],
+  "avoid": [
+   "demands that lower their margin now ('I cannot sign anything that lowers our margin now')",
+   "pushing for longer payment terms or delaying payments",
+   "questioning their stability or ability to deliver in a way that adds pressure on their bank situation",
+   "hard unilateral price-cut demands without a compensating cash or volume benefit"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70160": {
+  "summary": "Meridune Precision Castings is a privately owned castings maker founded in 2003, with 900 staff, about 39.3 M EUR turnover and a 25.3% equity ratio. A new managing director for sales was appointed in September 2026 and may join the talks; the supplied records contain no named interaction with the new appointee. In every annual round since 2022 Meridune has settled below its ask and accepted prices below full cost to keep the volume. In July 2026 it asked us to pay within 10 days in exchange for a cash discount, which points to a liquidity need. Approach it by trading faster payment and secure volume for price, and do not push prices further below cost, because that could put supply stability at risk.",
+  "patience": "low",
+  "levers": [
+   "faster payment (within 10 days) in exchange for a cash discount",
+   "binding or secured volume commitment",
+   "early, reliable call-offs, especially around the 23 Dec–6 Jan plant shutdown"
+  ],
+  "avoid": [
+   "late call-offs for January (requested by 10 December)",
+   "slow or delayed payment of invoices",
+   "pressing for further cuts on prices it has already accepted below full cost"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience",
+   "cash_short"
+  ]
+ },
+ "sup:70170": {
+  "summary": "The material names no contact person. The supplier is Slévárna Vrbenský, a family-owned Czech foundry founded in 1997 with 150 staff and about 8.3 M EUR turnover. In April 2026 it commissioned a new automatic moulding line that doubles its stainless casting capacity, but the start-up ran over budget and its house bank cut the credit line in October 2026. It is now asking customers to pay within 10 days from November, and in February 2026 it offered a cash discount for 10-day payment. It calls Hollerau an important reference customer and has settled below its opening ask in each of the last three renewals, so a constructive approach should work: trade faster payment for price and cash-discount concessions, and press for concrete corrective actions on the open porosity issue.",
+  "patience": "low",
+  "levers": [
+   "faster payment (10 days) in exchange for a cash discount or price concession",
+   "binding volume to help load the new moulding line's doubled stainless capacity",
+   "Hollerau's status as an important reference customer",
+   "a firm commitment and timeline for corrective actions on the porosity issue"
+  ],
+  "avoid": [
+   "demanding longer payment terms or paying late while their credit line is tight",
+   "pushing measures that add to their cash strain without anything in return"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70180": {
+  "summary": "Feinguss Allgäu-Reiter GmbH is a family-owned investment-casting supplier founded in 1962, with 160 staff and €24.1M turnover. The owner visits personally and may join the talks. Its finances look stable, with a 25% equity ratio and a credit index unchanged at 244 over 12 months, and the material shows no acute distress. At the 2026-09-24 visit the owner reminded us that in 2022 they kept supplying at the old price for a quarter and said they expect partnership in return, so the approach should explicitly acknowledge that history. Recent renewals show they have repeatedly accepted settlements at or below their ask, including price reductions in 2023 and 2025.",
+  "patience": "medium",
+  "levers": [
+   "explicit recognition of their 2022 gesture of holding the old price for a quarter",
+   "framing the deal as a reciprocal long-term partnership",
+   "personal, owner-level engagement"
+  ],
+  "avoid": [
+   "ignoring or dismissing the 2022 price hold",
+   "a purely transactional approach that disregards the owner's expectation of partnership"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70190": {
+  "summary": "Gießerei Pfaffenreuth GmbH is a family-owned foundry founded in 1949, with 95 staff and about 14.8 M EUR turnover. Since 1 October 2025 our sales contact there has been a new inside-sales colleague. A heating manufacturer has moved its cast housings to an Eastern European foundry, costing it about a fifth of its turnover from January 2027, and its bank is watching its liquidity closely. It asks us to pay invoices within 10 days from November and to confirm firm call-offs for Q1. Approach it constructively and offer faster payment and firm volume in exchange for price concessions, bearing in mind that its electricity is fixed until December 2028 and that past renewals have settled at 0% or below.",
+  "patience": "low",
+  "levers": [
+   "payment of invoices within 10 days from November",
+   "firm call-offs for Q1 2027",
+   "binding volume commitments to help replace the lost heating-industry turnover"
+  ],
+  "avoid": [
+   "delaying payments or stretching payment terms",
+   "vague or non-binding call-offs",
+   "arguing price cuts from current electricity market prices, which it calls 'not our reality' until December 2028"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70210": {
+  "summary": "Zerspanung Dralveck GmbH is a 22-person, founder-owned machining shop (turnover band 2-5 M EUR, equity ratio 43.6%, stable credit index), which converted from the sole trader e.K. to a GmbH in 2024. The owner comes to the table himself but admitted he has not followed his material and energy prices closely since the 2022 peak; his office manager does the costing. The shop has spare capacity, with the second shift on hold since spring, and calls Hollerau an important reference customer. It is invited to quote the HX pump shaft (4,200 pc/yr, 1.4404, SOP March 2027) and has complained about overdue invoices. Approach it with volume and reliable, on-time payment rather than hard pressure on terms. Its history shows it usually settles well below its opening ask.",
+  "patience": "low",
+  "levers": [
+   "paying on time or faster (it has complained about overdue invoices)",
+   "binding volume such as the HX pump shaft, 4,200 pc/yr, to fill idle capacity (second shift on hold)",
+   "additional parts at short notice",
+   "longer contract or multi-year volume commitment",
+   "acknowledging it as a reference customer relationship"
+  ],
+  "avoid": [
+   "further late payments or attempts to stretch payment terms (it threatened to 'review our conditions')",
+   "ignoring its earlier complaint about overdue invoices"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70220": {
+  "summary": "CNC-Technik Obermaier & Huber GmbH is a founder-owned GmbH with 35 staff and turnover of 2-5 M EUR. Since 1 October our sales contact has been a new colleague in inside sales. The company has a backlog of more than six months, has stopped accepting new projects, and in September 2026 said it cannot confirm our full forecast for part:320030. It will prioritise customers with firm, long-term commitments. They call Hollerau an important reference customer, and in May 2026 they asked for 10-day payment in exchange for a cash discount. The best approach is to secure capacity with binding, longer-term volume and fast payment rather than repeat the hard price line: their last two renewal requests (3.1% and 3.5%) were settled at 0.0%.",
+  "patience": "high",
+  "levers": [
+   "firm, long-term volume commitment for part:320030",
+   "longer contract term",
+   "binding forecast instead of a non-binding one",
+   "payment within 10 days in exchange for the offered cash discount",
+   "emphasising Hollerau's role as an important reference customer"
+  ],
+  "avoid": [
+   "expecting full forecast confirmation without a firm commitment from us",
+   "short-term or non-binding volume offers",
+   "pushing for another zero settlement or a price cut without anything in return, given their capacity is fully booked",
+   "slow payment"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70230": {
+  "summary": "The owner of this 14-person family KG has been our counterpart in person and by phone. The owner admits to not having tracked material and energy prices since the 2022 peak; the office manager does the costing. The press note about a new sales managing director gives no detail on that person's role in this negotiation. The supplier wants a 7.0 % increase on the coupling hub (part:320060), from EUR 16.30 to EUR 17.44 per pc from 01 Nov 2026, citing the April 2026 wage increase and higher energy and material costs. It is also pressing us to pay invoices on time, ideally within 10 days in exchange for a cash discount. Approach: take up the owner's offer to walk through the calculation and challenge the material and energy assumptions, which may still reflect the 2022 peak. Recognise a possible wage element, and offer fast payment in exchange for dropping or sharply reducing the increase. In the last two renewals it asked for 1.3–4.2 % and settled at 0.0–0.3 %; in the renewal before that it accepted cuts of 3.0–4.3 %.",
+  "patience": "low",
+  "levers": [
+   "faster payment (within 10 days) against cash discount instead of a price increase",
+   "reliable on-time payment of overdue invoices",
+   "open-book review of their calculation (hourly rates and material), offered by the owner",
+   "checking material and energy cost assumptions against current prices, since the owner has not followed them since the 2022 peak"
+  ],
+  "avoid": [
+   "paying invoices late or outside the agreed payment terms"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience",
+   "cash_short"
+  ]
+ },
+ "sup:70240": {
+  "summary": "Strojírna Hrvelec s.r.o. is a founder-owned s.r.o. founded in 1999, with 60 staff and about EUR 2.8 M turnover; the material does not name the person we will negotiate with. It reports a backlog of more than six months, is fully booked into next year and has stopped accepting new projects, so its bargaining position is strong. It will confirm additional volumes only against a binding 12-month commitment. In past renewals it settled at or below its asks (0.0, 0.0, then -3.1 against an ask of -1.0), but with full capacity it has little reason to concede now, so offer commitment rather than push hard on price.",
+  "patience": "high",
+  "levers": [
+   "binding 12-month volume commitment",
+   "secure capacity allocation in exchange for committed volumes"
+  ],
+  "avoid": [
+   "requesting additional volumes without a binding commitment",
+   "pressing for new projects or rush capacity while it is fully booked",
+   "aggressive price-cut demands that assume it needs our volume"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70250": {
+  "summary": "Drehteile Fuchsreiter GmbH is a small, founder-owned turned-parts shop. It has 18 staff, a 0-2 M EUR turnover band, a 19.6% equity ratio, a stable credit index of 228 and VDA 6.3 grade A. Its machines are under-used: it advertises free capacity, has paused hiring and has had its second shift on hold since spring. It also seems short of liquidity: it complained in August that several of our invoices are overdue again, and in September asked for payment within 10 days in exchange for a cash discount. It wants extra volume, reliable and faster payment, and it values Hollerau as an important reference customer. Approach it constructively: offer punctual or early payment and additional parts in return for price concessions. It has settled below its asking position in each of the last three renewals.",
+  "patience": "low",
+  "levers": [
+   "faster payment (10 days against cash discount)",
+   "strict adherence to agreed payment terms / clearing overdue invoices",
+   "additional volume to fill free capacity and restart the second shift",
+   "binding volume commitment",
+   "longer contract",
+   "continued reference-customer relationship"
+  ],
+  "avoid": [
+   "further late or overdue payments",
+   "dragging out the negotiation while invoices remain unpaid",
+   "ignoring their complaint about payment terms (they threatened to review their conditions)",
+   "late January call-offs (plant closed 23 Dec-6 Jan, call-offs needed by 10 Dec)"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70260": {
+  "summary": "You will likely deal with the owner of Mechanik Tauvelt GmbH, a family-owned firm founded in 1979 with 45 staff and 5-10 M EUR turnover. The sales director also plays a role. The company is reviewing small accounts to focus on customers with volume, and it recently asked us to pay invoices within 10 days in exchange for a cash discount. The register shows no financial stress (credit index stable at 240, equity ratio 38.8%), so the payment request suggests a liquidity preference rather than distress. The owner wants partnership, points to 2022, when they kept supplying at the old price for a quarter, and has offered to walk us through their calculation. Approach openly and cooperatively, accept the calculation review, and trade faster payment and volume commitment against price, given past renewals settled below what they asked.",
+  "patience": "medium",
+  "levers": [
+   "faster payment (10 days) in exchange for cash discount",
+   "binding volume commitment",
+   "accepting the owner's offer of an open-book calculation review (hourly rates and material)",
+   "explicitly acknowledging their 2022 goodwill and framing the deal as a partnership",
+   "longer contract"
+  ],
+  "avoid": [
+   "treating them as a small, low-volume account",
+   "ignoring or dismissing the 2022 price-hold goodwill",
+   "hard-line price demands without engaging with their calculation",
+   "late January call-offs around their 23 Dec–6 Jan shutdown"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience",
+   "cash_short"
+  ]
+ },
+ "sup:70270": {
+  "summary": "The counterpart is the founder-owner of Obrábění Kraslin s.r.o., a 30-person Czech machining shop with 2-5 M EUR turnover. He prices from his own spreadsheet, last updated two years ago, and has asked where our index figures come from. The company lost an automotive order and is putting its turning shop on short-time work from November. The owner is looking for new customers in Germany, and the sales director says they will focus on customers with volume, so what they want from us is volume and a partnership in return for keeping our 2022 prices for a quarter. Approach it as a partnership offer: bring transparent index data and binding volume for the turning shop in exchange for price stability, and acknowledge the 2022 gesture.",
+  "patience": "low",
+  "levers": [
+   "binding volume commitments, especially work for the turning shop",
+   "additional or new part numbers to fill capacity",
+   "longer contract term with planned call-offs",
+   "sharing our index sources and figures transparently",
+   "explicitly acknowledging the 2022 old-price quarter as a partnership gesture"
+  ],
+  "avoid": [
+   "treating them as a small, low-volume account",
+   "ignoring or downplaying their 2022 price support and expectation of partnership",
+   "using opaque index figures without explaining the source",
+   "openly exploiting the short-time work situation to force price cuts"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70280": {
+  "summary": "Wälzhammer Präzision is a family-owned machining GmbH (founded 1973, 55 staff, about 6.4 M EUR turnover). Previous price talks involved its owner and managing director, and day-to-day sales contact has moved to a new inside-sales colleague. The company is under financial strain: it is negotiating with its banks after two weak years, has put part of machining on short-time work, has the second shift on hold, and its credit index worsened from 230 to 302. It wants faster payment, invoices paid on time and more volume, and it will not accept margin cuts. The owner has offered to walk us through the cost calculation, so approach with an open-book discussion and trade payment speed and extra parts for price stability rather than pushing for reductions.",
+  "patience": "low",
+  "levers": [
+   "faster payment / earlier payment terms",
+   "strict adherence to agreed payment terms, clearing overdue invoices",
+   "additional volume at short notice (free capacity, second shift on hold)",
+   "binding volume commitments to fill capacity",
+   "open-book review of their calculation (hourly rates and material) offered by the owner"
+  ],
+  "avoid": [
+   "demanding price reductions that lower their margin",
+   "further late payments of invoices",
+   "aggressive pressure that ignores their bank situation"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70290": {
+  "summary": "Feinmechanik Rottaler GmbH is a founder-owned precision turning shop with 25 staff, ISO 9001 certification, a turnover band of 2-5 M EUR, a 21.7% equity ratio and a stable credit index of 231. Since March 2026 it has had a multi-year hydraulics contract that will occupy most of its turning capacity from the summer, and it reports very strong order intake. It wants a binding 12-month commitment before confirming additional volumes and has asked us to pay invoices within 10 days in return for a cash discount. Approach it as a capacity-constrained supplier that currently holds leverage: offer commitment and fast payment in exchange for price and capacity, keeping in mind that past renewals settled 1.7 to 3.7 points below its ask.",
+  "patience": "low",
+  "levers": [
+   "faster payment (10-day terms against a cash discount)",
+   "binding 12-month volume commitment",
+   "securing reserved capacity before the hydraulics contract fills its turning capacity"
+  ],
+  "avoid": [
+   "requesting additional volumes without a binding commitment",
+   "slow or extended payment terms",
+   "drawn-out negotiation while its capacity is being booked by other customers"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience",
+   "cash_short"
+  ]
+ },
+ "sup:70295": {
+  "summary": "Drehzentrum Ilzauer GmbH is a founder-owned turning shop with 20 staff and 2-5 M EUR turnover. The owner negotiates in person but admits to not having tracked material and energy prices closely since 2022; the office manager does the costing. The company has idle capacity: it is advertising for new customers, has paused hiring and has had its second shift on hold since spring. It has asked us to pay within 10 days in exchange for a cash discount and has complained about our overdue invoices. Approach it as a partner: offer prompt payment and extra volume in exchange for price concessions, and expect it to settle well below its ask, as it usually has.",
+  "patience": "low",
+  "levers": [
+   "faster payment, e.g. 10 days against a cash discount",
+   "paying strictly on the agreed terms and clearing overdue invoices",
+   "additional parts or volume to fill its free capacity and idle second shift",
+   "binding volume commitment",
+   "its status as a supplier to Hollerau, which it calls an important reference customer"
+  ],
+  "avoid": [
+   "paying invoices late or letting them go overdue again",
+   "pushing for longer payment terms",
+   "price arguments the costing cannot follow (the office manager does the costing, so an open calculation helps)"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience",
+   "cash_short"
+  ]
+ },
+ "sup:70310": {
+  "summary": "Blechtechnik Aichbauer GmbH is a family-owned sheet-metal fabricator founded in 1982, with 70 staff, about 7.5 M EUR turnover, a 24.1 % equity ratio, a stable credit index of 232 and only ISO 9001 certification (VDA 6.3 grade C); the material does not name the individuals we will face. It is under quality and delivery pressure from us: its Q3 2026 scorecard is red (63.0 % on-time delivery, 4118 ppm), and we have demanded a binding improvement plan for base frame part:330010 and will raise cost recovery. It wants faster cash: on 2026-09-11 it asked for invoice payment within 10 days in exchange for a cash discount, after accepting 0.0 % in the last two renewals despite asking for 3.6 % and 2.2 %. Approach: link a faster-payment/cash-discount arrangement to firm delivery and quality commitments and the cost-recovery discussion, rather than conceding on price.",
+  "patience": "medium",
+  "levers": [
+   "faster payment (10-day terms) in exchange for a cash discount",
+   "tying payment-term improvements to a binding delivery and quality improvement plan for part:330010"
+  ],
+  "avoid": [
+   "delaying or stretching payments, given its request for faster payment"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience",
+   "cash_short"
+  ]
+ },
+ "sup:70320": {
+  "summary": "Stahlbau Ganghofer-Lenz GmbH is a family-owned steel fabricator founded in 1968, with 110 staff and €11.3M turnover. The material names no individual negotiator. Its finances look stable on paper (equity ratio 25.6%, credit index unchanged at 251, VDA 6.3 grade A, newly ISO 14001 certified), but in June 2026 it asked us to pay invoices within 10 days in exchange for a cash discount, which points to an interest in liquidity. In the last three renewals it settled 1.2 to 3.1 points below its opening ask, so it has been willing to concede. Lead with an offer of faster payment against a price or discount concession, and keep our ordering predictable around its plant shutdown.",
+  "patience": "medium",
+  "levers": [
+   "faster payment (10-day terms) in exchange for a cash discount or price concession",
+   "early, predictable call-offs, especially before the 23 Dec - 6 Jan shutdown (January call-offs by 10 Dec)",
+   "acknowledging its quality record (VDA 6.3 grade A, ISO 9001/14001)"
+  ],
+  "avoid": [
+   "late or extended payment terms",
+   "late call-offs that clash with the holiday shutdown"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience",
+   "cash_short"
+  ]
+ },
+ "sup:70330": {
+  "summary": "Lasertechnik Varnoszeg Kft. is a privately owned Hungarian laser-processing firm (founded 2006, 90 staff, about 3.9 M EUR turnover, 35.3% equity ratio, credit index stable at 248, VDA 6.3 grade B). Our counterpart is their sales team; the material names no individual. The firm has spare capacity, with its second shift on hold since spring, and has asked us to pay invoices within 10 days in exchange for a cash discount. Approach it as a supplier that wants volume and liquidity: offer faster payment and extra parts in return for price concessions. In each of the last three renewals it settled roughly 3 to 4 points below its opening ask.",
+  "patience": "low",
+  "levers": [
+   "faster payment (within 10 days) in exchange for a cash discount",
+   "additional volume to fill idle capacity (second shift on hold)",
+   "short-notice extra parts",
+   "binding volume commitments"
+  ],
+  "avoid": [
+   "placing January call-offs after 10 December (plant closed 23 Dec to 6 Jan)",
+   "pushing for extended payment terms"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience",
+   "cash_short"
+  ]
+ },
+ "sup:70340": {
+  "summary": "The owner of Metallbau Steinfelder KG leads price talks himself. This is a family-run KG founded in 1977 with about 40 staff, turnover of 2-5 M EUR, a 33% equity ratio and a credit index stable at 230. Since October 2025 a new inside-sales colleague has been the day-to-day sales contact. The company has bought its 2027 steel sheet and coil forward at fixed prices, so steel market moves will not reach its prices before 2028. It calls Hollerau an important reference customer, and the owner has offered to walk us through his calculation (hourly rates and material) to help settle prices. Approach it openly and on a factual basis: take up the open-book offer, share our index sources (his own spreadsheet was last updated two years ago), and do not build 2027 steel arguments on index movements.",
+  "patience": "medium",
+  "levers": [
+   "accept the owner's offer to walk through the calculation (hourly rates and material)",
+   "share transparent, current index sources",
+   "their wish to keep Hollerau as an important reference customer"
+  ],
+  "avoid": [
+   "arguing 2027 steel price changes from steel index movements, since their steel is fixed until 2028",
+   "presenting index figures without explaining where they come from",
+   "dismissing the owner's own calculation"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70350": {
+  "summary": "Across the desk is the managing director of Oberflächentechnik Weißacher GmbH, a founder-owned surface-treatment shop with 30 staff, 2-5 M EUR turnover and a 24.9% equity ratio. It is under clear liquidity pressure: its credit index worsened from 248 to 343, a credit agency downgraded it on 2026-09-04 after delayed payments to its own suppliers, and the MD says the bank is watching every month. Several of their invoices to us were overdue in August 2026. They want faster payment (within 10 days, offering a cash discount) and will not sign anything that lowers their margin, so open by clearing overdue invoices and offering faster payment rather than pushing for price cuts.",
+  "patience": "low",
+  "levers": [
+   "settle overdue invoices immediately",
+   "payment within 10 days in exchange for their offered cash discount",
+   "strict adherence to agreed payment terms",
+   "price stability instead of reductions (recent renewals settled at 0.0 despite their increase requests)"
+  ],
+  "avoid": [
+   "demanding price reductions or anything that lowers their margin",
+   "further late payment of their invoices",
+   "extending payment terms"
+  ],
+  "cash_short": true,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70360": {
+  "summary": "Kantteile Strasser GmbH is a founder-owned GmbH with about 25 staff and 2-5 M EUR turnover. The owner negotiates personally, using an own index spreadsheet last updated two years ago. The company has spare capacity: its second shift has been on hold since spring and sales say it could take more parts at short notice. It calls Hollerau an important reference customer and wants more volume from us. Approach it with open, sourced index figures and offer extra or committed volume in exchange for price stability. Its last two renewal asks (3.7% and 3.6%) both settled at 0.0%.",
+  "patience": "medium",
+  "levers": [
+   "additional or binding volume to fill idle capacity (second shift on hold since spring)",
+   "short-notice extra parts orders",
+   "continued status as an important reference customer",
+   "sharing our index sources and figures openly with the owner"
+  ],
+  "avoid": [
+   "using index figures without showing the source",
+   "treating the relationship as unimportant, given they value Hollerau as a reference customer"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70410": {
+  "summary": "Dichtungswerk Ravensteiner GmbH is a group-owned (Ravensteiner Holding AG) seal maker with 650 staff and EUR 151 M turnover. The arena mails are signed by Monika Zellner, Segment Manager; since 1 October 2025 our sales contact is a new inside-sales colleague, and their key account manager needs pricing-committee approval, every two weeks, for price changes above 2 %. The company is running at very high capacity: it is allocating standard mechanical seals in line with last year's call-offs, cannot confirm our full forecast for part:340010, and is running lead times longer than agreed. It wants firm, long-term commitments, specifically a binding 12-month commitment for additional volumes, so we should approach it as a supplier in a seller's market and trade commitment for capacity, delivery priority and price stability.",
+  "patience": "high",
+  "levers": [
+   "binding 12-month volume commitment",
+   "firm, long-term commitments / longer contract",
+   "reliable firm forecasts and call-offs (allocation is based on last year's call-offs)",
+   "keeping price changes within 2 % so no pricing-committee approval is needed"
+  ],
+  "avoid": [
+   "requesting extra volumes or full forecast confirmation without a binding commitment",
+   "price demands above 2 % that trigger the two-week pricing-committee cycle under time pressure",
+   "presenting non-binding, fluctuating forecasts while capacity is allocated"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70420": {
+  "summary": "Expect Gleitring-Systeme Kaltenbrunn AG's sales director, who led the August 2026 review. A key account manager handled the March 2026 review. The company looks stable: a 247 M EUR group AG with 35.7 % equity, an unchanged credit index of 162, VDA 6.3 grade A, and recently extended drinking-water approvals for cartridge seals. Head office has frozen all price reductions until December 2027, so a price cut is off the table. They have asked for increases every year (3.3 %, 2.2 %, then 1.3 %) and each time settled at 0.0. Approach them on non-price terms, where the sales director was open: payment terms and call-off flexibility. Allow for their pricing committee's two-week cycle on any price change above 2 %.",
+  "patience": "medium",
+  "levers": [
+   "payment terms",
+   "call-off flexibility"
+  ],
+  "avoid": [
+   "pushing for price reductions, which head office has frozen until December 2027",
+   "expecting quick decisions on price changes above 2 %, which need their pricing committee (meets every two weeks)"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70430": {
+  "summary": "Elasto-Dicht Hermannsdorfer is a family-owned seal maker founded in 1987, with 45 staff and about 22.9 M EUR turnover. Since 1 October 2025 our sales contact has been a new inside-sales colleague, but the owner and the sales director have taken part in price talks directly. The company is reviewing small accounts and wants to focus on customers with volume. The owner has offered to walk us through their calculation, so the best approach is to present the 25,000-kits-a-year single-source kit (EPDM O-ring sets, aramid casing gasket, lip seals) as a volume package and to negotiate prices on the basis of that open calculation.",
+  "patience": "medium",
+  "levers": [
+   "binding volume commitment (about 25,000 kits a year)",
+   "bundling the kit parts into one single-source award",
+   "accepting the owner's offer of an open-book review of hourly rates and material costs",
+   "positioning us as a volume customer rather than a small account"
+  ],
+  "avoid": [
+   "fragmented small orders that would make us look like a small account they are reviewing",
+   "rejecting their cost transparency offer and pushing flat price demands without discussing their calculation",
+   "bypassing the new inside-sales contact without reason"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70440": {
+  "summary": "Day-to-day contact is a new inside-sales colleague (since 1 October 2025) alongside their key account manager. Any price change above 2 % must go through a pricing committee that meets every two weeks. Kohlering-Technik Pirkheim is a family-owned GmbH (founded 1972, 140 staff, €35.2 M turnover, 24.5 % equity ratio, credit index stable at 147, VDA 6.3 grade A) and is currently allocating standard mechanical seals in line with last year's call-offs. It says standard items are not discounted and only multi-year volume agreements change prices. Approach it with a multi-year volume commitment rather than a discount request. Keep individual moves at or below 2 %, or plan the timeline around the committee cycle. Note that in past renewals its asks (1.1–4.8 %) ended at 0.0–2.1 %.",
+  "patience": "medium",
+  "levers": [
+   "multi-year volume agreement",
+   "binding volume commitment",
+   "longer contract term",
+   "keeping requested price changes within 2 % so they avoid pricing-committee approval",
+   "timing proposals to the two-weekly pricing-committee cycle",
+   "maintaining call-off levels, since allocation follows last year's call-offs"
+  ],
+  "avoid": [
+   "asking for discounts on standard items without a multi-year volume commitment",
+   "expecting quick decisions on price changes above 2 % (these need committee approval)"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70510": {
+  "summary": "We negotiate with the key account manager of Antriebstechnik Nordmark AG, a large, financially stable subsidiary of Nordmark Gruppe (EUR 1.38 bn turnover, 4,800 staff, credit index unchanged at 147, VDA 6.3 grade A). Citing copper and electronic component costs, it has announced a 6.5 % increase on Motor IE3 7.5 kW (part:350011), from EUR 348.32 to EUR 370.96 per pc from 01 January 2027. In the last two renewals (2024 and 2025) it opened at 3.5–4.7 % and settled at 1.2–1.4 % (in 2023 it accepted cuts of 2.6 %), so this ask is high against its own track record. Ask for evidence of the cost increase, anchor on past settlements, and aim at or below 2 %, which the key account manager can agree without the pricing committee that meets every two weeks.",
+  "patience": "high",
+  "levers": [
+   "a settlement at or below 2 %, which avoids the pricing committee and lets the key account manager decide",
+   "the last two settlements of 1.2–1.4 % against asks of 3.5–4.7 % as the reference point",
+   "a request for evidence of the copper and electronic component cost increase",
+   "placing January call-offs on time (by 10 December) to keep goodwill around the holiday shutdown"
+  ],
+  "avoid": [
+   "expecting a quick answer on any change above 2 %, since the pricing committee only meets every two weeks",
+   "late January call-offs during the 23 December to 6 January plant closure",
+   "arguing that the supplier needs cash, as nothing in the material supports this"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70520": {
+  "summary": "Vesmo Elektromotory a.s. is a long-established Czech motor maker in a group, with about 1,200 staff and EUR 192M turnover. It is financially stable (equity ratio 37.4%, credit index unchanged at 173, VDA 6.3 grade A). At the table are its key account manager and sales director, but any price change above 2% must go to a pricing committee that meets every two weeks. The company has its copper covered at fixed prices until March 2027 and says it is reviewing small accounts to focus on customers with volume. Approach it by offering volume commitment, keeping requested changes within the 2% threshold where possible, and treating copper market moves as irrelevant to its costs until March 2027.",
+  "patience": "medium",
+  "levers": [
+   "binding or higher volume commitment (they focus on customers with volume)",
+   "keeping price adjustments at or below 2% so they avoid pricing committee approval",
+   "planning negotiation timing around the two-weekly pricing committee"
+  ],
+  "avoid": [
+   "arguing with copper market prices before March 2027 ('not our reality')",
+   "presenting ourselves as a small or low-volume account",
+   "pushing for quick decisions on changes above 2% that need committee approval"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70530": {
+  "summary": "Selvbrunn Drive Systems GmbH is a large, financially stable group company (2,200 staff, EUR 602 M turnover, 31.7 % equity ratio, credit index unchanged at 157, VDA 6.3 grade A). Its sales director and key account manager are negotiating the renewal of framework agreement 4600070530 for the 7.5 kW IP55 frequency converter (part:350020), which expires on 31 December 2026. They want our expected volumes and will bring their offer to the meeting. Head office has frozen all price reductions until December 2027, and any price change above 2 % needs approval from a pricing committee that meets every two weeks, so aim for payment terms and call-off flexibility rather than a price cut, and allow time for internal approvals.",
+  "patience": "high",
+  "levers": [
+   "payment terms (sales director was open on these)",
+   "call-off flexibility",
+   "providing expected volumes / volume commitment for the new period",
+   "timing the talks around their two-weekly pricing committee",
+   "keeping any price movement within 2 % to avoid committee approval"
+  ],
+  "avoid": [
+   "pushing for price reductions against the head-office freeze until December 2027",
+   "demanding instant decisions on price changes above 2 %",
+   "late January call-offs around their holiday shutdown (23 Dec to 6 Jan, order by 10 Dec)"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70540": {
+  "summary": "On their side are a key account manager and a sales director at Konvertek, a financially stable mid-sized drive-electronics maker (196 M EUR turnover, 38.4 % equity ratio, credit index unchanged at 178, VDA 6.3 grade A). The key account manager cannot approve price changes above 2 % alone; those go to a pricing committee that meets every two weeks. Konvertek is dealing with a power-semiconductor shortage that has lengthened lead times for frequency converters, and it is reviewing small accounts to focus on customers with volume. It has fixed its price list for all customers until June 2027 but offered to discuss logistics and payment conditions, so approach on volume commitment and non-price terms rather than list-price cuts, and keep any price movement within the 2 % band or plan around the committee cycle.",
+  "patience": "high",
+  "levers": [
+   "binding or higher volume commitments (they will focus on customers with volume)",
+   "payment conditions (they offered to discuss them)",
+   "logistics conditions (they offered to discuss them)",
+   "early, reliable call-offs and forecasts given extended semiconductor lead times",
+   "keeping requested price changes at or below 2 % so the key account manager can decide without the pricing committee",
+   "timing requests to fit the two-weekly pricing committee cycle"
+  ],
+  "avoid": [
+   "demanding a customer-specific deviation from the 2027 price list ('applies to all customers without exception')",
+   "presenting as a small or fragmented account",
+   "pushing for a quick decision on changes above 2 % that need committee approval",
+   "late call-offs around the holiday shutdown (23 Dec to 6 Jan; January call-offs needed by 10 Dec)"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70550": {
+  "summary": "Our counterpart is Platinenwerk Lausitz's key account manager. Any price change above 2 % needs approval from the company's pricing committee, which meets every two weeks. The company is privately owned and financially steady (EUR 88 M turnover, 39.5 % equity ratio, credit index unchanged at 150, VDA 6.3 grade A). By letter of 2026-09-19 it is asking for +8.0 % on the control board PCBA part:350030 (EUR 34.35 to 37.10) from 01 January 2027, citing copper and electronic component prices. In every past round it settled far below its ask and accepted prices below full cost to keep the volume, so approach it by asking for evidence of the cost increase, offering volume security rather than price, and planning the timeline around the committee cycle.",
+  "patience": "medium",
+  "levers": [
+   "binding volume commitment (history: 'accepted below full cost to keep the volume')",
+   "longer contract term securing the volume",
+   "keeping any agreed increase at or below 2 % so it can be settled without pricing committee approval"
+  ],
+  "avoid": [
+   "pushing for an immediate decision above 2 % at the table, since it needs pricing committee approval that only meets every two weeks",
+   "accepting the copper/component justification without asking for supporting cost evidence"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70560": {
+  "summary": "Kabelwerk Rhönsberg GmbH is a group-owned cable maker (400 staff, about 98 M EUR turnover, 32.3 % equity ratio, credit index stable at 149, VDA 6.3 grade A) that wants to renew framework agreement ctr:4600070560 for motor cable H07RN-F 4G2.5 (part:350040), which expires on 31 Dec 2026. It will bring its offer to the meeting and has asked for our expected volumes. Its copper is bought forward until March 2027, so copper market moves will not work as an argument before then. Its key account manager can only agree price changes up to 2 % without the pricing committee, which meets every two weeks, so we should aim for a deal inside that band at the table. Its past opening asks have come down by 1.1 to 3.1 points (2025: asked 8.6, settled 6.0), so expect a high opening.",
+  "patience": "medium",
+  "levers": [
+   "firm or binding volume forecast (they asked for expected volumes)",
+   "keep the price change within 2 % so the key account manager can agree without the pricing committee",
+   "longer contract term, e.g. aligned with or beyond the copper cover ending March 2027",
+   "anchor on their history of settling well below the opening ask"
+  ],
+  "avoid": [
+   "arguing with current copper market prices before March 2027",
+   "pushing for a decision at the table on changes above 2 %, which need the committee",
+   "volume-free negotiation after they explicitly asked for our expected volumes"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70570": {
+  "summary": "Sensorik Ammertal GmbH is a private sensor maker founded in 1998, with 150 staff, about 35 M EUR turnover, a 43.5 % equity ratio, a credit index that has held at 176 for a year and VDA 6.3 grade A. Since a financial investor bought it in June 2026, the new owner has been reviewing prices and terms with all customers. At the September 2026 review their sales director said head office has frozen all price reductions until December 2027, but was open on payment terms and call-off flexibility. Price changes above 2 % need their pricing committee, which meets every two weeks, so plan for at least one committee cycle and steer talks toward terms rather than pushing for a price cut.",
+  "patience": "medium",
+  "levers": [
+   "payment terms (supplier said it is open on these)",
+   "call-off flexibility (supplier said it is open on this)",
+   "keeping any price movement within 2 % so the key account manager can agree without the pricing committee"
+  ],
+  "avoid": [
+   "pressing for a price reduction, since head office has frozen all price reductions until December 2027",
+   "expecting an on-the-spot answer on price changes above 2 %, which wait for the biweekly pricing committee",
+   "placing January call-offs after 10 December, since the plant is closed 23 December to 6 January"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70580": {
+  "summary": "At the desk is Motorenwerk Saalach's sales side: a new sales director, who has said Hollerau's volumes are 'not strategic' for them any more, and a key account manager. Price changes above 2% need approval from their pricing committee, which meets every two weeks. The company is refocusing on larger key accounts and new product lines, reviewing small accounts and shifting smaller customers to standard ranges, and its replies to us have slowed since the summer. It wants us to pay on time and to bring volume, so approach it with reliable payment and a concrete volume commitment, and allow for committee cycles in the timeline rather than counting on its past willingness to settle well below its asks.",
+  "patience": "low",
+  "levers": [
+   "paying invoices strictly on the agreed terms (clear any overdue invoices before the talks)",
+   "binding or higher volume commitments, since they focus on customers with volume",
+   "accepting standard-range products where possible",
+   "reliable, early call-off planning, e.g. January call-offs by 10 December",
+   "timing proposals to fit their two-weekly pricing committee"
+  ],
+  "avoid": [
+   "further late payments, since they have threatened to review conditions",
+   "expecting key-account treatment or custom service for small volumes",
+   "tight deadlines on changes above 2% that need committee approval",
+   "late call-offs around the 23 Dec - 6 Jan plant shutdown"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70610": {
+  "summary": "The arena mails are signed by Franz Stadler, Inside Sales; the key account manager and sales team of Schraubenhandel Leitner & Sohn GmbH are also involved. It is a family-owned fastener company founded in 1929 with 280 staff, about 139 M EUR turnover, a 30 % equity ratio and a credit index unchanged at 179 over 12 months. The company has spare capacity: its second shift has been on hold since spring, and sales twice said they could take additional parts at short notice. That makes our plan to source the whole M12/M16 bolt, nut and washer kit (about 30,000 kits a year) from one supplier attractive to them. In past annual renewals they asked for increases of 1.2–3.6 % but settled at 0 % every time except once (1.5 % in 2023), so offer volume in exchange for flat prices and keep any price movement within 2 % so the deal does not wait on their pricing committee.",
+  "patience": "medium",
+  "levers": [
+   "bundled kit volume (part:360010, 360011, 360012, 360030) to fill idle capacity",
+   "binding volume commitment that would justify restarting the second shift",
+   "keeping any price change at or below 2 % so it can be agreed without pricing committee approval",
+   "single-supplier status for the kit"
+  ],
+  "avoid": [
+   "proposals with price changes above 2 % that must wait for the pricing committee, which meets only every two weeks",
+   "assuming they are under financial pressure; the material shows a stable credit index and no cash signals"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70620": {
+  "summary": "The arena mails are signed by Florian Gruber, Inside Sales; Wälzlager-Zentrum Süd's new sales director and possibly the owner are also involved. The company is a financially stable family business (credit index unchanged at 181, equity ratio 34%). It is refocusing on larger key accounts and new product lines, and its new sales director called Hollerau's volumes 'not strategic'. It wants to renew framework agreement ctr:4600070620 (6306-2Z C3, part:360020, expiring 31 Dec 2026), has asked for our expected volumes, and has signalled that standard items will move to stock at list conditions with individual agreements not extended. Approach it by offering a credible, binding multi-year volume commitment to stay out of the 'standard range' bucket, and take up the owner's offer to walk through the calculation. Past renewals often settled well below the ask, sometimes at 0.0%.",
+  "patience": "low",
+  "levers": [
+   "binding multi-year volume agreement",
+   "prompt and concrete volume forecast for part:360020",
+   "longer contract term",
+   "accept the owner's offer to review the calculation (hourly rates and material) openly",
+   "bundling additional volume to look more like a key account"
+  ],
+  "avoid": [
+   "demanding discounts on standard items without volume commitment",
+   "drawn-out haggling over a small account",
+   "vague or delayed volume information",
+   "treating the renewal as automatic, since individual agreements are not being extended"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70630": {
+  "summary": "Normteile Brucker KG is a family-owned KG founded in 1966, with 60 staff and 29.1 M EUR turnover. Its sales director and a key account manager sit at the desk, and price changes above 2 % need approval from a pricing committee that meets every two weeks. The supplier is financially stable (equity ratio 36.2 %, credit index unchanged at 185) and says its price list applies to all customers without exception until December 2027; the sales director cited a head-office freeze on price reductions, although the register shows no group parent. It invites talks on payment terms, call-off flexibility and logistics, and says only multi-year volume agreements change prices, so approach it through those channels and plan around the committee cycle rather than pushing for a list-price cut.",
+  "patience": "high",
+  "levers": [
+   "multi-year volume agreement",
+   "payment terms",
+   "call-off flexibility",
+   "logistics conditions"
+  ],
+  "avoid": [
+   "demanding discounts on standard items",
+   "asking for a customer-specific exception to the price list before December 2027",
+   "expecting quick decisions on price changes above 2 % outside the biweekly pricing committee cycle"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70640": {
+  "summary": "Expect the key account manager to sit across from us; the sales director has said they are reviewing small accounts and will focus on customers with volume. Kugellager-Vertrieb Inntal is a financially sound family GmbH (80 staff, about EUR 37 M turnover, 43.4 % equity ratio, credit index stable at 180, VDA 6.3 grade A), but on 17 Oct 2026 it lost a large distribution contract worth about a tenth of its volume and is looking for new customers to fill its warehouse. It wants to renew framework agreement ctr:4600070640 for the 6306-2Z C3 bearing (part:360020, expires 30 June 2027), has asked for our expected volumes, and has had free capacity since spring. Lead with volume: offer bundled or additional parts and a binding commitment in exchange for a flat or minimal price. Note that any change above 2 % needs their pricing committee, which meets every two weeks, and their history shows large concessions from opening asks (several settled at 0.0 %).",
+  "patience": "medium",
+  "levers": [
+   "binding volume commitment / sharing expected volumes early (they explicitly asked for them)",
+   "additional parts at short notice to fill their free capacity and warehouse",
+   "bundling more volume to qualify as a 'customer with volume' rather than a small account",
+   "longer contract term to secure their base load after the lost distribution contract",
+   "keeping any price change at or below 2 % so the key account manager can agree without the pricing committee"
+  ],
+  "avoid": [
+   "presenting ourselves as a small or low-volume account",
+   "being vague about volumes",
+   "treating them as financially distressed; their balance sheet and credit index are solid",
+   "positions that force a referral to the pricing committee and add two-week delays, unless we want to stall"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70650": {
+  "summary": "Verbindungstechnik Mairhofer GmbH is a family-owned connector maker founded in 1983, with about 40 staff and EUR 19.5 M turnover. It is financially stable: 39.8 % equity ratio and an unchanged credit index of 156. On its side sit a new sales director and a key account manager. The company is refocusing on larger key accounts and new product lines, and its new sales director called Hollerau's volumes 'not strategic'. It has announced that standard items will come from stock at list conditions and that individual agreements will not be extended. Its replies have also slowed. It still has idle capacity, with the second shift on hold, so the best approach is to offer meaningful additional or bundled volume that makes us worth treating as a key account, rather than arguing for small-account concessions. Price changes above 2 % need its pricing committee, which meets every two weeks, so plan timing accordingly.",
+  "patience": "low",
+  "levers": [
+   "binding or increased volume to reach key-account relevance",
+   "bundling additional parts to fill idle capacity (second shift on hold, can take parts at short notice)",
+   "longer-term volume commitment in exchange for keeping an individual agreement",
+   "keeping price moves within 2 % to avoid the bi-weekly pricing committee delay"
+  ],
+  "avoid": [
+   "presenting as a small, low-volume account seeking special terms",
+   "demanding individual conditions on standard stock items without volume in return",
+   "drawn-out negotiations given their deprioritisation and slower replies",
+   "late call-offs around the holiday shutdown (23 Dec to 6 Jan; January call-offs due by 10 Dec)"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70710": {
+  "summary": "On the other side is Edelstahl-Service Donautal GmbH, a group-owned stainless steel service centre (350 staff, 165 M EUR turnover, equity ratio 33.9%, credit index stable at 177, VDA 6.3 grade A). Its owner has dealt with us directly and offered to walk us through their calculation of hourly rates and material. For part:370010 (Round bar 1.4404 dia 30 mm, peeled) they now want to agree the price basis for the coming period with an adjustment clause tied to AS-14404. Their nickel and alloy needs are covered at fixed prices until March 2027, so nickel and alloy index movements before then do not touch those costs. We should take up the open-book offer and resist any index clause that applies before April 2027; past renewals show they settle well below their opening ask (3.2→1.4, 2.0→-1.5, -3.1→-7.1).",
+  "patience": "medium",
+  "levers": [
+   "accept the owner's offer to walk through their calculation (hourly rates and material)",
+   "tie the AS-14404 adjustment clause to start only after their fixed-price cover ends in March 2027",
+   "a clear position on their proposed price basis, which they have asked for",
+   "place call-offs on time around their holiday shutdown (January call-offs by 10 December)"
+  ],
+  "avoid": [
+   "late call-offs during their 23 December to 6 January plant closure",
+   "leaving their price-basis proposal unanswered"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70720": {
+  "summary": "Stahlhandel Rupprecht-Kessel GmbH is a family-owned steel trader founded in 1908, with 500 staff and 196 M EUR turnover. The owner deals with us personally. Its finances look solid and stable: 39% equity ratio, credit index unchanged at 177 over 12 months, VDA 6.3 grade A, ISO 9001/14001. It now proposes to fix the price basis for Sheet S235JR 3 mm (part:370020) for the coming period, with a price adjustment clause tied to PPI-C241. It calls Hollerau an important reference customer, and the owner has twice offered to walk us through the calculation (hourly rates and material). Approach it as a cooperative, relationship-driven partner: accept the open-book offer and use it to test the cost basis and the clause mechanics. In every past renewal it settled 1.5 to 3.4 points below its opening ask.",
+  "patience": "medium",
+  "levers": [
+   "take up the owner's offer of an open-book review of hourly rates and material costs",
+   "agreement on the requested PPI-C241 price adjustment clause, with mechanics we negotiate (base date, thresholds, symmetry)",
+   "confirming its status as an important reference customer relationship",
+   "longer-term agreement on the price basis for the coming period",
+   "relationship gestures, e.g. visiting its booth at the regional supplier fair"
+  ],
+  "avoid": [
+   "ignoring or brushing aside the owner's repeated offer to share its calculation",
+   "an impersonal, purely transactional approach that bypasses the owner",
+   "treating it as financially pressured; there is no evidence of cash shortage",
+   "dismissing the proposed PPI-C241 clause outright without discussion"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70730": {
+  "summary": "The owner of Inox Center Ostalpen GmbH (private, 150 staff, about 76 M EUR turnover, 34.2 % equity ratio, credit index stable at 167, VDA 6.3 grade A) has offered to walk us through the calculation of hourly rates and material, and a key account manager handles the annual review. They bought nickel and alloys forward until January 2027, so they will reject spot-market arguments before then, and any price change above 2 % needs their pricing committee, which meets every two weeks. They want prices settled on the basis of their own calculation, and in the last three renewals they settled 2.0–2.5 points below their opening ask. Take the open-book offer, frame index-driven reductions to start after January 2027, and plan larger moves around the committee's two-week cycle.",
+  "patience": "medium",
+  "levers": [
+   "accept the owner's offer to review the calculation (hourly rates and material) and negotiate on that basis",
+   "keep in-round changes within 2 % to avoid the pricing committee, or schedule larger requests to fit its two-week cycle",
+   "tie material-driven price reductions to a start date after the hedge ends in January 2027",
+   "reliable planning, e.g. January call-offs placed by 10 December"
+  ],
+  "avoid": [
+   "arguing with current nickel or alloy market prices for the period before January 2027",
+   "pushing for an immediate decision on changes above 2 % without allowing for committee approval",
+   "late January call-offs during the 23 December to 6 January plant closure"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ },
+ "sup:70740": {
+  "summary": "Blankstahl Werdenfels GmbH is a family-owned GmbH founded in 1961, with 200 staff and EUR 98.2 M turnover. Its finances look solid: equity ratio 39.3 %, credit index unchanged at 148, VDA 6.3 grade A. The owner is personally involved and has twice offered to walk us through their calculation (hourly rates and material). The sales director, the key account manager and, since October 2025, a new inside-sales contact also deal with us. The company is reviewing small accounts to focus on customers with volume. For part:370010 (Round bar 1.4404 dia 30 mm, peeled) it now wants to agree the price basis for the coming period with a price adjustment clause based on AS-14404. In past renewals it has always settled well below its ask (e.g. asked 2.5, settled 0.7; asked 3.0, settled -0.3). Approach it with binding volume and a fact-based, open-book discussion, and allow for its pricing committee: changes above 2 % need committee approval, and the committee meets every two weeks.",
+  "patience": "medium",
+  "levers": [
+   "binding volume commitment, since they focus on customers with volume",
+   "accept the owner's offer of an open-book review of their calculation (hourly rates and material)",
+   "constructive discussion of the AS-14404 price adjustment clause they propose for part:370010",
+   "keep price changes within 2 % so their pricing committee is not needed, or plan the timeline around its two-weekly meetings",
+   "longer-term agreement on the price basis for the coming period"
+  ],
+  "avoid": [
+   "presenting us as a small or fragmented account with low or uncertain volumes",
+   "time pressure that ignores the two-weekly pricing committee cycle for changes above 2 %",
+   "dismissing the owner's offer to share their calculation",
+   "rejecting the index clause outright without discussion"
+  ],
+  "cash_short": false,
+  "hedged_series": [],
+  "inferred": [
+   "patience"
+  ]
+ }
+}

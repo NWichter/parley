@@ -1,0 +1,40 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    restart: unless-stopped
+    environment:
+      SERVICE_FQDN_WEB: ${SERVICE_FQDN_WEB}
+    depends_on: [api]
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:3000/').then(r=>process.exit(r.status<500?0:1)).catch(()=>process.exit(1))"
+      interval: 30s
+      timeout: 5s
+      start_period: 30s
+      retries: 3
+
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      PLAN_MODEL: ${PLAN_MODEL:-claude-opus-5-5}
+      WRITE_MODEL: ${WRITE_MODEL:-claude-sonnet-5-5}
+      ARENA_API_KEY: ${ARENA_API_KEY:-}
+      ELEVENLABS_API_KEY: ${ELEVENLABS_API_KEY:-}
+      REPLAY_DAILY_CHARS: ${REPLAY_DAILY_CHARS:-0}
+      REPLAY_SESSION_CHARS: ${REPLAY_SESSION_CHARS:-0}
+      REPLAY_VOICE_PUBLIC: ${REPLAY_VOICE_PUBLIC:-false}
+      REPLAY_ADMIN_TOKEN: ${REPLAY_ADMIN_TOKEN:-}
+    volumes:
+      - replays:/data
+
+volumes:
+  replays:

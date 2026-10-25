@@ -1,0 +1,112 @@
+{
+ "raw": "{\n  \"supplier_id\": \"sup:70190\",\n  \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"preferred_levers\": [],\n  \"avoid_levers\": [],\n  \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"hedged_inputs\": [\n    {\n      \"input\": \"electricity\",\n      \"until\": \"2028-12\",\n      \"evidence\": [\n        {\n          \"source\": \"doc:20260623-70190-M1\",\n          \"quote\": \"they bought their electricity forward until December 2028\"\n        },\n        {\n          \"source\": \"news:20260426-10\",\n          \"quote\": \"has fixed its electricity supply for 2026-2028 under a long-term contract\"\n        }\n      ],\n      \"confidence\": \"high\"\n    },\n    {\n      \"input\": \"material\",\n      \"until\": \"2028-12\",\n      \"evidence\": [\n        {\n          \"source\": \"quote:7300064\",\n          \"quote\": \"Material covered until December 2028; price valid accordingly.\"\n        }\n      ],\n      \"confidence\": \"high\"\n    }\n  ],\n  \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"decision_maker\": {\n    \"value\": \"inside_sales\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20251014-70190-N\",\n        \"quote\": \"From 1 October your contact in sales is our new colleague in inside sales\"\n      }\n    ],\n    \"confidence\": \"medium\"\n  },\n  \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"volume_posture\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}\n}\n",
+ "data": {
+  "supplier_id": "sup:70190",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [
+   {
+    "input": "electricity",
+    "until": "2028-12",
+    "evidence": [
+     {
+      "source": "doc:20260623-70190-M1",
+      "quote": "they bought their electricity forward until December 2028"
+     },
+     {
+      "source": "news:20260426-10",
+      "quote": "has fixed its electricity supply for 2026-2028 under a long-term contract"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "input": "material",
+    "until": "2028-12",
+    "evidence": [
+     {
+      "source": "quote:7300064",
+      "quote": "Material covered until December 2028; price valid accordingly."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "inside_sales",
+   "evidence": [
+    {
+     "source": "doc:20251014-70190-N",
+     "quote": "From 1 October your contact in sales is our new colleague in inside sales"
+    }
+   ],
+   "confidence": "medium"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 62.4
+}

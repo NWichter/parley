@@ -1,0 +1,13 @@
+{
+ "choices": {
+  "preferred_levers:payment_days_long": {
+   "choice": "keep",
+   "reason": "With price frozen, the sales director was 'open on payment terms', a concession to the buyer, i.e. longer payment days. This is interpretive, so medium confidence."
+  }
+ },
+ "labels": {},
+ "usage": {
+  "in": 4422,
+  "out": 398
+ }
+}

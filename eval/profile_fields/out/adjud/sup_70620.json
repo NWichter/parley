@@ -1,0 +1,25 @@
+{
+ "choices": {
+  "price_freeze": {
+   "choice": "A",
+   "reason": "The supplier says standard items are not discounted and are supplied at list conditions. That is a blanket restriction on individual reductions, not contract boilerplate."
+  },
+  "decision_maker": {
+   "choice": "A",
+   "reason": "The only explicit price discussion (call note, 2026-06-16) was led by the owner. The sales director notes cover portfolio and account review, not price negotiation."
+  }
+ },
+ "labels": {
+  "price_freeze": {
+   "A": "freeze@None"
+  },
+  "decision_maker": {
+   "A": "owner",
+   "B": "sales_director"
+  }
+ },
+ "usage": {
+  "in": 6146,
+  "out": 471
+ }
+}

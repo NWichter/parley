@@ -1,0 +1,141 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70620\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [{\"lever\": \"volume_commitment\", \"stance\": \"requested\", \"condition\": \"only multi-year volume agreements change prices\", \"evidence\": [{\"source\": \"doc:20260627-70620-M2\", \"quote\": \"Wälzlager-Zentrum Süd GmbH stated that standard items are not discounted; only multi-year volume agreements change prices.\"}], \"confidence\": \"high\"}, {\"lever\": \"contract_months_longer\", \"stance\": \"requested\", \"condition\": \"only multi-year volume agreements change prices\", \"evidence\": [{\"source\": \"doc:20260627-70620-M2\", \"quote\": \"Wälzlager-Zentrum Süd GmbH stated that standard items are not discounted; only multi-year volume agreements change prices.\"}], \"confidence\": \"high\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"sales_director\", \"evidence\": [{\"source\": \"doc:20260917-70620-M4\", \"quote\": \"Their new sales director said Hollerau's volumes are 'not strategic' for Wälzlager-Zentrum Süd GmbH any more\"}, {\"source\": \"doc:20260501-70620-M3\", \"quote\": \"The sales director of Wälzlager-Zentrum Süd GmbH said they are reviewing small accounts and will focus on customers with volume.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260427-70620-M5\", \"quote\": \"The sales director of Wälzlager-Zentrum Süd GmbH said they are reviewing small accounts and will focus on customers with volume.\"}, {\"source\": \"doc:20260501-70620-M3\", \"quote\": \"The sales director of Wälzlager-Zentrum Süd GmbH said they are reviewing small accounts and will focus on customers with volume.\"}, {\"source\": \"doc:20260627-70620-M2\", \"quote\": \"Wälzlager-Zentrum Süd GmbH stated that standard items are not discounted; only multi-year volume agreements change prices.\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260616-70620-M6\", \"quote\": \"he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices.\"}], \"confidence\": \"high\"}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260917-70620-M4\", \"quote\": \"Their new sales director said Hollerau's volumes are 'not strategic' for Wälzlager-Zentrum Süd GmbH any more; replies have become slower since the summer.\"}, {\"source\": \"doc:20260706-70620-M1\", \"quote\": \"We are reorganising our range around our key accounts. Standard items will be supplied from stock at list conditions; individual agreements will not be extended.\"}], \"confidence\": \"high\"}}\n",
+ "data": {
+  "supplier_id": "sup:70620",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "volume_commitment",
+    "stance": "requested",
+    "condition": "only multi-year volume agreements change prices",
+    "evidence": [
+     {
+      "source": "doc:20260627-70620-M2",
+      "quote": "Wälzlager-Zentrum Süd GmbH stated that standard items are not discounted; only multi-year volume agreements change prices."
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "lever": "contract_months_longer",
+    "stance": "requested",
+    "condition": "only multi-year volume agreements change prices",
+    "evidence": [
+     {
+      "source": "doc:20260627-70620-M2",
+      "quote": "Wälzlager-Zentrum Süd GmbH stated that standard items are not discounted; only multi-year volume agreements change prices."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "sales_director",
+   "evidence": [
+    {
+     "source": "doc:20260917-70620-M4",
+     "quote": "Their new sales director said Hollerau's volumes are 'not strategic' for Wälzlager-Zentrum Süd GmbH any more"
+    },
+    {
+     "source": "doc:20260501-70620-M3",
+     "quote": "The sales director of Wälzlager-Zentrum Süd GmbH said they are reviewing small accounts and will focus on customers with volume."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260427-70620-M5",
+     "quote": "The sales director of Wälzlager-Zentrum Süd GmbH said they are reviewing small accounts and will focus on customers with volume."
+    },
+    {
+     "source": "doc:20260501-70620-M3",
+     "quote": "The sales director of Wälzlager-Zentrum Süd GmbH said they are reviewing small accounts and will focus on customers with volume."
+    },
+    {
+     "source": "doc:20260627-70620-M2",
+     "quote": "Wälzlager-Zentrum Süd GmbH stated that standard items are not discounted; only multi-year volume agreements change prices."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260616-70620-M6",
+     "quote": "he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices."
+    }
+   ],
+   "confidence": "high"
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260917-70620-M4",
+     "quote": "Their new sales director said Hollerau's volumes are 'not strategic' for Wälzlager-Zentrum Süd GmbH any more; replies have become slower since the summer."
+    },
+    {
+     "source": "doc:20260706-70620-M1",
+     "quote": "We are reorganising our range around our key accounts. Standard items will be supplied from stock at list conditions; individual agreements will not be extended."
+    }
+   ],
+   "confidence": "high"
+  }
+ },
+ "s": 233.3
+}

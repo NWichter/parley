@@ -1,0 +1,178 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70630\", \"approval_threshold_pct\": {\"value\": 2, \"evidence\": [{\"source\": \"doc:20260923-70630-M4\", \"quote\": \"price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"approval_cycle\": {\"value\": \"pricing committee, every two weeks\", \"evidence\": [{\"source\": \"doc:20260923-70630-M4\", \"quote\": \"price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"approval_cycle_days\": {\"value\": 14, \"evidence\": [{\"source\": \"doc:20260923-70630-M4\", \"quote\": \"price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"preferred_levers\": [{\"lever\": \"lead_time_slack\", \"stance\": \"open\", \"condition\": null, \"evidence\": [{\"source\": \"doc:20260724-70630-M1\", \"quote\": \"He was open on payment terms and call-off flexibility.\"}, {\"source\": \"doc:20260706-70630-M3\", \"quote\": \"We are happy to discuss logistics and payment conditions.\"}], \"confidence\": \"high\"}, {\"lever\": \"payment_days_short\", \"stance\": \"open\", \"condition\": null, \"evidence\": [{\"source\": \"doc:20260724-70630-M1\", \"quote\": \"He was open on payment terms and call-off flexibility.\"}, {\"source\": \"doc:20260706-70630-M3\", \"quote\": \"We are happy to discuss logistics and payment conditions.\"}], \"confidence\": \"medium\"}, {\"lever\": \"volume_commitment\", \"stance\": \"requested\", \"condition\": \"only multi-year volume agreements change prices\", \"evidence\": [{\"source\": \"doc:20260327-70630-M2\", \"quote\": \"Normteile Brucker KG stated that standard items are not discounted; only multi-year volume agreements change prices.\"}], \"confidence\": \"high\"}, {\"lever\": \"contract_months_longer\", \"stance\": \"requested\", \"condition\": \"only multi-year volume agreements change prices\", \"evidence\": [{\"source\": \"doc:20260327-70630-M2\", \"quote\": \"Normteile Brucker KG stated that standard items are not discounted; only multi-year volume agreements change prices.\"}], \"confidence\": \"high\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": {\"until\": \"2027-12\", \"scope\": \"all price reductions / price list for all customers without exception\"}, \"evidence\": [{\"source\": \"doc:20260724-70630-M1\", \"quote\": \"Their sales director said there is no room on price this year: head office has frozen all price reductions until December 2027.\"}, {\"source\": \"doc:20260706-70630-M3\", \"quote\": \"Our price list applies to all customers without exception until December 2027.\"}, {\"source\": \"quote:7300052\", \"quote\": \"Prices as per current list; discounts not possible this year (head-office directive).\"}], \"confidence\": \"high\"}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"kam\", \"evidence\": [{\"source\": \"doc:20260923-70630-M4\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260327-70630-M2\", \"quote\": \"Normteile Brucker KG stated that standard items are not discounted; only multi-year volume agreements change prices.\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70630",
+  "approval_threshold_pct": {
+   "value": 2,
+   "evidence": [
+    {
+     "source": "doc:20260923-70630-M4",
+     "quote": "price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle": {
+   "value": "pricing committee, every two weeks",
+   "evidence": [
+    {
+     "source": "doc:20260923-70630-M4",
+     "quote": "price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle_days": {
+   "value": 14,
+   "evidence": [
+    {
+     "source": "doc:20260923-70630-M4",
+     "quote": "price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "preferred_levers": [
+   {
+    "lever": "lead_time_slack",
+    "stance": "open",
+    "condition": null,
+    "evidence": [
+     {
+      "source": "doc:20260724-70630-M1",
+      "quote": "He was open on payment terms and call-off flexibility."
+     },
+     {
+      "source": "doc:20260706-70630-M3",
+      "quote": "We are happy to discuss logistics and payment conditions."
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "lever": "payment_days_short",
+    "stance": "open",
+    "condition": null,
+    "evidence": [
+     {
+      "source": "doc:20260724-70630-M1",
+      "quote": "He was open on payment terms and call-off flexibility."
+     },
+     {
+      "source": "doc:20260706-70630-M3",
+      "quote": "We are happy to discuss logistics and payment conditions."
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "lever": "volume_commitment",
+    "stance": "requested",
+    "condition": "only multi-year volume agreements change prices",
+    "evidence": [
+     {
+      "source": "doc:20260327-70630-M2",
+      "quote": "Normteile Brucker KG stated that standard items are not discounted; only multi-year volume agreements change prices."
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "lever": "contract_months_longer",
+    "stance": "requested",
+    "condition": "only multi-year volume agreements change prices",
+    "evidence": [
+     {
+      "source": "doc:20260327-70630-M2",
+      "quote": "Normteile Brucker KG stated that standard items are not discounted; only multi-year volume agreements change prices."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": {
+    "until": "2027-12",
+    "scope": "all price reductions / price list for all customers without exception"
+   },
+   "evidence": [
+    {
+     "source": "doc:20260724-70630-M1",
+     "quote": "Their sales director said there is no room on price this year: head office has frozen all price reductions until December 2027."
+    },
+    {
+     "source": "doc:20260706-70630-M3",
+     "quote": "Our price list applies to all customers without exception until December 2027."
+    },
+    {
+     "source": "quote:7300052",
+     "quote": "Prices as per current list; discounts not possible this year (head-office directive)."
+    }
+   ],
+   "confidence": "high"
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "kam",
+   "evidence": [
+    {
+     "source": "doc:20260923-70630-M4",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee"
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260327-70630-M2",
+     "quote": "Normteile Brucker KG stated that standard items are not discounted; only multi-year volume agreements change prices."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 476.7
+}

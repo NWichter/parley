@@ -1,0 +1,148 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70650\", \"approval_threshold_pct\": {\"value\": 2, \"evidence\": [{\"source\": \"doc:20260327-70650-M3\", \"quote\": \"price changes above 2 % need the approval of their pricing committee\"}], \"confidence\": \"high\"}, \"approval_cycle\": {\"value\": \"pricing committee, every two weeks\", \"evidence\": [{\"source\": \"doc:20260327-70650-M3\", \"quote\": \"need the approval of their pricing committee, which meets every two weeks\"}], \"confidence\": \"high\"}, \"approval_cycle_days\": {\"value\": 14, \"evidence\": [{\"source\": \"doc:20260327-70650-M3\", \"quote\": \"pricing committee, which meets every two weeks\"}], \"confidence\": \"high\"}, \"preferred_levers\": [], \"avoid_levers\": [{\"lever\": \"contract_months_longer\", \"stance\": \"rejected\", \"condition\": \"individual agreements not extended; standard items at list conditions\", \"evidence\": [{\"source\": \"doc:20260817-70650-M1\", \"quote\": \"individual agreements will not be extended\"}], \"confidence\": \"medium\"}], \"capacity_tight\": {\"value\": false, \"evidence\": [{\"source\": \"doc:20260411-70650-M5\", \"quote\": \"they could take additional parts at short notice; the second shift has been on hold since spring\"}], \"confidence\": \"high\"}, \"price_freeze\": {\"value\": {\"until\": null, \"scope\": \"standard items only at list conditions from stock; no individual agreements\"}, \"evidence\": [{\"source\": \"doc:20260817-70650-M1\", \"quote\": \"Standard items will be supplied from stock at list conditions; individual agreements will not be extended.\"}, {\"source\": \"quote:7300072\", \"quote\": \"List conditions; supply from stock only.\"}], \"confidence\": \"medium\"}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"sales_director\", \"evidence\": [{\"source\": \"doc:20260602-70650-M4\", \"quote\": \"Their new sales director said Hollerau's volumes are 'not strategic'\"}], \"confidence\": \"medium\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260511-70650-M2\", \"quote\": \"they are reviewing small accounts and will focus on customers with volume\"}, {\"source\": \"doc:20260219-70650-M6\", \"quote\": \"they are reviewing small accounts and will focus on customers with volume\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260602-70650-M4\", \"quote\": \"Hollerau's volumes are 'not strategic' for Verbindungstechnik Mairhofer GmbH any more; replies have become slower since the summer\"}], \"confidence\": \"high\"}}",
+ "data": {
+  "supplier_id": "sup:70650",
+  "approval_threshold_pct": {
+   "value": 2,
+   "evidence": [
+    {
+     "source": "doc:20260327-70650-M3",
+     "quote": "price changes above 2 % need the approval of their pricing committee"
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle": {
+   "value": "pricing committee, every two weeks",
+   "evidence": [
+    {
+     "source": "doc:20260327-70650-M3",
+     "quote": "need the approval of their pricing committee, which meets every two weeks"
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle_days": {
+   "value": 14,
+   "evidence": [
+    {
+     "source": "doc:20260327-70650-M3",
+     "quote": "pricing committee, which meets every two weeks"
+    }
+   ],
+   "confidence": "high"
+  },
+  "preferred_levers": [],
+  "avoid_levers": [
+   {
+    "lever": "contract_months_longer",
+    "stance": "rejected",
+    "condition": "individual agreements not extended; standard items at list conditions",
+    "evidence": [
+     {
+      "source": "doc:20260817-70650-M1",
+      "quote": "individual agreements will not be extended"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "capacity_tight": {
+   "value": false,
+   "evidence": [
+    {
+     "source": "doc:20260411-70650-M5",
+     "quote": "they could take additional parts at short notice; the second shift has been on hold since spring"
+    }
+   ],
+   "confidence": "high"
+  },
+  "price_freeze": {
+   "value": {
+    "until": null,
+    "scope": "standard items only at list conditions from stock; no individual agreements"
+   },
+   "evidence": [
+    {
+     "source": "doc:20260817-70650-M1",
+     "quote": "Standard items will be supplied from stock at list conditions; individual agreements will not be extended."
+    },
+    {
+     "source": "quote:7300072",
+     "quote": "List conditions; supply from stock only."
+    }
+   ],
+   "confidence": "medium"
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "sales_director",
+   "evidence": [
+    {
+     "source": "doc:20260602-70650-M4",
+     "quote": "Their new sales director said Hollerau's volumes are 'not strategic'"
+    }
+   ],
+   "confidence": "medium"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260511-70650-M2",
+     "quote": "they are reviewing small accounts and will focus on customers with volume"
+    },
+    {
+     "source": "doc:20260219-70650-M6",
+     "quote": "they are reviewing small accounts and will focus on customers with volume"
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260602-70650-M4",
+     "quote": "Hollerau's volumes are 'not strategic' for Verbindungstechnik Mairhofer GmbH any more; replies have become slower since the summer"
+    }
+   ],
+   "confidence": "high"
+  }
+ },
+ "usage": {
+  "in": 5184,
+  "out": 2063
+ },
+ "s": 15.7
+}

@@ -1,0 +1,129 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70220\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [{\"lever\": \"payment_days_short\", \"stance\": \"requested\", \"condition\": \"in return for a cash discount\", \"evidence\": [{\"source\": \"doc:20260511-70220-M1\", \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"}], \"confidence\": \"high\"}, {\"lever\": \"volume_commitment\", \"stance\": \"requested\", \"condition\": \"for priority in capacity allocation\", \"evidence\": [{\"source\": \"doc:20260915-70220-P09\", \"quote\": \"We will prioritise customers with firm, long-term commitments.\"}], \"confidence\": \"high\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260915-70220-P09\", \"quote\": \"due to very high capacity utilisation we cannot confirm your full forecast for Flange DN 65 PN 16, machined (part:320030) for the coming months.\"}, {\"source\": \"news:20260320-04\", \"quote\": \"CNC-Technik Obermaier & Huber GmbH reports an order backlog of more than six months and has stopped accepting new projects for now.\"}], \"confidence\": \"high\"}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": \"weak\", \"evidence\": [{\"source\": \"doc:20260511-70220-M1\", \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"}], \"confidence\": \"high\"}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"inside_sales\", \"evidence\": [{\"source\": \"doc:20251207-70220-N\", \"quote\": \"From 1 October your contact in sales is our new colleague in inside sales; all other contacts stay the same.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260915-70220-P09\", \"quote\": \"We will prioritise customers with firm, long-term commitments.\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70220",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "payment_days_short",
+    "stance": "requested",
+    "condition": "in return for a cash discount",
+    "evidence": [
+     {
+      "source": "doc:20260511-70220-M1",
+      "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "lever": "volume_commitment",
+    "stance": "requested",
+    "condition": "for priority in capacity allocation",
+    "evidence": [
+     {
+      "source": "doc:20260915-70220-P09",
+      "quote": "We will prioritise customers with firm, long-term commitments."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260915-70220-P09",
+     "quote": "due to very high capacity utilisation we cannot confirm your full forecast for Flange DN 65 PN 16, machined (part:320030) for the coming months."
+    },
+    {
+     "source": "news:20260320-04",
+     "quote": "CNC-Technik Obermaier & Huber GmbH reports an order backlog of more than six months and has stopped accepting new projects for now."
+    }
+   ],
+   "confidence": "high"
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": "weak",
+   "evidence": [
+    {
+     "source": "doc:20260511-70220-M1",
+     "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+    }
+   ],
+   "confidence": "high"
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "inside_sales",
+   "evidence": [
+    {
+     "source": "doc:20251207-70220-N",
+     "quote": "From 1 October your contact in sales is our new colleague in inside sales; all other contacts stay the same."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260915-70220-P09",
+     "quote": "We will prioritise customers with firm, long-term commitments."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 130.9
+}

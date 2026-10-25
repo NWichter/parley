@@ -1,0 +1,145 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70620\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [{\"lever\": \"volume_commitment\", \"stance\": \"open\", \"condition\": \"only multi-year volume agreements change prices\", \"evidence\": [{\"source\": \"doc:20260627-70620-M2\", \"quote\": \"only multi-year volume agreements change prices\"}], \"confidence\": \"medium\"}, {\"lever\": \"contract_months_longer\", \"stance\": \"open\", \"condition\": \"only multi-year volume agreements change prices\", \"evidence\": [{\"source\": \"doc:20260627-70620-M2\", \"quote\": \"only multi-year volume agreements change prices\"}], \"confidence\": \"medium\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": {\"until\": null, \"scope\": \"standard items at list conditions, no discounts (except multi-year volume agreements)\"}, \"evidence\": [{\"source\": \"doc:20260627-70620-M2\", \"quote\": \"standard items are not discounted; only multi-year volume agreements change prices\"}, {\"source\": \"doc:20260706-70620-M1\", \"quote\": \"Standard items will be supplied from stock at list conditions; individual agreements will not be extended.\"}], \"confidence\": \"medium\"}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"owner\", \"evidence\": [{\"source\": \"doc:20260616-70620-M6\", \"quote\": \"Call with the owner of Wälzlager-Zentrum Süd GmbH: he offered to walk us through their calculation\"}], \"confidence\": \"medium\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260501-70620-M3\", \"quote\": \"they are reviewing small accounts and will focus on customers with volume\"}, {\"source\": \"doc:20260427-70620-M5\", \"quote\": \"they are reviewing small accounts and will focus on customers with volume\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260616-70620-M6\", \"quote\": \"he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices\"}], \"confidence\": \"high\"}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260917-70620-M4\", \"quote\": \"Hollerau's volumes are 'not strategic' for Wälzlager-Zentrum Süd GmbH any more; replies have become slower since the summer\"}], \"confidence\": \"high\"}}",
+ "data": {
+  "supplier_id": "sup:70620",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "volume_commitment",
+    "stance": "open",
+    "condition": "only multi-year volume agreements change prices",
+    "evidence": [
+     {
+      "source": "doc:20260627-70620-M2",
+      "quote": "only multi-year volume agreements change prices"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "lever": "contract_months_longer",
+    "stance": "open",
+    "condition": "only multi-year volume agreements change prices",
+    "evidence": [
+     {
+      "source": "doc:20260627-70620-M2",
+      "quote": "only multi-year volume agreements change prices"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": {
+    "until": null,
+    "scope": "standard items at list conditions, no discounts (except multi-year volume agreements)"
+   },
+   "evidence": [
+    {
+     "source": "doc:20260627-70620-M2",
+     "quote": "standard items are not discounted; only multi-year volume agreements change prices"
+    },
+    {
+     "source": "doc:20260706-70620-M1",
+     "quote": "Standard items will be supplied from stock at list conditions; individual agreements will not be extended."
+    }
+   ],
+   "confidence": "medium"
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "owner",
+   "evidence": [
+    {
+     "source": "doc:20260616-70620-M6",
+     "quote": "Call with the owner of Wälzlager-Zentrum Süd GmbH: he offered to walk us through their calculation"
+    }
+   ],
+   "confidence": "medium"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260501-70620-M3",
+     "quote": "they are reviewing small accounts and will focus on customers with volume"
+    },
+    {
+     "source": "doc:20260427-70620-M5",
+     "quote": "they are reviewing small accounts and will focus on customers with volume"
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260616-70620-M6",
+     "quote": "he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices"
+    }
+   ],
+   "confidence": "high"
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260917-70620-M4",
+     "quote": "Hollerau's volumes are 'not strategic' for Wälzlager-Zentrum Süd GmbH any more; replies have become slower since the summer"
+    }
+   ],
+   "confidence": "high"
+  }
+ },
+ "usage": {
+  "in": 5464,
+  "out": 2034
+ },
+ "s": 17.3
+}

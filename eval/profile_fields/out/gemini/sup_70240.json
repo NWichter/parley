@@ -1,0 +1,107 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70240\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [{\"lever\": \"volume_commitment\", \"stance\": \"requested\", \"condition\": \"for additional volumes\", \"evidence\": [{\"source\": \"doc:20260924-70240-M1\", \"quote\": \"We can confirm additional volumes only against a binding 12-month commitment.\"}], \"confidence\": \"high\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": true, \"evidence\": [{\"source\": \"news:20260710-18\", \"quote\": \"Strojírna Hrvelec s.r.o. fully booked into next year. Strojírna Hrvelec s.r.o. reports an order backlog of more than six months and has stopped accepting new projects for now.\"}, {\"source\": \"doc:20260924-70240-M1\", \"quote\": \"Order intake is very strong. We can confirm additional volumes only against a binding 12-month commitment.\"}], \"confidence\": \"high\"}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260924-70240-M1\", \"quote\": \"We can confirm additional volumes only against a binding 12-month commitment.\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70240",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "volume_commitment",
+    "stance": "requested",
+    "condition": "for additional volumes",
+    "evidence": [
+     {
+      "source": "doc:20260924-70240-M1",
+      "quote": "We can confirm additional volumes only against a binding 12-month commitment."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "news:20260710-18",
+     "quote": "Strojírna Hrvelec s.r.o. fully booked into next year. Strojírna Hrvelec s.r.o. reports an order backlog of more than six months and has stopped accepting new projects for now."
+    },
+    {
+     "source": "doc:20260924-70240-M1",
+     "quote": "Order intake is very strong. We can confirm additional volumes only against a binding 12-month commitment."
+    }
+   ],
+   "confidence": "high"
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260924-70240-M1",
+     "quote": "We can confirm additional volumes only against a binding 12-month commitment."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 37.4
+}

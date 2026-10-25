@@ -1,0 +1,989 @@
+{
+ "_about": "Fictional replay casting, built by `uv run audio/reenact.py assets` (or `voices`, offline) from suppliers.csv, supplier_intel.csv and the contact signatures in arena openings. Contact name, role and gender appear only where the arena's own mails sign with a name; otherwise the role is a neutral supplier representative and the voice is picked by hash, independent of country and company size.",
+ "model_id": "eleven_v3",
+ "narrator": {
+  "id": "Xb7hH8MSUJpSbSDYk0k2",
+  "name": "Alice"
+ },
+ "buyer": {
+  "id": "onwK4e9ZLuTAKqWW03F9",
+  "name": "Daniel"
+ },
+ "pool": {
+  "M": {
+   "owner": [
+    {
+     "name": "Bill",
+     "id": "pqHfZKP75CvOlQylNhV4",
+     "gender": "M"
+    },
+    {
+     "name": "Brian",
+     "id": "nPczCjzI2devNBz1zQrb",
+     "gender": "M"
+    },
+    {
+     "name": "George",
+     "id": "JBFqnCBsd6RMkjVDRZzb",
+     "gender": "M"
+    }
+   ],
+   "account": [
+    {
+     "name": "Eric",
+     "id": "cjVigY5qzO86Huf0OWal",
+     "gender": "M"
+    },
+    {
+     "name": "Roger",
+     "id": "CwhRBWXzGAHq8TQ4Fs17",
+     "gender": "M"
+    },
+    {
+     "name": "Callum",
+     "id": "N2lVS1w4EtoT3dr4eOWO",
+     "gender": "M"
+    }
+   ],
+   "inside": [
+    {
+     "name": "Liam",
+     "id": "TX3LPaxmHKxFdv7VOQHJ",
+     "gender": "M"
+    },
+    {
+     "name": "Will",
+     "id": "bIHbv24MWmeRgasZH58o",
+     "gender": "M"
+    },
+    {
+     "name": "Chris",
+     "id": "iP95p4xoKVk53GoZ742B",
+     "gender": "M"
+    }
+   ],
+   "export": [
+    {
+     "name": "Charlie",
+     "id": "IKne3meq5aSn9XLyUdCD",
+     "gender": "M"
+    },
+    {
+     "name": "Callum",
+     "id": "N2lVS1w4EtoT3dr4eOWO",
+     "gender": "M"
+    },
+    {
+     "name": "George",
+     "id": "JBFqnCBsd6RMkjVDRZzb",
+     "gender": "M"
+    }
+   ]
+  },
+  "F": {
+   "owner": [
+    {
+     "name": "Aria",
+     "id": "9BWtsMINqrJLrRacOk9x",
+     "gender": "F"
+    },
+    {
+     "name": "Lily",
+     "id": "pFZP5JQG7iQjIQuC4Bku",
+     "gender": "F"
+    },
+    {
+     "name": "Matilda",
+     "id": "XrExE9yKIg1WjnnlVkGX",
+     "gender": "F"
+    }
+   ],
+   "account": [
+    {
+     "name": "Matilda",
+     "id": "XrExE9yKIg1WjnnlVkGX",
+     "gender": "F"
+    },
+    {
+     "name": "Sarah",
+     "id": "EXAVITQu4vr4xnSDxMaL",
+     "gender": "F"
+    },
+    {
+     "name": "Charlotte",
+     "id": "XB0fDUnXU5powFXDhCwa",
+     "gender": "F"
+    }
+   ],
+   "inside": [
+    {
+     "name": "Laura",
+     "id": "FGY2WhTYpPnrIDTdsKH5",
+     "gender": "F"
+    },
+    {
+     "name": "Jessica",
+     "id": "cgSgspJ2msm6clMCkdW9",
+     "gender": "F"
+    },
+    {
+     "name": "Sarah",
+     "id": "EXAVITQu4vr4xnSDxMaL",
+     "gender": "F"
+    }
+   ],
+   "export": [
+    {
+     "name": "Charlotte",
+     "id": "XB0fDUnXU5powFXDhCwa",
+     "gender": "F"
+    },
+    {
+     "name": "Jessica",
+     "id": "cgSgspJ2msm6clMCkdW9",
+     "gender": "F"
+    },
+    {
+     "name": "Lily",
+     "id": "pFZP5JQG7iQjIQuC4Bku",
+     "gender": "F"
+    }
+   ]
+  }
+ },
+ "suppliers": {
+  "sup:70110": {
+   "company": "Gießerei Brandlhuber GmbH & Co. KG",
+   "country": "DE",
+   "contact": "Thomas Brandlhuber",
+   "role": "Owner",
+   "gender": "M",
+   "staff": 185,
+   "owner_type": "family",
+   "tone_group": "owner",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Bill",
+    "id": "pqHfZKP75CvOlQylNhV4",
+    "gender": "M"
+   }
+  },
+  "sup:70120": {
+   "company": "Eisengießerei Velkenreith GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 240,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Will",
+    "id": "bIHbv24MWmeRgasZH58o",
+    "gender": "M"
+   }
+  },
+  "sup:70130": {
+   "company": "Gießerei Wimbacher GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 120,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Will",
+    "id": "bIHbv24MWmeRgasZH58o",
+    "gender": "M"
+   }
+  },
+  "sup:70140": {
+   "company": "Odlewnia Kalwisz Sp. z o.o.",
+   "country": "PL",
+   "contact": "Marek Lis",
+   "role": "Export Manager",
+   "gender": "M",
+   "staff": 210,
+   "owner_type": "private",
+   "tone_group": "export",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Charlie",
+    "id": "IKne3meq5aSn9XLyUdCD",
+    "gender": "M"
+   }
+  },
+  "sup:70150": {
+   "company": "Tarsevi Döküm Sanayi A.Ş.",
+   "country": "TR",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 380,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Charlotte",
+    "id": "XB0fDUnXU5powFXDhCwa",
+    "gender": "F"
+   }
+  },
+  "sup:70160": {
+   "company": "Meridune Precision Castings Co., Ltd.",
+   "country": "CN",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 900,
+   "owner_type": "private",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Chris",
+    "id": "iP95p4xoKVk53GoZ742B",
+    "gender": "M"
+   }
+  },
+  "sup:70170": {
+   "company": "Slévárna Vrbenský s.r.o.",
+   "country": "CZ",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 150,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Roger",
+    "id": "CwhRBWXzGAHq8TQ4Fs17",
+    "gender": "M"
+   }
+  },
+  "sup:70180": {
+   "company": "Feinguss Allgäu-Reiter GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 160,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Matilda",
+    "id": "XrExE9yKIg1WjnnlVkGX",
+    "gender": "F"
+   }
+  },
+  "sup:70190": {
+   "company": "Gießerei Pfaffenreuth GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 95,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Eric",
+    "id": "cjVigY5qzO86Huf0OWal",
+    "gender": "M"
+   }
+  },
+  "sup:70210": {
+   "company": "Zerspanung Dralveck GmbH",
+   "country": "DE",
+   "contact": "Andreas Dralveck",
+   "role": "Owner",
+   "gender": "M",
+   "staff": 22,
+   "owner_type": "founder",
+   "tone_group": "owner",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Brian",
+    "id": "nPczCjzI2devNBz1zQrb",
+    "gender": "M"
+   }
+  },
+  "sup:70220": {
+   "company": "CNC-Technik Obermaier & Huber GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 35,
+   "owner_type": "founder",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "gender": "M"
+   }
+  },
+  "sup:70230": {
+   "company": "Präzisionsteile Lindlbauer KG",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 14,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Charlie",
+    "id": "IKne3meq5aSn9XLyUdCD",
+    "gender": "M"
+   }
+  },
+  "sup:70240": {
+   "company": "Strojírna Hrvelec s.r.o.",
+   "country": "CZ",
+   "contact": "Jana Procházková",
+   "role": "Export Manager",
+   "gender": "F",
+   "staff": 60,
+   "owner_type": "founder",
+   "tone_group": "export",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Charlotte",
+    "id": "XB0fDUnXU5powFXDhCwa",
+    "gender": "F"
+   }
+  },
+  "sup:70250": {
+   "company": "Drehteile Fuchsreiter GmbH",
+   "country": "DE",
+   "contact": "Claudia Fuchsreiter",
+   "role": "Owner",
+   "gender": "F",
+   "staff": 18,
+   "owner_type": "founder",
+   "tone_group": "owner",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Aria",
+    "id": "9BWtsMINqrJLrRacOk9x",
+    "gender": "F"
+   }
+  },
+  "sup:70260": {
+   "company": "Mechanik Tauvelt GmbH",
+   "country": "AT",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 45,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Roger",
+    "id": "CwhRBWXzGAHq8TQ4Fs17",
+    "gender": "M"
+   }
+  },
+  "sup:70270": {
+   "company": "Obrábění Kraslin s.r.o.",
+   "country": "CZ",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 30,
+   "owner_type": "founder",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Jessica",
+    "id": "cgSgspJ2msm6clMCkdW9",
+    "gender": "F"
+   }
+  },
+  "sup:70280": {
+   "company": "Wälzhammer Präzision GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 55,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Matilda",
+    "id": "XrExE9yKIg1WjnnlVkGX",
+    "gender": "F"
+   }
+  },
+  "sup:70290": {
+   "company": "Feinmechanik Rottaler GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 25,
+   "owner_type": "founder",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "gender": "M"
+   }
+  },
+  "sup:70295": {
+   "company": "Drehzentrum Ilzauer GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 20,
+   "owner_type": "founder",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Jessica",
+    "id": "cgSgspJ2msm6clMCkdW9",
+    "gender": "F"
+   }
+  },
+  "sup:70310": {
+   "company": "Blechtechnik Aichbauer GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 70,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Charlotte",
+    "id": "XB0fDUnXU5powFXDhCwa",
+    "gender": "F"
+   }
+  },
+  "sup:70320": {
+   "company": "Stahlbau Ganghofer-Lenz GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 110,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Lily",
+    "id": "pFZP5JQG7iQjIQuC4Bku",
+    "gender": "F"
+   }
+  },
+  "sup:70330": {
+   "company": "Lasertechnik Varnoszeg Kft.",
+   "country": "HU",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 90,
+   "owner_type": "private",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Brian",
+    "id": "nPczCjzI2devNBz1zQrb",
+    "gender": "M"
+   }
+  },
+  "sup:70340": {
+   "company": "Metallbau Steinfelder KG",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 40,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Jessica",
+    "id": "cgSgspJ2msm6clMCkdW9",
+    "gender": "F"
+   }
+  },
+  "sup:70350": {
+   "company": "Oberflächentechnik Weißacher GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 30,
+   "owner_type": "founder",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Lily",
+    "id": "pFZP5JQG7iQjIQuC4Bku",
+    "gender": "F"
+   }
+  },
+  "sup:70360": {
+   "company": "Kantteile Strasser GmbH",
+   "country": "AT",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 25,
+   "owner_type": "founder",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Roger",
+    "id": "CwhRBWXzGAHq8TQ4Fs17",
+    "gender": "M"
+   }
+  },
+  "sup:70410": {
+   "company": "Dichtungswerk Ravensteiner GmbH",
+   "country": "DE",
+   "contact": "Monika Zellner",
+   "role": "Segment Manager",
+   "gender": "F",
+   "staff": 650,
+   "owner_type": "group",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Matilda",
+    "id": "XrExE9yKIg1WjnnlVkGX",
+    "gender": "F"
+   }
+  },
+  "sup:70420": {
+   "company": "Gleitring-Systeme Kaltenbrunn AG",
+   "country": "CH",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 900,
+   "owner_type": "group",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Brian",
+    "id": "nPczCjzI2devNBz1zQrb",
+    "gender": "M"
+   }
+  },
+  "sup:70430": {
+   "company": "Elasto-Dicht Hermannsdorfer GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 45,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Will",
+    "id": "bIHbv24MWmeRgasZH58o",
+    "gender": "M"
+   }
+  },
+  "sup:70440": {
+   "company": "Kohlering-Technik Pirkheim GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 140,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Laura",
+    "id": "FGY2WhTYpPnrIDTdsKH5",
+    "gender": "F"
+   }
+  },
+  "sup:70510": {
+   "company": "Antriebstechnik Nordmark AG",
+   "country": "DE",
+   "contact": "Petra Lechner",
+   "role": "Key Account Manager",
+   "gender": "F",
+   "staff": 4800,
+   "owner_type": "group",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Sarah",
+    "id": "EXAVITQu4vr4xnSDxMaL",
+    "gender": "F"
+   }
+  },
+  "sup:70520": {
+   "company": "Vesmo Elektromotory a.s.",
+   "country": "CZ",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 1200,
+   "owner_type": "group",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Will",
+    "id": "bIHbv24MWmeRgasZH58o",
+    "gender": "M"
+   }
+  },
+  "sup:70530": {
+   "company": "Selvbrunn Drive Systems GmbH",
+   "country": "DE",
+   "contact": "Birgit Mayrhofer",
+   "role": "Key Account Manager",
+   "gender": "F",
+   "staff": 2200,
+   "owner_type": "group",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Charlotte",
+    "id": "XB0fDUnXU5powFXDhCwa",
+    "gender": "F"
+   }
+  },
+  "sup:70540": {
+   "company": "Konvertek Antriebselektronik GmbH",
+   "country": "AT",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 800,
+   "owner_type": "group",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Eric",
+    "id": "cjVigY5qzO86Huf0OWal",
+    "gender": "M"
+   }
+  },
+  "sup:70550": {
+   "company": "Platinenwerk Lausitz GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 320,
+   "owner_type": "private",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Charlotte",
+    "id": "XB0fDUnXU5powFXDhCwa",
+    "gender": "F"
+   }
+  },
+  "sup:70560": {
+   "company": "Kabelwerk Rhönsberg GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 400,
+   "owner_type": "group",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Chris",
+    "id": "iP95p4xoKVk53GoZ742B",
+    "gender": "M"
+   }
+  },
+  "sup:70570": {
+   "company": "Sensorik Ammertal GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 150,
+   "owner_type": "private",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Roger",
+    "id": "CwhRBWXzGAHq8TQ4Fs17",
+    "gender": "M"
+   }
+  },
+  "sup:70580": {
+   "company": "Motorenwerk Saalach GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 650,
+   "owner_type": "group",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Brian",
+    "id": "nPczCjzI2devNBz1zQrb",
+    "gender": "M"
+   }
+  },
+  "sup:70610": {
+   "company": "Schraubenhandel Leitner & Sohn GmbH",
+   "country": "DE",
+   "contact": "Franz Stadler",
+   "role": "Inside Sales",
+   "gender": "M",
+   "staff": 280,
+   "owner_type": "family",
+   "tone_group": "inside",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "gender": "M"
+   }
+  },
+  "sup:70620": {
+   "company": "Wälzlager-Zentrum Süd GmbH",
+   "country": "DE",
+   "contact": "Florian Gruber",
+   "role": "Inside Sales",
+   "gender": "M",
+   "staff": 120,
+   "owner_type": "family",
+   "tone_group": "inside",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Will",
+    "id": "bIHbv24MWmeRgasZH58o",
+    "gender": "M"
+   }
+  },
+  "sup:70630": {
+   "company": "Normteile Brucker KG",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 60,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Sarah",
+    "id": "EXAVITQu4vr4xnSDxMaL",
+    "gender": "F"
+   }
+  },
+  "sup:70640": {
+   "company": "Kugellager-Vertrieb Inntal GmbH",
+   "country": "AT",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 80,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Jessica",
+    "id": "cgSgspJ2msm6clMCkdW9",
+    "gender": "F"
+   }
+  },
+  "sup:70650": {
+   "company": "Verbindungstechnik Mairhofer GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 40,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "gender": "M"
+   }
+  },
+  "sup:70710": {
+   "company": "Edelstahl-Service Donautal GmbH",
+   "country": "DE",
+   "contact": "Georg Aigner",
+   "role": "Inside Sales",
+   "gender": "M",
+   "staff": 350,
+   "owner_type": "group",
+   "tone_group": "inside",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Chris",
+    "id": "iP95p4xoKVk53GoZ742B",
+    "gender": "M"
+   }
+  },
+  "sup:70720": {
+   "company": "Stahlhandel Rupprecht-Kessel GmbH",
+   "country": "DE",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 500,
+   "owner_type": "family",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Eric",
+    "id": "cjVigY5qzO86Huf0OWal",
+    "gender": "M"
+   }
+  },
+  "sup:70730": {
+   "company": "Inox Center Ostalpen GmbH",
+   "country": "AT",
+   "contact": null,
+   "role": "Supplier representative",
+   "gender": null,
+   "staff": 150,
+   "owner_type": "private",
+   "tone_group": "account",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Brian",
+    "id": "nPczCjzI2devNBz1zQrb",
+    "gender": "M"
+   }
+  },
+  "sup:70740": {
+   "company": "Blankstahl Werdenfels GmbH",
+   "country": "DE",
+   "contact": "Franz Seidl",
+   "role": "Inside Sales",
+   "gender": "M",
+   "staff": 200,
+   "owner_type": "family",
+   "tone_group": "inside",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "gender": "M"
+   }
+  },
+  "sup:DEMO-C1": {
+   "company": "Demo Machining Sp. z o.o.",
+   "country": "PL",
+   "contact": "Joanna Kaczmarek",
+   "role": "Export Manager",
+   "gender": "F",
+   "staff": null,
+   "owner_type": null,
+   "tone_group": "export",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Jessica",
+    "id": "cgSgspJ2msm6clMCkdW9",
+    "gender": "F"
+   }
+  },
+  "sup:DEMO-F1": {
+   "company": "Demo Gießerei GmbH",
+   "country": "DE",
+   "contact": "Andreas Moser",
+   "role": "Owner",
+   "gender": "M",
+   "staff": null,
+   "owner_type": null,
+   "tone_group": "owner",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "George",
+    "id": "JBFqnCBsd6RMkjVDRZzb",
+    "gender": "M"
+   }
+  },
+  "sup:DEMO-J1": {
+   "company": "Demo Drehteile GmbH",
+   "country": "DE",
+   "contact": "Claudia Aigner",
+   "role": "Owner",
+   "gender": "F",
+   "staff": null,
+   "owner_type": null,
+   "tone_group": "owner",
+   "style": "clear, professional, conversational",
+   "accent": "",
+   "voice": {
+    "name": "Lily",
+    "id": "pFZP5JQG7iQjIQuC4Bku",
+    "gender": "F"
+   }
+  }
+ }
+}

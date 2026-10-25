@@ -1,0 +1,13 @@
+{
+ "choices": {
+  "avoid_levers:payment_days_long": {
+   "choice": "keep",
+   "reason": "The supplier explicitly complains that our invoices are overdue and threatens to review conditions. That is a direct complaint about late payment, not an inference."
+  }
+ },
+ "labels": {},
+ "usage": {
+  "in": 4968,
+  "out": 240
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70140\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [{\"lever\": \"payment_days_short\", \"stance\": \"requested\", \"condition\": \"within 10 days against a cash discount\", \"evidence\": [{\"source\": \"doc:20260710-70140-M2\", \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"}, {\"source\": \"doc:20260715-70140-M1\", \"quote\": \"he asked twice whether we could pay earlier\"}, {\"source\": \"quote:7300011\", \"quote\": \"Remarks: Payment within 10 days requested.\"}], \"confidence\": \"high\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": \"strong\", \"evidence\": [{\"source\": \"doc:20260715-70140-M1\", \"quote\": \"he asked twice whether we could pay earlier and said the bank is watching every month.\"}, {\"source\": \"news:20260911-28\", \"quote\": \"Odlewnia Kalwisz Sp. z o.o. has started a restructuring programme with its banks after two loss-making years\"}, {\"source\": \"doc:20260710-70140-M2\", \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"}], \"confidence\": \"high\"}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260715-70140-M1\", \"quote\": \"'I cannot sign anything that lowers our margin now.'\"}], \"confidence\": \"high\"}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70140",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "payment_days_short",
+    "stance": "requested",
+    "condition": "within 10 days against a cash discount",
+    "evidence": [
+     {
+      "source": "doc:20260710-70140-M2",
+      "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+     },
+     {
+      "source": "doc:20260715-70140-M1",
+      "quote": "he asked twice whether we could pay earlier"
+     },
+     {
+      "source": "quote:7300011",
+      "quote": "Remarks: Payment within 10 days requested."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": "strong",
+   "evidence": [
+    {
+     "source": "doc:20260715-70140-M1",
+     "quote": "he asked twice whether we could pay earlier and said the bank is watching every month."
+    },
+    {
+     "source": "news:20260911-28",
+     "quote": "Odlewnia Kalwisz Sp. z o.o. has started a restructuring programme with its banks after two loss-making years"
+    },
+    {
+     "source": "doc:20260710-70140-M2",
+     "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+    }
+   ],
+   "confidence": "high"
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260715-70140-M1",
+     "quote": "'I cannot sign anything that lowers our margin now.'"
+    }
+   ],
+   "confidence": "high"
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 71.1
+}

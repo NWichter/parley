@@ -1,0 +1,17 @@
+{
+ "choices": {
+  "price_freeze": {
+   "choice": "A",
+   "reason": "The supplier explicitly states standard items are not discounted, a blanket restriction on individual price reductions. It is not contractual boilerplate."
+  }
+ },
+ "labels": {
+  "price_freeze": {
+   "A": "freeze@None"
+  }
+ },
+ "usage": {
+  "in": 4672,
+  "out": 239
+ }
+}

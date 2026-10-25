@@ -1,0 +1,192 @@
+{
+ "fields": {
+  "approval_threshold_pct": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 17,
+   "any_nonnull": 17,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "approval_cycle": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 17,
+   "any_nonnull": 17,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "approval_cycle_days": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 17,
+   "any_nonnull": 17,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "capacity_tight": {
+   "n": 46,
+   "agree": 45,
+   "agree_nonnull": 16,
+   "any_nonnull": 17,
+   "cx": 9,
+   "gx": 9,
+   "all3": 9,
+   "n3": 10
+  },
+  "price_freeze": {
+   "n": 46,
+   "agree": 43,
+   "agree_nonnull": 5,
+   "any_nonnull": 8,
+   "cx": 9,
+   "gx": 10,
+   "all3": 9,
+   "n3": 10
+  },
+  "cash_need": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 17,
+   "any_nonnull": 17,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "uninformed_owner": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 7,
+   "any_nonnull": 7,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "decision_maker": {
+   "n": 46,
+   "agree": 41,
+   "agree_nonnull": 33,
+   "any_nonnull": 38,
+   "cx": 8,
+   "gx": 10,
+   "all3": 8,
+   "n3": 10
+  },
+  "patience": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 0,
+   "any_nonnull": 0,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "past_goodwill_claim": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 5,
+   "any_nonnull": 5,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "volume_posture": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 21,
+   "any_nonnull": 21,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "open_calculation": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 11,
+   "any_nonnull": 11,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "margin_floor": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 5,
+   "any_nonnull": 5,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "account_deprioritised": {
+   "n": 46,
+   "agree": 46,
+   "agree_nonnull": 3,
+   "any_nonnull": 3,
+   "cx": 10,
+   "gx": 10,
+   "all3": 10,
+   "n3": 10
+  },
+  "preferred_levers": {
+   "n": 46,
+   "agree": 43,
+   "agree_nonnull": 26,
+   "any_nonnull": 29,
+   "cx": 10,
+   "gx": 9,
+   "all3": 9,
+   "n3": 10
+  },
+  "avoid_levers": {
+   "n": 46,
+   "agree": 43,
+   "agree_nonnull": 5,
+   "any_nonnull": 8,
+   "cx": 9,
+   "gx": 8,
+   "all3": 7,
+   "n3": 10
+  },
+  "hedged_inputs": {
+   "n": 46,
+   "agree": 44,
+   "agree_nonnull": 3,
+   "any_nonnull": 5,
+   "cx": 9,
+   "gx": 10,
+   "all3": 9,
+   "n3": 10
+  }
+ },
+ "items": {
+  "preferred_levers": [
+   36,
+   40
+  ],
+  "avoid_levers": [
+   5,
+   8
+  ],
+  "hedged_inputs": [
+   6,
+   8
+  ]
+ },
+ "quotes": {
+  "total": 706,
+  "verified": 705
+ }
+}

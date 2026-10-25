@@ -1,0 +1,514 @@
+{
+ "sessions": [
+  {
+   "session_id": "c46ccd08c8a5d029",
+   "case_id": "case:D01",
+   "set": "sandbox",
+   "title": "Sandbox demo case",
+   "type": "demo",
+   "rounds": 7,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.9987446089102158,
+   "house_score": null,
+   "agent": null,
+   "suppliers": [
+    "Demo Gießerei GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:DEMO-F1": "Brian"
+   },
+   "characters": 8450,
+   "duration": null
+  },
+  {
+   "session_id": "1949af9c1a9ba379",
+   "case_id": "case:P01",
+   "set": "practice",
+   "title": "Brandlhuber announces +9.5 % on HN volute casings",
+   "type": "price_increase",
+   "rounds": 3,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.9974353959942377,
+   "house_score": 0.9659,
+   "agent": null,
+   "suppliers": [
+    "Gießerei Brandlhuber GmbH & Co. KG"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70110": "Bill"
+   },
+   "characters": 4153,
+   "duration": null
+  },
+  {
+   "session_id": "7983b1418291c42d",
+   "case_id": "case:P01",
+   "set": "practice",
+   "title": "Brandlhuber announces +9.5 % on HN volute casings",
+   "type": "price_increase",
+   "rounds": 3,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.9970291742357803,
+   "house_score": 0.9659,
+   "agent": null,
+   "suppliers": [
+    "Gießerei Brandlhuber GmbH & Co. KG"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70110": "Bill"
+   },
+   "characters": 4274,
+   "duration": null
+  },
+  {
+   "session_id": "3a6fb4b15b2dc8af",
+   "case_id": "case:P03",
+   "set": "practice",
+   "title": "Frame agreement renewal for the 7.5 kW frequency converter",
+   "type": "renewal",
+   "rounds": 5,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.9633078950299073,
+   "house_score": 0.9249,
+   "agent": null,
+   "suppliers": [
+    "Selvbrunn Drive Systems GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70530": "Charlotte"
+   },
+   "characters": 7034,
+   "duration": null
+  },
+  {
+   "session_id": "d731b32b8d39528b",
+   "case_id": "case:P08",
+   "set": "practice",
+   "title": "Alloy surcharge and base price for 1.4404 bar",
+   "type": "raw_material",
+   "rounds": 5,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.8917574217035795,
+   "house_score": 0.7516,
+   "agent": null,
+   "suppliers": [
+    "Edelstahl-Service Donautal GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70710": "Will"
+   },
+   "characters": 6492,
+   "duration": null
+  },
+  {
+   "session_id": "d32610531740b53a",
+   "case_id": "case:P04",
+   "set": "practice",
+   "title": "Renewal of the ball bearing 6306 agreement",
+   "type": "renewal",
+   "rounds": 4,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.8736820298574475,
+   "house_score": 0.8604,
+   "agent": null,
+   "suppliers": [
+    "Wälzlager-Zentrum Süd GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70620": "Will"
+   },
+   "characters": 4690,
+   "duration": null
+  },
+  {
+   "session_id": "a14f88aedcbf4da7",
+   "case_id": "case:P05",
+   "set": "practice",
+   "title": "RFQ: pump shaft for the new HX series",
+   "type": "rfq",
+   "rounds": 6,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.8652458165587545,
+   "house_score": 0.5552,
+   "agent": null,
+   "suppliers": [
+    "Zerspanung Dralveck GmbH",
+    "Strojírna Hrvelec s.r.o.",
+    "Drehteile Fuchsreiter GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70210": "Brian",
+    "sup:70240": "Charlotte",
+    "sup:70250": "Lily"
+   },
+   "characters": 7576,
+   "duration": null
+  },
+  {
+   "session_id": "4913d295df7a3ec7",
+   "case_id": "case:P07",
+   "set": "practice",
+   "title": "Bundle the fastener kit with one distributor",
+   "type": "bundling",
+   "rounds": 5,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.7995206453801026,
+   "house_score": 0.7816,
+   "agent": null,
+   "suppliers": [
+    "Schraubenhandel Leitner & Sohn GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70610": "Liam"
+   },
+   "characters": 5608,
+   "duration": null
+  },
+  {
+   "session_id": "ae9206fd259e5f01",
+   "case_id": "case:P11",
+   "set": "practice",
+   "title": "Kalwisz: bearing brackets in red",
+   "type": "quality",
+   "rounds": 7,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.7935118099900735,
+   "house_score": 0.3144,
+   "agent": null,
+   "suppliers": [
+    "Odlewnia Kalwisz Sp. z o.o."
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70140": "Charlie"
+   },
+   "characters": 8006,
+   "duration": null
+  },
+  {
+   "session_id": "37acd418d7a987d8",
+   "case_id": "case:P07",
+   "set": "practice",
+   "title": "Bundle the fastener kit with one distributor",
+   "type": "bundling",
+   "rounds": 5,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.786313171596817,
+   "house_score": 0.7816,
+   "agent": null,
+   "suppliers": [
+    "Schraubenhandel Leitner & Sohn GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70610": "Liam"
+   },
+   "characters": 5775,
+   "duration": null
+  },
+  {
+   "session_id": "0570f8f536396163",
+   "case_id": "case:D02",
+   "set": "sandbox",
+   "title": "Sandbox demo case",
+   "type": "demo",
+   "rounds": 8,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.7666157260548718,
+   "house_score": null,
+   "agent": null,
+   "suppliers": [
+    "Demo Drehteile GmbH",
+    "Demo Machining Sp. z o.o."
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:DEMO-J1": "Aria",
+    "sup:DEMO-C1": "Lily"
+   },
+   "characters": 8885,
+   "duration": null
+  },
+  {
+   "session_id": "8a44439983a4fe59",
+   "case_id": "case:P02",
+   "set": "practice",
+   "title": "Nordmark passes on copper for the 7.5 kW motor",
+   "type": "price_increase",
+   "rounds": 5,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.7545257535672133,
+   "house_score": 0.74,
+   "agent": "parley-v1-llm",
+   "suppliers": [
+    "Antriebstechnik Nordmark AG"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70510": "Sarah"
+   },
+   "characters": 7013,
+   "duration": null
+  },
+  {
+   "session_id": "e642aeb72a327558",
+   "case_id": "case:P05",
+   "set": "practice",
+   "title": "RFQ: pump shaft for the new HX series",
+   "type": "rfq",
+   "rounds": 10,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.7474450745054939,
+   "house_score": 0.5552,
+   "agent": "parley-v1-llm",
+   "suppliers": [
+    "Zerspanung Dralveck GmbH",
+    "Strojírna Hrvelec s.r.o.",
+    "Drehteile Fuchsreiter GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70210": "Brian",
+    "sup:70240": "Charlotte",
+    "sup:70250": "Lily"
+   },
+   "characters": 2233,
+   "duration": 184.12
+  },
+  {
+   "session_id": "18d04e37b3dfa06f",
+   "case_id": "case:P18",
+   "set": "practice",
+   "title": "Alloy surcharge and base price for 1.4404 bar (Werdenfels)",
+   "type": "raw_material",
+   "rounds": 6,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.6845646477287703,
+   "house_score": 0.3861,
+   "agent": null,
+   "suppliers": [
+    "Blankstahl Werdenfels GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70740": "Will"
+   },
+   "characters": 7319,
+   "duration": null
+  },
+  {
+   "session_id": "c12a25eaacdd98b6",
+   "case_id": "case:P08",
+   "set": "practice",
+   "title": "Alloy surcharge and base price for 1.4404 bar",
+   "type": "raw_material",
+   "rounds": 4,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.6814884784792163,
+   "house_score": 0.7516,
+   "agent": null,
+   "suppliers": [
+    "Edelstahl-Service Donautal GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70710": "Will"
+   },
+   "characters": 5375,
+   "duration": null
+  },
+  {
+   "session_id": "af65b1c2fd218acd",
+   "case_id": "case:P10",
+   "set": "practice",
+   "title": "Ravensteiner cuts the seal allocation",
+   "type": "capacity",
+   "rounds": 3,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.6785164534560958,
+   "house_score": 0.6863,
+   "agent": "parley-v1.10-llm-snapshot",
+   "suppliers": [
+    "Dichtungswerk Ravensteiner GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70410": "Matilda"
+   },
+   "characters": 3268,
+   "duration": null
+  },
+  {
+   "session_id": "ebb8dfc4e615d2e1",
+   "case_id": "case:P18",
+   "set": "practice",
+   "title": "Alloy surcharge and base price for 1.4404 bar (Werdenfels)",
+   "type": "raw_material",
+   "rounds": 5,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.6657991593167086,
+   "house_score": 0.3861,
+   "agent": null,
+   "suppliers": [
+    "Blankstahl Werdenfels GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70740": "Will"
+   },
+   "characters": 6145,
+   "duration": null
+  },
+  {
+   "session_id": "2f11a5e9780a77cc",
+   "case_id": "case:P10",
+   "set": "practice",
+   "title": "Ravensteiner cuts the seal allocation",
+   "type": "capacity",
+   "rounds": 3,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.6629052177602854,
+   "house_score": 0.6863,
+   "agent": null,
+   "suppliers": [
+    "Dichtungswerk Ravensteiner GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70410": "Matilda"
+   },
+   "characters": 3021,
+   "duration": null
+  },
+  {
+   "session_id": "3b124d9df0913e41",
+   "case_id": "case:P05",
+   "set": "practice",
+   "title": "RFQ: pump shaft for the new HX series",
+   "type": "rfq",
+   "rounds": 11,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.6585778095899957,
+   "house_score": 0.5552,
+   "agent": null,
+   "suppliers": [
+    "Zerspanung Dralveck GmbH",
+    "Strojírna Hrvelec s.r.o.",
+    "Drehteile Fuchsreiter GmbH"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70210": "Brian",
+    "sup:70240": "Charlotte",
+    "sup:70250": "Lily"
+   },
+   "characters": 11203,
+   "duration": null
+  },
+  {
+   "session_id": "ebe0c9d87c1f3cc8",
+   "case_id": "case:P02",
+   "set": "practice",
+   "title": "Nordmark passes on copper for the 7.5 kW motor",
+   "type": "price_increase",
+   "rounds": 5,
+   "end_reason": "accepted",
+   "deal": true,
+   "score": 0.6258565375609496,
+   "house_score": 0.74,
+   "agent": null,
+   "suppliers": [
+    "Antriebstechnik Nordmark AG"
+   ],
+   "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "sup:70510": "Sarah"
+   },
+   "characters": 6199,
+   "duration": null
+  }
+ ],
+ "collections": {
+  "best": {
+   "label": "Best run per case",
+   "sessions": [
+    "7983b1418291c42d",
+    "8a44439983a4fe59",
+    "3a6fb4b15b2dc8af",
+    "d32610531740b53a",
+    "a14f88aedcbf4da7",
+    "4913d295df7a3ec7",
+    "d731b32b8d39528b",
+    "af65b1c2fd218acd",
+    "ae9206fd259e5f01",
+    "18d04e37b3dfa06f",
+    "c46ccd08c8a5d029",
+    "0570f8f536396163"
+   ]
+  },
+  "round": {
+   "label": "One version, all ten cases",
+   "agent": "parley-v1.33-narrowcash-A",
+   "mean": 0.771,
+   "sessions": [
+    "7983b1418291c42d",
+    "ebe0c9d87c1f3cc8",
+    "3a6fb4b15b2dc8af",
+    "d32610531740b53a",
+    "3b124d9df0913e41",
+    "37acd418d7a987d8",
+    "c12a25eaacdd98b6",
+    "2f11a5e9780a77cc",
+    "ae9206fd259e5f01",
+    "ebb8dfc4e615d2e1"
+   ]
+  }
+ }
+}

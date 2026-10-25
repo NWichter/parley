@@ -1,0 +1,351 @@
+{
+  "session_id": "3c38a30d93a9bc06",
+  "case_id": "case:P11",
+  "set": "practice",
+  "replay_url": "/replay",
+  "rounds": 6,
+  "agent": "Parley v1 (LLM mode)",
+  "house_score": 0.3144,
+  "labels": {
+    "narrator": "Narrator",
+    "buyer": "Buyer · Parley for Hollerau",
+    "supplier": "Supplier · Kalwisz Export"
+  },
+  "audio": "/replays/3c38a30d93a9bc06/audio.mp3",
+  "model_id": "eleven_v3",
+  "voices": {
+    "narrator": "Alice",
+    "buyer": "Daniel",
+    "supplier": "George"
+  },
+  "result": {
+    "deal": true,
+    "score": 0.7098962346486538,
+    "c_open": 817578.0,
+    "c_deal": 750082.5,
+    "c_best": 722500.02,
+    "terms": {
+      "payment_days": 60,
+      "lead_time_days": 56,
+      "volume_per_year": 15900,
+      "contract_months": 12,
+      "effective_date": "2027-01-01",
+      "index_clause": null,
+      "incoterm": "FCA",
+      "tooling_eur": 0.0,
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0.0,
+      "unit_price": 45.5
+    }
+  },
+  "characters": 1996,
+  "turns": [
+    {
+      "speaker": "narrator",
+      "from": null,
+      "kind": "narration",
+      "text": "A real practice negotiation from the Tacto arena (case P11, quality). Hollerau Pumpenwerke buys bearing brackets from Odlewnia Kalwisz, a Polish foundry whose quality scorecard is in the red. The buyer is our agent, Parley: data the arena can check, and packages that cost it the same.",
+      "condensed": false,
+      "spoken": true,
+      "status": null,
+      "action": null,
+      "terms": [],
+      "start": 0.0,
+      "end": 19.28
+    },
+    {
+      "speaker": "supplier",
+      "from": "Export Manager, Odlewnia Kalwisz Sp. z o.o.",
+      "kind": "turn",
+      "text": "Hello, … We are very eager to work with you and to prove ourselves as a great long-term partner for your business! We are happy to present our offer for a price of €47.00 per unit, along with a quality commitment of 6400 ppm.",
+      "condensed": true,
+      "spoken": true,
+      "status": "open",
+      "action": null,
+      "terms": [
+        {
+          "unit_price": 47.0,
+          "ppm_commitment": 6400
+        }
+      ],
+      "start": 19.28,
+      "end": 32.64
+    },
+    {
+      "speaker": "buyer",
+      "from": "Hollerau Pumpenwerke, Purchasing",
+      "kind": "turn",
+      "text": "Dear Marek Lis, … We commit to a binding volume of 15900 pieces a year over 12 months, our full need for this part. Your on-time delivery averaged 70.8% over the last two scorecard quarters (sc:70140@2026Q2, sc:70140@2026Q3). PPI-C241 changed -4.3% (idx:PPI-C241@2024-10, @2025-10). The PPI-D351 index changed -17.1% (idx:PPI-D351@2025-02, @2026-02). … We have put together 3 packages; each works equally well for us: EUR 43.13 at 300 ppm · EUR 43.17 at 300 ppm with EUR 150 chargeback · EUR 42.90 at 800 ppm.",
+      "condensed": true,
+      "spoken": true,
+      "status": null,
+      "action": null,
+      "terms": [
+        {
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0,
+          "unit_price": 43.13
+        },
+        {
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 150,
+          "unit_price": 43.17
+        },
+        {
+          "ppm_commitment": 800,
+          "chargeback_eur_per_complaint": 0,
+          "unit_price": 42.9
+        }
+      ],
+      "start": 32.64,
+      "end": 61.120000000000005
+    },
+    {
+      "speaker": "supplier",
+      "from": "Export Manager, Odlewnia Kalwisz Sp. z o.o.",
+      "kind": "turn",
+      "text": "We checked the index change data you cited; it holds and we took it into account. We checked the delivery record data you cited; it holds … We see your figures, but we cannot give up margin right now. Faster payment would help us more than anything. … Our terms: a price of €46.50 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. … I can do 46.00 EUR for the 800 ppm package.",
+      "condensed": true,
+      "spoken": true,
+      "status": "open",
+      "action": null,
+      "terms": [
+        {
+          "unit_price": 46.5,
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0.0
+        },
+        {
+          "unit_price": 46.0,
+          "ppm_commitment": 800,
+          "chargeback_eur_per_complaint": 0.0
+        }
+      ],
+      "start": 61.120000000000005,
+      "end": 73.92000000000002
+    },
+    {
+      "speaker": "buyer",
+      "from": "Hollerau Pumpenwerke, Purchasing",
+      "kind": "turn",
+      "text": "Our recent complaints against this part averaged 18558 ppm (qn:20005025, qn:20004952, qn:20004756). … We have put together 2 packages; each works equally well for us: EUR 43.98 at 300 ppm · EUR 44.02 at 300 ppm with EUR 150 chargeback. What would you need from us to move further?",
+      "condensed": true,
+      "spoken": true,
+      "status": null,
+      "action": null,
+      "terms": [
+        {
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0,
+          "unit_price": 43.98
+        },
+        {
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 150,
+          "unit_price": 44.02
+        }
+      ],
+      "start": 73.92000000000002,
+      "end": 87.68
+    },
+    {
+      "speaker": "supplier",
+      "from": "Export Manager, Odlewnia Kalwisz Sp. z o.o.",
+      "kind": "turn",
+      "text": "We checked the quality records you cited, but we already took this kind of fact into account. You asked what we need to move further: we really need faster payment, cash is tight for us right now. … Our terms: a price of €46.00 per unit, a quality commitment of 300 ppm.",
+      "condensed": true,
+      "spoken": true,
+      "status": "open",
+      "action": null,
+      "terms": [
+        {
+          "unit_price": 46.0,
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0.0
+        }
+      ],
+      "start": 87.68,
+      "end": 99.204
+    },
+    {
+      "speaker": "buyer",
+      "from": "Hollerau Pumpenwerke, Purchasing",
+      "kind": "turn",
+      "text": "Our latest forecast shows demand for this part up 20.0% (fc:310020@2026-09). … EUR 44.49 at 300 ppm · EUR 44.53 with EUR 150 chargeback. What is the best price you could sign today on one of these packages?",
+      "condensed": true,
+      "spoken": true,
+      "status": null,
+      "action": null,
+      "terms": [
+        {
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0,
+          "unit_price": 44.49
+        },
+        {
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 150,
+          "unit_price": 44.53
+        }
+      ],
+      "start": 99.204,
+      "end": 108.24399999999999
+    },
+    {
+      "speaker": "supplier",
+      "from": "Export Manager, Odlewnia Kalwisz Sp. z o.o.",
+      "kind": "turn",
+      "text": "We checked the forecast data you cited; it holds and we took it into account. I can do 45.50 EUR for the 300 ppm package with 0 EUR chargeback, this is the best we can do today. … Which volume can you commit to?",
+      "condensed": true,
+      "spoken": true,
+      "status": "open",
+      "action": null,
+      "terms": [
+        {
+          "unit_price": 45.5,
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0.0
+        }
+      ],
+      "start": 108.24399999999999,
+      "end": 114.40399999999998
+    },
+    {
+      "speaker": "buyer",
+      "from": "Hollerau Pumpenwerke, Purchasing",
+      "kind": "turn",
+      "text": "We commit to a binding volume of 15900 pieces a year over 12 months, our full need for this part. … EUR 44.75 at 300 ppm · EUR 44.79 with EUR 150 chargeback. What is the best price you could sign today?",
+      "condensed": true,
+      "spoken": false,
+      "status": null,
+      "action": null,
+      "terms": [
+        {
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0,
+          "unit_price": 44.75
+        },
+        {
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 150,
+          "unit_price": 44.79
+        }
+      ],
+      "start": null,
+      "end": null
+    },
+    {
+      "speaker": "supplier",
+      "from": "Export Manager, Odlewnia Kalwisz Sp. z o.o.",
+      "kind": "turn",
+      "text": "Thanks for confirming the 15900 pieces volume! … €45.50 per unit for the 300 ppm package with a chargeback of €0.00 per complaint is the absolute best price we can sign today. … Which volume can you commit to?",
+      "condensed": true,
+      "spoken": false,
+      "status": "open",
+      "action": null,
+      "terms": [
+        {
+          "unit_price": 45.5,
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0.0
+        }
+      ],
+      "start": null,
+      "end": null
+    },
+    {
+      "speaker": "buyer",
+      "from": "Hollerau Pumpenwerke, Purchasing",
+      "kind": "turn",
+      "text": "We commit to a binding volume of 15900 pieces a year over 12 months, our full need for this part. … EUR 45.02 at 300 ppm · EUR 45.06 with EUR 150 chargeback. What is the best price you could sign today on one of these packages?",
+      "condensed": true,
+      "spoken": true,
+      "status": null,
+      "action": null,
+      "terms": [
+        {
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0,
+          "unit_price": 45.02
+        },
+        {
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 150,
+          "unit_price": 45.06
+        }
+      ],
+      "start": 114.40399999999998,
+      "end": 121.84399999999998
+    },
+    {
+      "speaker": "supplier",
+      "from": "Export Manager, Odlewnia Kalwisz Sp. z o.o.",
+      "kind": "turn",
+      "text": "This is our last price, take it or leave it. Our terms: a price of €45.50 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. … We still need faster payment to make this work, cash is tight right now.",
+      "condensed": true,
+      "spoken": true,
+      "status": "final_offer",
+      "action": null,
+      "terms": [
+        {
+          "unit_price": 45.5,
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0.0
+        }
+      ],
+      "start": 121.84399999999998,
+      "end": 130.171
+    },
+    {
+      "speaker": "narrator",
+      "from": "Hollerau Pumpenwerke, Purchasing",
+      "kind": "turn",
+      "text": "Parley accepts offer:70140-5 (no e-mail text, an accept action).",
+      "condensed": false,
+      "spoken": true,
+      "status": null,
+      "action": "accept",
+      "terms": [
+        {
+          "unit_price": 45.5,
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0.0
+        }
+      ],
+      "start": 130.171,
+      "end": 132.731
+    },
+    {
+      "speaker": "supplier",
+      "from": "Export Manager, Odlewnia Kalwisz Sp. z o.o.",
+      "kind": "turn",
+      "text": "Thank you for your order. Our order confirmation is attached. We are very glad to work together with you and are looking forward to being a strong long-term partner for your company.",
+      "condensed": true,
+      "spoken": true,
+      "status": "agreed",
+      "action": null,
+      "terms": [
+        {
+          "unit_price": 45.5,
+          "ppm_commitment": 300,
+          "chargeback_eur_per_complaint": 0.0
+        }
+      ],
+      "start": 132.731,
+      "end": 136.73899999999998
+    },
+    {
+      "speaker": "narrator",
+      "from": null,
+      "kind": "narration",
+      "text": "Six rounds: €47.00 down to €45.50, and the quality commitment from 6,400 down to 300 ppm. Score 0.71. Tacto's own house agent scored 0.31 on this case.",
+      "condensed": false,
+      "spoken": true,
+      "status": null,
+      "action": null,
+      "terms": [],
+      "start": 136.73899999999998,
+      "end": 153.45899999999997
+    }
+  ]
+}

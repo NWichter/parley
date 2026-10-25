@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+video/out/
+audio/replays/
+ops/logs/
+ops/artifacts/
+ops/artifacts.zip

@@ -1,0 +1,131 @@
+{
+ "raw": "{\n  \"supplier_id\": \"sup:70280\",\n  \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"preferred_levers\": [\n    {\n      \"lever\": \"payment_days_short\",\n      \"stance\": \"requested\",\n      \"condition\": \"Payment within 10 days\",\n      \"evidence\": [\n        {\"source\": \"quote:7300056\", \"quote\": \"Payment within 10 days requested.\"}\n      ],\n      \"confidence\": \"high\"\n    }\n  ],\n  \"avoid_levers\": [\n    {\n      \"lever\": \"payment_days_long\",\n      \"stance\": \"rejected\",\n      \"condition\": \"Payments beyond the agreed payment terms\",\n      \"evidence\": [\n        {\"source\": \"doc:20260720-70280-P\", \"quote\": \"Several of our invoices are overdue again. We ask you to keep to the agreed payment terms; otherwise we will have to review our conditions.\"}\n      ],\n      \"confidence\": \"medium\"\n    }\n  ],\n  \"capacity_tight\": {\n    \"value\": false,\n    \"evidence\": [\n      {\"source\": \"doc:20260619-70280-M2\", \"quote\": \"they could take additional parts at short notice; the second shift has been on hold since spring.\"}\n    ],\n    \"confidence\": \"high\"\n  },\n  \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"cash_need\": {\n    \"value\": \"strong\",\n    \"evidence\": [\n      {\"source\": \"doc:20260707-70280-M1\", \"quote\": \"he asked twice whether we could pay earlier and said the bank is watching every month.\"}\n    ],\n    \"confidence\": \"high\"\n  },\n  \"hedged_inputs\": [],\n  \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"decision_maker\": {\n    \"value\": \"owner\",\n    \"evidence\": [\n      {\"source\": \"doc:20260617-70280-M3\", \"quote\": \"Call with the owner of Wälzhammer Präzision GmbH: he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices.\"}\n    ],\n    \"confidence\": \"high\"\n  },\n  \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"volume_posture\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"open_calculation\": {\n    \"value\": true,\n    \"evidence\": [\n      {\"source\": \"doc:20260617-70280-M3\", \"quote\": \"he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices.\"}\n    ],\n    \"confidence\": \"high\"\n  },\n  \"margin_floor\": {\n    \"value\": true,\n    \"evidence\": [\n      {\"source\": \"doc:20260707-70280-M1\", \"quote\": \"I cannot sign anything that lowers our margin now.\"}\n    ],\n    \"confidence\": \"high\"\n  },\n  \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}\n}\n",
+ "data": {
+  "supplier_id": "sup:70280",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "payment_days_short",
+    "stance": "requested",
+    "condition": "Payment within 10 days",
+    "evidence": [
+     {
+      "source": "quote:7300056",
+      "quote": "Payment within 10 days requested."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [
+   {
+    "lever": "payment_days_long",
+    "stance": "rejected",
+    "condition": "Payments beyond the agreed payment terms",
+    "evidence": [
+     {
+      "source": "doc:20260720-70280-P",
+      "quote": "Several of our invoices are overdue again. We ask you to keep to the agreed payment terms; otherwise we will have to review our conditions."
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "capacity_tight": {
+   "value": false,
+   "evidence": [
+    {
+     "source": "doc:20260619-70280-M2",
+     "quote": "they could take additional parts at short notice; the second shift has been on hold since spring."
+    }
+   ],
+   "confidence": "high"
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": "strong",
+   "evidence": [
+    {
+     "source": "doc:20260707-70280-M1",
+     "quote": "he asked twice whether we could pay earlier and said the bank is watching every month."
+    }
+   ],
+   "confidence": "high"
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "owner",
+   "evidence": [
+    {
+     "source": "doc:20260617-70280-M3",
+     "quote": "Call with the owner of Wälzhammer Präzision GmbH: he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "open_calculation": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260617-70280-M3",
+     "quote": "he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices."
+    }
+   ],
+   "confidence": "high"
+  },
+  "margin_floor": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260707-70280-M1",
+     "quote": "I cannot sign anything that lowers our margin now."
+    }
+   ],
+   "confidence": "high"
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 63.2
+}

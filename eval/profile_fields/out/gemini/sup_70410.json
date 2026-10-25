@@ -1,0 +1,139 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70410\", \"approval_threshold_pct\": {\"value\": 2, \"evidence\": [{\"source\": \"doc:20260310-70410-M1\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"approval_cycle\": {\"value\": \"pricing committee, every two weeks\", \"evidence\": [{\"source\": \"doc:20260310-70410-M1\", \"quote\": \"price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"approval_cycle_days\": {\"value\": 14, \"evidence\": [{\"source\": \"doc:20260310-70410-M1\", \"quote\": \"pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"preferred_levers\": [{\"lever\": \"volume_commitment\", \"stance\": \"requested\", \"condition\": \"for additional volumes and delivery prioritisation\", \"evidence\": [{\"source\": \"doc:20260327-70410-M2\", \"quote\": \"We can confirm additional volumes only against a binding 12-month commitment.\"}, {\"source\": \"doc:20260918-70410-P10\", \"quote\": \"We will prioritise customers with firm, long-term commitments.\"}], \"confidence\": \"high\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260918-70410-P10\", \"quote\": \"due to very high capacity utilisation we cannot confirm your full forecast for Mechanical seal 24 mm, SiC/carbon, EPDM (part:340010) for the coming months.\"}, {\"source\": \"news:20260822-23\", \"quote\": \"Dichtungswerk Ravensteiner GmbH has informed customers that deliveries of standard mechanical seals will be allocated in line with last year's call-offs.\"}, {\"source\": \"doc:20260327-70410-M2\", \"quote\": \"Order intake is very strong. We can confirm additional volumes only against a binding 12-month commitment.\"}], \"confidence\": \"high\"}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"kam\", \"evidence\": [{\"source\": \"doc:20260310-70410-M1\", \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260327-70410-M2\", \"quote\": \"We can confirm additional volumes only against a binding 12-month commitment.\"}, {\"source\": \"doc:20260918-70410-P10\", \"quote\": \"We will prioritise customers with firm, long-term commitments.\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70410",
+  "approval_threshold_pct": {
+   "value": 2,
+   "evidence": [
+    {
+     "source": "doc:20260310-70410-M1",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle": {
+   "value": "pricing committee, every two weeks",
+   "evidence": [
+    {
+     "source": "doc:20260310-70410-M1",
+     "quote": "price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle_days": {
+   "value": 14,
+   "evidence": [
+    {
+     "source": "doc:20260310-70410-M1",
+     "quote": "pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "preferred_levers": [
+   {
+    "lever": "volume_commitment",
+    "stance": "requested",
+    "condition": "for additional volumes and delivery prioritisation",
+    "evidence": [
+     {
+      "source": "doc:20260327-70410-M2",
+      "quote": "We can confirm additional volumes only against a binding 12-month commitment."
+     },
+     {
+      "source": "doc:20260918-70410-P10",
+      "quote": "We will prioritise customers with firm, long-term commitments."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260918-70410-P10",
+     "quote": "due to very high capacity utilisation we cannot confirm your full forecast for Mechanical seal 24 mm, SiC/carbon, EPDM (part:340010) for the coming months."
+    },
+    {
+     "source": "news:20260822-23",
+     "quote": "Dichtungswerk Ravensteiner GmbH has informed customers that deliveries of standard mechanical seals will be allocated in line with last year's call-offs."
+    },
+    {
+     "source": "doc:20260327-70410-M2",
+     "quote": "Order intake is very strong. We can confirm additional volumes only against a binding 12-month commitment."
+    }
+   ],
+   "confidence": "high"
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "kam",
+   "evidence": [
+    {
+     "source": "doc:20260310-70410-M1",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260327-70410-M2",
+     "quote": "We can confirm additional volumes only against a binding 12-month commitment."
+    },
+    {
+     "source": "doc:20260918-70410-P10",
+     "quote": "We will prioritise customers with firm, long-term commitments."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 76.4
+}

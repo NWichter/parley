@@ -1,0 +1,13 @@
+{
+ "choices": {
+  "hedged_inputs:material": {
+   "choice": "keep",
+   "reason": "The quote remark 'Material covered until January 2027' matches the defined pattern and names no specific input, so 'material' until 2027-01 is supported."
+  }
+ },
+ "labels": {},
+ "usage": {
+  "in": 4724,
+  "out": 465
+ }
+}

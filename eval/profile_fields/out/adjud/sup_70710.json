@@ -1,0 +1,13 @@
+{
+ "choices": {
+  "hedged_inputs:material": {
+   "choice": "drop",
+   "reason": "Same March-2027 cover the letter names specifically as nickel and alloys; a generic 'material' entry would duplicate it."
+  }
+ },
+ "labels": {},
+ "usage": {
+  "in": 5262,
+  "out": 455
+ }
+}

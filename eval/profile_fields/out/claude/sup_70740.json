@@ -1,0 +1,127 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70740\", \"approval_threshold_pct\": {\"value\": 2, \"evidence\": [{\"source\": \"doc:20260812-70740-M3\", \"quote\": \"price changes above 2 % need the approval of their pricing committee\"}], \"confidence\": \"high\"}, \"approval_cycle\": {\"value\": \"pricing committee, every two weeks\", \"evidence\": [{\"source\": \"doc:20260812-70740-M3\", \"quote\": \"need the approval of their pricing committee, which meets every two weeks\"}], \"confidence\": \"high\"}, \"approval_cycle_days\": {\"value\": 14, \"evidence\": [{\"source\": \"doc:20260812-70740-M3\", \"quote\": \"pricing committee, which meets every two weeks\"}], \"confidence\": \"high\"}, \"preferred_levers\": [{\"lever\": \"index_clause\", \"stance\": \"requested\", \"condition\": \"price adjustment clause based on AS-14404 for part:370010\", \"evidence\": [{\"source\": \"doc:20260922-70740-P18\", \"quote\": \"including a price adjustment clause based on AS-14404\"}], \"confidence\": \"high\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"owner\", \"evidence\": [{\"source\": \"doc:20260904-70740-M1\", \"quote\": \"Call with the owner of Blankstahl Werdenfels GmbH: he offered to walk us through their calculation\"}], \"confidence\": \"medium\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260916-70740-M5\", \"quote\": \"they are reviewing small accounts and will focus on customers with volume\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260904-70740-M1\", \"quote\": \"he offered to walk us through their calculation (hourly rates and material)\"}], \"confidence\": \"high\"}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}",
+ "data": {
+  "supplier_id": "sup:70740",
+  "approval_threshold_pct": {
+   "value": 2,
+   "evidence": [
+    {
+     "source": "doc:20260812-70740-M3",
+     "quote": "price changes above 2 % need the approval of their pricing committee"
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle": {
+   "value": "pricing committee, every two weeks",
+   "evidence": [
+    {
+     "source": "doc:20260812-70740-M3",
+     "quote": "need the approval of their pricing committee, which meets every two weeks"
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle_days": {
+   "value": 14,
+   "evidence": [
+    {
+     "source": "doc:20260812-70740-M3",
+     "quote": "pricing committee, which meets every two weeks"
+    }
+   ],
+   "confidence": "high"
+  },
+  "preferred_levers": [
+   {
+    "lever": "index_clause",
+    "stance": "requested",
+    "condition": "price adjustment clause based on AS-14404 for part:370010",
+    "evidence": [
+     {
+      "source": "doc:20260922-70740-P18",
+      "quote": "including a price adjustment clause based on AS-14404"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "owner",
+   "evidence": [
+    {
+     "source": "doc:20260904-70740-M1",
+     "quote": "Call with the owner of Blankstahl Werdenfels GmbH: he offered to walk us through their calculation"
+    }
+   ],
+   "confidence": "medium"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260916-70740-M5",
+     "quote": "they are reviewing small accounts and will focus on customers with volume"
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260904-70740-M1",
+     "quote": "he offered to walk us through their calculation (hourly rates and material)"
+    }
+   ],
+   "confidence": "high"
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "usage": {
+  "in": 5503,
+  "out": 1406
+ },
+ "s": 11.7
+}

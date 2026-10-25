@@ -1,0 +1,104 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70270\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260809-70270-M1\", \"quote\": \"he asked where we get our index figures from - he works from his own spreadsheet, last updated two years ago.\"}], \"confidence\": \"high\"}, \"decision_maker\": {\"value\": \"owner\", \"evidence\": [{\"source\": \"doc:20260809-70270-M1\", \"quote\": \"Call with the owner of Obrábění Kraslin s.r.o.: he asked where we get our index figures from\"}, {\"source\": \"doc:20260318-70270-M3\", \"quote\": \"Visit by the owner of Obrábění Kraslin s.r.o..\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260318-70270-M3\", \"quote\": \"He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return.\"}], \"confidence\": \"high\"}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260223-70270-M2\", \"quote\": \"The sales director of Obrábění Kraslin s.r.o. said they are reviewing small accounts and will focus on customers with volume.\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70270",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260809-70270-M1",
+     "quote": "he asked where we get our index figures from - he works from his own spreadsheet, last updated two years ago."
+    }
+   ],
+   "confidence": "high"
+  },
+  "decision_maker": {
+   "value": "owner",
+   "evidence": [
+    {
+     "source": "doc:20260809-70270-M1",
+     "quote": "Call with the owner of Obrábění Kraslin s.r.o.: he asked where we get our index figures from"
+    },
+    {
+     "source": "doc:20260318-70270-M3",
+     "quote": "Visit by the owner of Obrábění Kraslin s.r.o.."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260318-70270-M3",
+     "quote": "He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return."
+    }
+   ],
+   "confidence": "high"
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260223-70270-M2",
+     "quote": "The sales director of Obrábění Kraslin s.r.o. said they are reviewing small accounts and will focus on customers with volume."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 45.5
+}

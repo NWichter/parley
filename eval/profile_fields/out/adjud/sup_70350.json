@@ -1,0 +1,21 @@
+{
+ "choices": {
+  "decision_maker": {
+   "choice": "A",
+   "reason": "The call note shows the managing director personally leading the talks; in a founder-run 30-person firm this maps best to owner."
+  },
+  "avoid_levers:payment_days_long": {
+   "choice": "keep",
+   "reason": "The supplier explicitly complains about late payment of overdue invoices and threatens to review its conditions, so it rejects longer payment."
+  }
+ },
+ "labels": {
+  "decision_maker": {
+   "A": "owner"
+  }
+ },
+ "usage": {
+  "in": 4711,
+  "out": 584
+ }
+}

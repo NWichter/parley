@@ -1,0 +1,107 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70120\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"owner\", \"evidence\": [{\"source\": \"doc:20260719-70120-M1\", \"quote\": \"Visit by the owner of Eisengießerei Velkenreith GmbH. He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260719-70120-M1\", \"quote\": \"He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return.\"}], \"confidence\": \"high\"}, \"volume_posture\": {\"value\": \"accepts_below_cost\", \"evidence\": [{\"source\": \"EV-2023-70120-310030\", \"quote\": \"Note: accepted below full cost to keep the volume\"}, {\"source\": \"EV-2024-70120-310030\", \"quote\": \"Note: accepted below full cost to keep the volume\"}, {\"source\": \"EV-2025-70120-310030\", \"quote\": \"Note: accepted below full cost to keep the volume\"}, {\"source\": \"EV-2026-70120-310030\", \"quote\": \"Note: accepted below full cost to keep the volume\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70120",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "owner",
+   "evidence": [
+    {
+     "source": "doc:20260719-70120-M1",
+     "quote": "Visit by the owner of Eisengießerei Velkenreith GmbH. He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260719-70120-M1",
+     "quote": "He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return."
+    }
+   ],
+   "confidence": "high"
+  },
+  "volume_posture": {
+   "value": "accepts_below_cost",
+   "evidence": [
+    {
+     "source": "EV-2023-70120-310030",
+     "quote": "Note: accepted below full cost to keep the volume"
+    },
+    {
+     "source": "EV-2024-70120-310030",
+     "quote": "Note: accepted below full cost to keep the volume"
+    },
+    {
+     "source": "EV-2025-70120-310030",
+     "quote": "Note: accepted below full cost to keep the volume"
+    },
+    {
+     "source": "EV-2026-70120-310030",
+     "quote": "Note: accepted below full cost to keep the volume"
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 57.6
+}

@@ -1,0 +1,82 @@
+The main issue is that several fields turn observations into stronger claims than the evidence supports. A deterministic policy needs those distinctions preserved.
+
+### 1. Concrete problems
+
+- **Approval threshold:** “changes above 2%” does not establish the baseline, direction, scope, or whether approval concerns the cumulative change. Capping each round at 2% could still exceed the approval limit.
+- **Levers:** valuing volume does not establish willingness to accept a binding commitment in exchange for a concession. Contract terms and past quote terms also do not establish preferences.
+- **Direction:** split `effective_date_later` into delaying a supplier-requested increase and delaying a buyer-requested reduction. Split call-off flexibility from longer lead time; specify who gains flexibility. `tooling` needs payer, ownership, and payment purpose.
+- **Unsupported psychological/financial judgments:** faster-payment requests do not establish financial distress; outdated costing does not establish an “uninformed owner”; none of these sources establishes patience. Stable financial ratios do not prove absence of liquidity needs.
+- **Contact versus authority:** an inside-sales contact is not necessarily the decision maker. The role enum also omits sales director and committee.
+- **Hedges:** a series list loses material, duration, coverage, and scope. Fixed copper prices do not establish that every copper-related series is irrelevant. Hedges also do not prove that the supplier’s entire cost base is fixed.
+- **Price freeze:** distinguish a supplier’s refusal to negotiate reductions from contractual price validity. A calendar-year fixed-price clause is not evidence of a head-office reduction ban.
+- **Unknown semantics:** use `null` for unknown. An empty list means no extracted items, not proven absence of preferences or hedges. `false` and `"none"` require affirmative evidence.
+- **Evidence validity:** substring matching establishes quote fidelity, not that the quote entails the value. Repeated notes may repeat one assertion rather than independently corroborate it.
+- **Outcome leakage:** exclude existing profiles and historical asked/settled/awarded values. Under the strict “no outcome data” requirement, also exclude “accepted below full cost to keep the volume”: it describes a negotiation outcome.
+- **Missing useful facts:** current request, contractual price validity and notice conditions, hedge expiry, committee cadence, accelerated-payment offers, and volume-based account prioritization.
+
+### 2. Revised schema
+
+Every atomic assertion uses `{value, evidence, confidence}`. Unknown scalars use `{value:null, evidence:[], confidence:null}`. Lists contain individually evidenced assertions; `[]` means “nothing supported.” Dates retain source precision. Record source date separately from any stated validity period.
+
+`high` = explicitly supported; `medium` = supported but interpretation remains; `low` = unresolved ambiguity, excluded from automatic policy actions. Confidence measures support for the assertion, not whether the supplier’s assertion is true.
+
+| Field | Value shape | Extraction and policy rule |
+|---|---|---|
+| `approval_rule` | `{threshold_pct, comparator, direction, baseline, scope, approver, cadence}` | Extract stated components only; unknown components remain null. Never assume a per-round threshold or bypass approval by splitting changes. |
+| `negotiating_roles` | List of `{role, relationship}` | Roles include owner, KAM, inside_sales, sales_director, export, committee, other. Relationship distinguishes observed participant, designated contact, and stated approver. |
+| `lever_signals` | List of `{lever, stance, condition, parameters}` | Stance: requested, offered, explicitly_open, rejected. Require an explicit signal about the term; attach conditions to the same assertion. Rejection is limited to its stated scope and time. |
+| `volume_priority` | Stated account-selection preference | Record preference for volume separately from willingness to trade a binding commitment. |
+| `capacity_constraint` | `{state, scope, period}` | State: constrained or explicitly_unconstrained. Require an explicit capacity statement; shutdown dates and ordinary lead times are insufficient. |
+| `price_reduction_restriction` | `{scope, reason, until}` | Require an explicit restriction on reductions. Contractual fixed pricing goes below. |
+| `input_price_cover` | List of `{input, mechanism, coverage, start, end}` | Extract material/energy, fixed-price or forward mechanism, and stated coverage period. Unknown coverage remains null. |
+| `cost_tracking_observation` | List of factual observations | Record spreadsheet age, tracking lapse, or costing responsibility; infer no competence label or communication tactic. |
+| `round_limit` | `{max_rounds, deadline, stated_preference}` | Require an explicit statement about rounds or negotiation duration; otherwise null. Replaces patience. |
+| `liquidity_statement` | Explicit statement of financing/cash pressure | Faster-payment requests belong in lever signals; they alone do not populate this field. |
+| `price_terms` | `{fixed_period, notice_days, notice_anchor}` | Preserve contractual wording and anchor. Do not equate a notice period with unilateral permission to change prices. |
+| `current_price_request` | `{part, change_pct, old_price, new_price, currency, effective_date}` | Extract the current request, separate from contract constraints and historical outcomes. |
+
+Use precise lever identifiers: `buyer_payment_days_shorter`, `buyer_payment_days_longer`, `buyer_accepts_longer_lead_time`, `supplier_calloff_flexibility`, `contract_term_longer`, `buyer_binding_volume_commitment`, `index_linked_price`, `supplier_increase_effective_later`, `buyer_reduction_effective_later`, `buyer_relaxes_ppm_target`, `buyer_waives_complaint_fee`, `buyer_funds_tooling`. Add explicit cash-discount parameters to payment signals.
+
+Keep **index mapping separate from extraction**: map the evidenced input to applicable part cost drivers using a maintained mapping. A hedge should qualify an index argument, not automatically prohibit mentioning that index.
+
+### 3. Extracted examples
+
+All assertions below have **high confidence**, except Vesmo’s `volume_priority`, marked **medium** because “volume” is unquantified. Every unmentioned scalar is null; every unmentioned list is empty. In particular, there is no supported capacity constraint, reduction restriction, liquidity-pressure statement, round limit, or rejected lever for any example.
+
+#### sup:70110 — Brandlhuber
+
+| Field → value | Evidence |
+|---|---|
+| `negotiating_roles` → owner, observed participant | `doc:20260824-70110-M1`: “Call with the owner of Gießerei Brandlhuber GmbH & Co. KG” |
+| `lever_signals` → `buyer_payment_days_shorter`, requested; payment within 10 days, conditional cash discount; discount rate null | `doc:20260902-70110-M2`: “Could you pay our invoices within 10 days? In return we would grant a cash discount.” |
+| `cost_tracking_observation` → spreadsheet last updated two years before the call | `doc:20260824-70110-M1`: “he works from his own spreadsheet, last updated two years ago.” |
+| `cost_tracking_observation` → owner reports limited material/energy tracking since 2022; office manager does costing | `doc:20260909-70110-M4`: “admitted he had not followed his material and energy prices closely since the 2022 peak; his office manager does the costing.” |
+| `price_terms` → fixed each calendar year; 90-day written notice before calendar-year end | `ctr:4600070110#3.1`: “Prices as per the price annex, fixed for each calendar year. Changes require written notice of at least 90 days before the end of the calendar year.” |
+| `current_price_request` → part:310010; +9.5%; EUR 126.53 → 138.55; 2026-11-01 | `doc:20260911-70110-P01`: “Volute casing HN 50-200 (part:310010) by **9.5 %** with effect from **01 November 2026**: from EUR 126.53 to EUR 138.55 per  pc.” |
+
+No supported binding-volume or longer-contract lever. No supported low patience or financial-distress classification.
+
+#### sup:70520 — Vesmo
+
+| Field → value | Evidence |
+|---|---|
+| `approval_rule` → threshold 2%; comparator `>`; approver pricing committee; cadence every two weeks; direction, baseline and scope null | `doc:20260426-70520-M5`: “price changes above 2 % need the approval of their pricing committee, which meets every two weeks.” |
+| `negotiating_roles` → KAM, observed participant | `doc:20260426-70520-M5`: “Their key account manager explained” |
+| `negotiating_roles` → sales director, observed participant | `doc:20260413-70520-M2`: “The sales director of Vesmo Elektromotory a.s. said” |
+| `negotiating_roles` → committee, stated price approver above threshold | `doc:20260426-70520-M5`: “price changes above 2 % need the approval of their pricing committee” |
+| `volume_priority` → focus on customers with volume; threshold unspecified (**medium**) | `doc:20260413-70520-M2`: “they are reviewing small accounts and will focus on customers with volume.” |
+| `input_price_cover` → copper; fixed prices; end month 2027-03; start and covered share null | `doc:20260620-70520-M1`: “our copper requirement is covered at fixed prices until March 2027. Market movements reach our costs only after that.” |
+| `price_terms` → fixed each calendar year; 90-day written notice before calendar-year end | `ctr:4600070520#3.1`: “Prices as per the price annex, fixed for each calendar year. Changes require written notice of at least 90 days before the end of the calendar year.” |
+
+Copper maps to the supplied parts’ `CU-NOTATION` driver; that mapping is separate from the supplier assertion. Neither a binding-volume trade nor rejection of an index clause is established.
+
+#### sup:70190 — Pfaffenreuth
+
+| Field → value | Evidence |
+|---|---|
+| `negotiating_roles` → inside_sales, designated contact from 2025-10-01; negotiating authority unknown | `doc:20251014-70190-N`: “From 1 October your contact in sales is our new colleague in inside sales; all other contacts stay the same.” |
+| `input_price_cover` → electricity; forward purchase; end month 2028-12; covered share null | `doc:20260623-70190-M1`: “they bought their electricity forward until December 2028” |
+| `input_price_cover` → electricity; fixed-price supply; stated period 2026–2028, year precision | `news:20260426-10`: “Gießerei Pfaffenreuth GmbH has fixed its electricity supply for 2026-2028 under a long-term contract, the company said.” |
+| `price_terms` → fixed each calendar year; 90-day written notice before calendar-year end | `ctr:4600070190#3.1`: “Prices as per the price annex, fixed for each calendar year. Changes require written notice of at least 90 days before the end of the calendar year.” |
+
+The two cover statements concern the same electricity exposure; retain both as evidence without counting them as two hedges. Electricity maps to the supplied parts’ `PPI-D351` driver. Neither general energy coverage nor invalidity of every energy-related price argument is established.

@@ -1,0 +1,122 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70260\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [{\"lever\": \"payment_days_short\", \"stance\": \"requested\", \"condition\": \"within 10 days against a cash discount\", \"evidence\": [{\"source\": \"doc:20260913-70260-M2\", \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"}], \"confidence\": \"high\"}], \"avoid_levers\": [], \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": \"weak\", \"evidence\": [{\"source\": \"doc:20260913-70260-M2\", \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"}], \"confidence\": \"high\"}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"decision_maker\": {\"value\": \"owner\", \"evidence\": [{\"source\": \"doc:20260212-70260-M1\", \"quote\": \"Call with the owner of Mechanik Tauvelt GmbH: he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices.\"}, {\"source\": \"doc:20260322-70260-M4\", \"quote\": \"Visit by the owner of Mechanik Tauvelt GmbH.\"}], \"confidence\": \"high\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260322-70260-M4\", \"quote\": \"He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return.\"}], \"confidence\": \"high\"}, \"volume_posture\": {\"value\": \"wants_volume\", \"evidence\": [{\"source\": \"doc:20260522-70260-M3\", \"quote\": \"The sales director of Mechanik Tauvelt GmbH said they are reviewing small accounts and will focus on customers with volume.\"}], \"confidence\": \"high\"}, \"open_calculation\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260212-70260-M1\", \"quote\": \"he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices.\"}], \"confidence\": \"high\"}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}\n",
+ "data": {
+  "supplier_id": "sup:70260",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "payment_days_short",
+    "stance": "requested",
+    "condition": "within 10 days against a cash discount",
+    "evidence": [
+     {
+      "source": "doc:20260913-70260-M2",
+      "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": "weak",
+   "evidence": [
+    {
+     "source": "doc:20260913-70260-M2",
+     "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+    }
+   ],
+   "confidence": "high"
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "owner",
+   "evidence": [
+    {
+     "source": "doc:20260212-70260-M1",
+     "quote": "Call with the owner of Mechanik Tauvelt GmbH: he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices."
+    },
+    {
+     "source": "doc:20260322-70260-M4",
+     "quote": "Visit by the owner of Mechanik Tauvelt GmbH."
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260322-70260-M4",
+     "quote": "He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return."
+    }
+   ],
+   "confidence": "high"
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260522-70260-M3",
+     "quote": "The sales director of Mechanik Tauvelt GmbH said they are reviewing small accounts and will focus on customers with volume."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260212-70260-M1",
+     "quote": "he offered to walk us through their calculation (hourly rates and material) if that helps to settle prices."
+    }
+   ],
+   "confidence": "high"
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 65.9
+}

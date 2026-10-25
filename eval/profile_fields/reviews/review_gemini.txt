@@ -1,0 +1,212 @@
+### 1. Concrete Problems in the Draft Schema (v0)
+
+1. **Ungroundable & Free-Text Fields:**
+   * **`patience` cannot be grounded:** None of the raw sources for the three examples mention round tolerance or negotiation speed, yet all three free-text profiles assign `"low"` or `"medium"`. Under the strict verbatim-quote rule, `patience` will almost always be `null`.
+   * **`approval_cycle` is free text:** A deterministic policy cannot branch on `"pricing committee every two weeks"`. It needs an integer cadence (`approval_cycle_days`, e.g., `14`).
+
+2. **`null` vs. `false` / `none` / `[]` Semantics under Mandatory Evidence:**
+   * **Negative states lack quotes:** Sources rarely state *"we have no price freeze"*, *"our owner tracks indices well"*, or *"we have no liquidity need"*. Using `bool` (`true/false/null`) or `none` (`cash_need: "none"`) forces extractors either to hallucinate quotes from generic financial ratios or to leave `false`/`none` unused. All absence-of-signal states should collapse to `null` (making flag fields `true | null` and list fields `[]` when no items have evidence).
+   * **List-level vs. item-level evidence:** Wrapping a list (`preferred_levers`, `hedged_inputs`) in a single `{"value": [...], "evidence": [...]}` fails to bind specific quotes to specific list elements when multiple items are extracted. Each list element should carry its own `evidence` (or `value` should be a list of evidenced objects).
+   * **`cash_need` (`weak` vs. `strong`) has no boundary:** In `sup:70110`, the supplier offers a cash discount for 10-day payment (`doc:20260902-70110-M2`) while having stable credit (`credit_index=222`). Without an explicit rule distinguishing early-payment discount offers (`weak`) from distress/bank-watching/short-time work (`strong`), extraction is arbitrary.
+
+3. **`hedged_inputs`: Index Mapping, Horizon, and Policy Direction:**
+   * **Commodity-to-ID gap:** Raw notes say `"copper"` (`70520`) or `"electricity"` (`70190`), never `WB-CU`, `CU-NOTATION`, `PPI-D351`, or `SMARD-DA`. Without a deterministic keyword-to-series mapping table (or joining against `[drivers:part:*]`), extractors will guess among overlapping series IDs.
+   * **Missing expiration (`until`):** Hedges have explicit end dates (`"until March 2027"`, `"until December 2028"`). A bare list of series IDs drops the horizon needed to evaluate contract length or `effective_date` trades.
+   * **Flawed policy semantics:** The sketch says *"hedged inputs -> do not cite those indices"*. That only holds when the buyer wants to cite an index *drop*. If the supplier claims rising energy/copper costs while hedged (`"not our reality"`), the buyer **must** cite the supplier's hedge to refute the increase claim.
+
+4. **Lever Directionality & Inverse Duplication:**
+   * **Buyer concession vs. buyer demand:** If levers represent concessions the buyer *offers* the supplier, `payment_days_long` (buyer pays later) is a buyer demand, not a concession a supplier would ever prefer. Conversely, in `70110`, the free-text profile inferred `"slow or delayed payment"` in `avoid` purely as the logical inverse of asking for 10-day payment. Without a rule prohibiting inverse inference, every preferred lever automatically spawns its opposite in `avoid_levers` from the same quote.
+   * **`effective_date_later` is direction-ambiguous:** Delaying the effective date of a **supplier price increase** favors the *buyer* (not a concession to the supplier); delaying a **buyer price cut** favors the *supplier*. The enum should express supplier-favorable direction (`effective_date_concession`) or specify applicability by negotiation direction.
+
+5. **`decision_maker` Enum Gaps & Multi-Actor Collisions:**
+   * **Missing roles & precedence:** `sup:70520` involves both a `"key account manager"` (`doc:20260218-70520-M3`) and a `"sales director"` (`doc:20260413-70520-M2`, missing from enum).
+   * **Over-narrow definition:** `inside_sales` is defined as *"distributor inside sales"*, but `sup:70190` is a manufacturing foundry with an inside-sales contact (`doc:20251014-70190-N`). Also, `owner_type=family` in `supplier_intel` must not trigger `decision_maker="owner"` unless communications show the owner personally negotiates (`70190` vs. `70110`).
+
+6. **Missing High-Value Verifiable Fields Visible in the Examples:**
+   * **`past_goodwill_claim` (`true | null`):** In `70110`, the owner visited twice (`doc:20260715-70110-M5`, `doc:20260917-70110-M3`) to remind the buyer they held prices in 2022 and expect partnership in return. Ignoring this breaks rapport.
+   * **`volume_posture` (`"accepts_below_cost" | "culls_small_accounts" | null`):** Mapping both `70110` (`"accepted below full cost to keep the volume"`) and `70520` (`"reviewing small accounts and will focus on customers with volume"`) solely to `preferred_levers: ["volume_commitment"]` loses a critical distinction: `70110` will sacrifice margin to keep volume, whereas `70520` threatens account rationalisation if volume is too small.
+
+---
+
+### 2. Revised Schema (v1)
+
+**Global Extraction Rules:**
+* Every non-null scalar or list item must have `evidence: [{"source": "<id>", "quote": "<verbatim>"}]` and `confidence: "high" | "medium" | "low"`.
+* **No negative booleans or `"none"` enums:** If no verbatim quote supports a state, set scalar fields to `null` and list fields to `[]`.
+* **No inverse inference:** Never populate `avoid_levers` by inverting a `preferred_levers` quote.
+
+| Field | Type | Deterministic Extraction & Mapping Rule |
+|---|---|---|
+| `decision_maker` | `"owner" \| "sales_director" \| "kam" \| "inside_sales" \| "export" \| null` | Extract from `doc:*` (notes/emails/letters), **never** from `intel` `owner_type`. If a contact-change notice exists, use the newest contact; if multiple roles appear in active notes, pick the primary negotiator at the table (`kam` over `sales_director` if KAM leads reviews). |
+| `approval_threshold_pct` | `number \| null` | Total price change `%` (relative to baseline price, not per-round step) above which internal escalation/committee approval is required. |
+| `approval_cycle_days` | `integer \| null` | Cadence in days of the approving body (`"every two weeks"` $\rightarrow$ `14`, `"monthly"` $\rightarrow$ `30`, `"weekly"` $\rightarrow$ `7`). |
+| `preferred_levers` | `list of Lever` | Buyer concessions explicitly requested or valued by the supplier: `payment_days_short` (faster payment / Skonto), `lead_time_slack`, `contract_months_longer`, `volume_commitment` (retaining/increasing volume/quota), `index_clause`, `effective_date_favorable` (earlier increase or later cut), `ppm_relaxed`, `chargeback_none`, `tooling`. |
+| `avoid_levers` | `list of Lever` | Terms the supplier explicitly rejects or complains about in text (excluding hedged-input remarks, which go strictly to `hedged_inputs`). Same enum plus `payment_days_long`, `short_notice_demand`. |
+| `hedged_inputs` | `list of {"series_id": str, "until": "YYYY-MM" \| null}` | Extract when supplier states an input is fixed/covered/bought forward. Map commodity keyword deterministically: **copper** $\rightarrow$ `["CU-NOTATION", "WB-CU"]`; **electricity/power** $\rightarrow$ `["PPI-D351", "PPI-D35", "SMARD-DA"]`; **gas** $\rightarrow$ `["WB-NGEU", "PPI-D35"]`; **steel/iron** $\rightarrow$ `["PPI-C241", "WB-FEORE"]`. Parse end month to `YYYY-MM` (`"2026-2028"` $\rightarrow$ `"2028-12"`). |
+| `volume_posture` | `"accepts_below_cost" \| "culls_small_accounts" \| null` | `"accepts_below_cost"` if `EV-*` or `doc:*` states supplier settled below full cost to keep volume; `"culls_small_accounts"` if supplier states it is dropping/reviewing small accounts to focus on volume. |
+| `cash_need` | `"weak" \| "strong" \| null` | `"strong"` if sources cite bank monitoring, short-time work, liquidity crunch, or urgent cash distress. `"weak"` if supplier asks for faster payment / offers cash discount (`payment_days_short`) without distress indicators. `null` otherwise. |
+| `capacity_tight` | `true \| null` | `true` only if sources explicitly state high utilisation, allocation, bottleneck, or sold-out capacity. |
+| `price_freeze` | `{"until": "YYYY-MM" \| null} \| null` | Non-null only if supplier states a blanket policy prohibiting individual price reductions (e.g., group-wide list-price freeze). |
+| `uninformed_owner` | `true \| null` | `true` if notes state the negotiator does not track cost/index movements or uses outdated costing (e.g., spreadsheet $>1$ year old). |
+| `past_goodwill_claim` | `true \| null` | `true` if supplier explicitly cites a past price freeze, concession, or supply sacrifice and expects reciprocity/partnership. |
+| `patience` | `"low" \| "med" \| "high" \| null` | Extract **only** when a source explicitly mentions round intolerance, ultimatum/walk-away timing, or willingness for multi-round iteration. |
+
+---
+
+### 3. Extracted Values for the 3 Examples (Revised Schema)
+
+#### `sup:70110` — Gießerei Brandlhuber GmbH & Co. KG
+```json
+{
+  "decision_maker": {
+    "value": "owner",
+    "evidence": [
+      {"source": "doc:20260715-70110-M5", "quote": "Visit by the owner of Gießerei Brandlhuber GmbH & Co. KG."},
+      {"source": "doc:20260824-70110-M1", "quote": "Call with the owner of Gießerei Brandlhuber GmbH & Co. KG"}
+    ],
+    "confidence": "high"
+  },
+  "approval_threshold_pct": {"value": null, "evidence": [], "confidence": "high"},
+  "approval_cycle_days": {"value": null, "evidence": [], "confidence": "high"},
+  "preferred_levers": {
+    "value": ["payment_days_short", "volume_commitment"],
+    "evidence": [
+      {"source": "doc:20260902-70110-M2", "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."},
+      {"source": "EV-2026-70110-310010", "quote": "Note: accepted below full cost to keep the volume"}
+    ],
+    "confidence": "high"
+  },
+  "avoid_levers": {"value": [], "evidence": [], "confidence": "high"},
+  "hedged_inputs": {"value": [], "evidence": [], "confidence": "high"},
+  "volume_posture": {
+    "value": "accepts_below_cost",
+    "evidence": [
+      {"source": "EV-2026-70110-310010", "quote": "Note: accepted below full cost to keep the volume"}
+    ],
+    "confidence": "high"
+  },
+  "cash_need": {
+    "value": "weak",
+    "evidence": [
+      {"source": "doc:20260902-70110-M2", "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."}
+    ],
+    "confidence": "high"
+  },
+  "capacity_tight": {"value": null, "evidence": [], "confidence": "high"},
+  "price_freeze": {"value": null, "evidence": [], "confidence": "high"},
+  "uninformed_owner": {
+    "value": true,
+    "evidence": [
+      {"source": "doc:20260824-70110-M1", "quote": "he asked where we get our index figures from - he works from his own spreadsheet, last updated two years ago."},
+      {"source": "doc:20260909-70110-M4", "quote": "The owner of Gießerei Brandlhuber GmbH & Co. KG admitted he had not followed his material and energy prices closely since the 2022 peak; his office manager does the costing."}
+    ],
+    "confidence": "high"
+  },
+  "past_goodwill_claim": {
+    "value": true,
+    "evidence": [
+      {"source": "doc:20260715-70110-M5", "quote": "He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return."},
+      {"source": "doc:20260917-70110-M3", "quote": "He reminded us that in 2022 they kept supplying at the old price for a quarter and said he expects partnership in return."}
+    ],
+    "confidence": "high"
+  },
+  "patience": {"value": null, "evidence": [], "confidence": "high"}
+}
+```
+
+#### `sup:70520` — Vesmo Elektromotory a.s.
+```json
+{
+  "decision_maker": {
+    "value": "kam",
+    "evidence": [
+      {"source": "doc:20260218-70520-M3", "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."}
+    ],
+    "confidence": "high"
+  },
+  "approval_threshold_pct": {
+    "value": 2.0,
+    "evidence": [
+      {"source": "doc:20260218-70520-M3", "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."}
+    ],
+    "confidence": "high"
+  },
+  "approval_cycle_days": {
+    "value": 14,
+    "evidence": [
+      {"source": "doc:20260218-70520-M3", "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee, which meets every two weeks."}
+    ],
+    "confidence": "high"
+  },
+  "preferred_levers": {
+    "value": ["volume_commitment"],
+    "evidence": [
+      {"source": "doc:20260413-70520-M2", "quote": "The sales director of Vesmo Elektromotory a.s. said they are reviewing small accounts and will focus on customers with volume."}
+    ],
+    "confidence": "high"
+  },
+  "avoid_levers": {"value": [], "evidence": [], "confidence": "high"},
+  "hedged_inputs": {
+    "value": [
+      {"series_id": "CU-NOTATION", "until": "2027-03"},
+      {"series_id": "WB-CU", "until": "2027-03"}
+    ],
+    "evidence": [
+      {"source": "doc:20260620-70520-M1", "quote": "our copper requirement is covered at fixed prices until March 2027. Market movements reach our costs only after that."},
+      {"source": "doc:20260701-70520-M4", "quote": "they bought their copper forward until March 2027 and said the market price is 'not our reality' before then."},
+      {"source": "drivers:part:350010", "quote": "CU-NOTATION (Copper notation for cables and motors (derived)) 0.21"}
+    ],
+    "confidence": "high"
+  },
+  "volume_posture": {
+    "value": "culls_small_accounts",
+    "evidence": [
+      {"source": "doc:20260413-70520-M2", "quote": "The sales director of Vesmo Elektromotory a.s. said they are reviewing small accounts and will focus on customers with volume."}
+    ],
+    "confidence": "high"
+  },
+  "cash_need": {"value": null, "evidence": [], "confidence": "high"},
+  "capacity_tight": {"value": null, "evidence": [], "confidence": "high"},
+  "price_freeze": {"value": null, "evidence": [], "confidence": "high"},
+  "uninformed_owner": {"value": null, "evidence": [], "confidence": "high"},
+  "past_goodwill_claim": {"value": null, "evidence": [], "confidence": "high"},
+  "patience": {"value": null, "evidence": [], "confidence": "high"}
+}
+```
+
+#### `sup:70190` — Gießerei Pfaffenreuth GmbH
+```json
+{
+  "decision_maker": {
+    "value": "inside_sales",
+    "evidence": [
+      {"source": "doc:20251014-70190-N", "quote": "From 1 October your contact in sales is our new colleague in inside sales; all other contacts stay the same."}
+    ],
+    "confidence": "high"
+  },
+  "approval_threshold_pct": {"value": null, "evidence": [], "confidence": "high"},
+  "approval_cycle_days": {"value": null, "evidence": [], "confidence": "high"},
+  "preferred_levers": {"value": [], "evidence": [], "confidence": "high"},
+  "avoid_levers": {"value": [], "evidence": [], "confidence": "high"},
+  "hedged_inputs": {
+    "value": [
+      {"series_id": "PPI-D351", "until": "2028-12"},
+      {"series_id": "PPI-D35", "until": "2028-12"},
+      {"series_id": "SMARD-DA", "until": "2028-12"}
+    ],
+    "evidence": [
+      {"source": "doc:20260623-70190-M1", "quote": "they bought their electricity forward until December 2028 and said the market price is 'not our reality' before then."},
+      {"source": "news:20260426-10", "quote": "Gießerei Pfaffenreuth GmbH has fixed its electricity supply for 2026-2028 under a long-term contract, the company said."},
+      {"source": "drivers:part:310040", "quote": "PPI-D351 (Producer prices DE: electric power generation, transmission and distribution) 0.1"}
+    ],
+    "confidence": "high"
+  },
+  "volume_posture": {"value": null, "evidence": [], "confidence": "high"},
+  "cash_need": {"value": null, "evidence": [], "confidence": "high"},
+  "capacity_tight": {"value": null, "evidence": [], "confidence": "high"},
+  "price_freeze": {"value": null, "evidence": [], "confidence": "high"},
+  "uninformed_owner": {"value": null, "evidence": [], "confidence": "high"},
+  "past_goodwill_claim": {"value": null, "evidence": [], "confidence": "high"},
+  "patience": {"value": null, "evidence": [], "confidence": "high"}
+}
+```

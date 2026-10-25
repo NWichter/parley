@@ -1,0 +1,25 @@
+{
+ "choices": {
+  "capacity_tight": {
+   "choice": "A",
+   "reason": "The supplier reports power semiconductor shortages and has extended lead times. That is an explicitly stated supply bottleneck, so capacity is constrained."
+  },
+  "preferred_levers:lead_time_slack": {
+   "choice": "keep",
+   "reason": "Supplier explicitly says it is happy to discuss logistics, i.e. open to delivery/lead-time flexibility in the package; stance open fits."
+  },
+  "preferred_levers:payment_days_short": {
+   "choice": "keep",
+   "reason": "Supplier explicitly open to discussing payment conditions. The buyer-side move that benefits the supplier is faster payment, so stance open fits."
+  }
+ },
+ "labels": {
+  "capacity_tight": {
+   "A": true
+  }
+ },
+ "usage": {
+  "in": 5232,
+  "out": 828
+ }
+}

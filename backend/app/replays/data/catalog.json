@@ -1,0 +1,891 @@
+{
+ "cases": {
+  "case:P01": {
+   "title": "Brandlhuber announces +9.5 % on HN volute casings",
+   "type": "price_increase",
+   "house": 0.9659,
+   "suppliers": [
+    "Gießerei Brandlhuber GmbH & Co. KG"
+   ]
+  },
+  "case:P02": {
+   "title": "Nordmark passes on copper for the 7.5 kW motor",
+   "type": "price_increase",
+   "house": 0.74,
+   "suppliers": [
+    "Antriebstechnik Nordmark AG"
+   ]
+  },
+  "case:P03": {
+   "title": "Frame agreement renewal for the 7.5 kW frequency converter",
+   "type": "renewal",
+   "house": 0.9249,
+   "suppliers": [
+    "Selvbrunn Drive Systems GmbH"
+   ]
+  },
+  "case:P04": {
+   "title": "Renewal of the ball bearing 6306 agreement",
+   "type": "renewal",
+   "house": 0.8604,
+   "suppliers": [
+    "Wälzlager-Zentrum Süd GmbH"
+   ]
+  },
+  "case:P05": {
+   "title": "RFQ: pump shaft for the new HX series",
+   "type": "rfq",
+   "house": 0.5552,
+   "suppliers": [
+    "Zerspanung Dralveck GmbH",
+    "Strojírna Hrvelec s.r.o.",
+    "Drehteile Fuchsreiter GmbH"
+   ]
+  },
+  "case:P07": {
+   "title": "Bundle the fastener kit with one distributor",
+   "type": "bundling",
+   "house": 0.7816,
+   "suppliers": [
+    "Schraubenhandel Leitner & Sohn GmbH"
+   ]
+  },
+  "case:P08": {
+   "title": "Alloy surcharge and base price for 1.4404 bar",
+   "type": "raw_material",
+   "house": 0.7516,
+   "suppliers": [
+    "Edelstahl-Service Donautal GmbH"
+   ]
+  },
+  "case:P10": {
+   "title": "Ravensteiner cuts the seal allocation",
+   "type": "capacity",
+   "house": 0.6863,
+   "suppliers": [
+    "Dichtungswerk Ravensteiner GmbH"
+   ]
+  },
+  "case:P11": {
+   "title": "Kalwisz: bearing brackets in red",
+   "type": "quality",
+   "house": 0.3144,
+   "suppliers": [
+    "Odlewnia Kalwisz Sp. z o.o."
+   ]
+  },
+  "case:P18": {
+   "title": "Alloy surcharge and base price for 1.4404 bar (Werdenfels)",
+   "type": "raw_material",
+   "house": 0.3861,
+   "suppliers": [
+    "Blankstahl Werdenfels GmbH"
+   ]
+  },
+  "case:D01": {
+   "title": "Sandbox demo case",
+   "type": "demo",
+   "house": null,
+   "suppliers": []
+  },
+  "case:D02": {
+   "title": "Sandbox demo case",
+   "type": "demo",
+   "house": null,
+   "suppliers": []
+  }
+ },
+ "sessions": {
+  "ab5044811a31152b": {
+   "agent": "naive"
+  },
+  "abdb1bc36af22d12": {
+   "agent": "kit-naive"
+  },
+  "4aa1bea40e127787": {
+   "agent": "kit-naive"
+  },
+  "9ffa2153e76cc5f9": {
+   "agent": "parley-v0.1-nollm"
+  },
+  "f30e79a538e65784": {
+   "agent": "parley-v0.2-nollm"
+  },
+  "61ceba8d949fbc06": {
+   "agent": "parley-v0.3-nollm"
+  },
+  "0e6329bd0343cd39": {
+   "agent": "parley-v0.4-llm"
+  },
+  "065613d3db247128": {
+   "agent": "parley-v0.4-llm"
+  },
+  "0d46b0ee055f9534": {
+   "agent": "parley-v1-llm"
+  },
+  "8a44439983a4fe59": {
+   "agent": "parley-v1-llm"
+  },
+  "70dc2f3ca938ee79": {
+   "agent": "parley-v1-llm"
+  },
+  "d558320307a16ad9": {
+   "agent": "parley-v1-llm"
+  },
+  "e642aeb72a327558": {
+   "agent": "parley-v1-llm"
+  },
+  "c5417609a1dceace": {
+   "agent": "parley-v1-llm"
+  },
+  "2fed424134d3283b": {
+   "agent": "parley-v1-llm"
+  },
+  "f9d8dd198c8a2880": {
+   "agent": "parley-v1-llm"
+  },
+  "3c38a30d93a9bc06": {
+   "agent": "parley-v1-llm"
+  },
+  "51d5965e3661d9ac": {
+   "agent": "parley-v1-llm"
+  },
+  "4128a9d1404f794e": {
+   "agent": "parley-v1-llm-x3"
+  },
+  "775f9a61b49b810e": {
+   "agent": "parley-v1-llm-x3"
+  },
+  "82c65be7af541e40": {
+   "agent": "parley-v1-llm-x3"
+  },
+  "37fb28d320b1a65e": {
+   "agent": "parley-v1-llm-x3"
+  },
+  "7f125236adf4edcd": {
+   "agent": "parley-v1-llm-x3"
+  },
+  "9b1ef3139c6ae03d": {
+   "agent": "parley-v1-llm-x3"
+  },
+  "e48d4a0ebbecaec2": {
+   "agent": "parley-v1.1-llm"
+  },
+  "87991dee1ee7ecbc": {
+   "agent": "parley-v1.1-llm"
+  },
+  "c0fd46d5bf270ae0": {
+   "agent": "parley-v1.1-llm"
+  },
+  "de7c83448edbb7a2": {
+   "agent": "parley-v1.1-llm"
+  },
+  "a58e9d132442c4b1": {
+   "agent": "parley-v1.1-llm"
+  },
+  "27f57970c7bd6303": {
+   "agent": "parley-v1.1-llm"
+  },
+  "6afcf7f04290344b": {
+   "agent": "parley-v1.1-nollm"
+  },
+  "5ae56ddeb6e29ca7": {
+   "agent": "parley-v1.1-nollm"
+  },
+  "58aa099dc6d46506": {
+   "agent": "parley-v1.1-nollm"
+  },
+  "dc88507beb798193": {
+   "agent": "parley-v1.1-nollm"
+  },
+  "a17a44ade9e24692": {
+   "agent": "parley-v1.1-nollm"
+  },
+  "4e45da9aeb2fe874": {
+   "agent": "parley-v1.1-nollm"
+  },
+  "dbb1e5221985bb36": {
+   "agent": "parley-v1.2-llm"
+  },
+  "c32b850aa92827c5": {
+   "agent": "parley-v1.2-llm"
+  },
+  "2b5d1f0853d3c49a": {
+   "agent": "parley-v1.2-llm"
+  },
+  "2a4cda0f7dfcedbc": {
+   "agent": "parley-v1.2-llm"
+  },
+  "af914390ddc31c82": {
+   "agent": "parley-v1.2-llm"
+  },
+  "ca3e174ad916f6e7": {
+   "agent": "parley-v1.2-llm"
+  },
+  "f5723febdc6766df": {
+   "agent": "parley-v1.3-llm"
+  },
+  "9bdada695acfe075": {
+   "agent": "parley-v1.3-llm"
+  },
+  "8cb9ececf32ab51f": {
+   "agent": "parley-v1.3-llm"
+  },
+  "37eebef348ff28cc": {
+   "agent": "parley-v1.3-llm"
+  },
+  "113591308410580c": {
+   "agent": "parley-v1.3-llm"
+  },
+  "67a7e9173927b033": {
+   "agent": "parley-v1.3-llm"
+  },
+  "c9ab852049b22034": {
+   "agent": "ab-b-opus-all"
+  },
+  "80d7b58e4d86e858": {
+   "agent": "ab-b-opus-all"
+  },
+  "b443fe9b47276036": {
+   "agent": "ab-b-opus-all"
+  },
+  "a25f4d096972b8aa": {
+   "agent": "ab-b-opus-all"
+  },
+  "b12b7e384ad82769": {
+   "agent": "ab-b-opus-all"
+  },
+  "c0e771d63842dff2": {
+   "agent": "ab-b-opus-all"
+  },
+  "9ce1bf5e05e3a22c": {
+   "agent": "ab-c-gpt-all"
+  },
+  "feefced493a0558d": {
+   "agent": "ab-c-gpt-all"
+  },
+  "252470f06a88c8db": {
+   "agent": "ab-c-gpt-all"
+  },
+  "864bd679ddfe6897": {
+   "agent": "ab-c-gpt-all"
+  },
+  "610521d8c5d16c79": {
+   "agent": "ab-c-gpt-all"
+  },
+  "56dcb6e591ad6cc1": {
+   "agent": "ab-c-gpt-all"
+  },
+  "6ef393b5144b0291": {
+   "agent": "ab-d-opus-gpt"
+  },
+  "a33fa237601b44c0": {
+   "agent": "ab-d-opus-gpt"
+  },
+  "0be8f0e2188e9067": {
+   "agent": "ab-d-opus-gpt"
+  },
+  "7b3225ccd960be68": {
+   "agent": "ab-d-opus-gpt"
+  },
+  "1aa78d92d39f4918": {
+   "agent": "ab-d-opus-gpt"
+  },
+  "bd7be9f9e0f8461a": {
+   "agent": "ab-d-opus-gpt"
+  },
+  "b34e8d776b67683f": {
+   "agent": "ab-f-opus-sonnet"
+  },
+  "0457f1f237d0927c": {
+   "agent": "ab-f-opus-sonnet"
+  },
+  "79a0a36a5b677439": {
+   "agent": "ab-f-opus-sonnet"
+  },
+  "d4cc718b705c31d0": {
+   "agent": "ab-f-opus-sonnet"
+  },
+  "895f03f892800200": {
+   "agent": "ab-f-opus-sonnet"
+  },
+  "f194d806e3e1a6ca": {
+   "agent": "ab-f-opus-sonnet"
+  },
+  "62ae9fa83440f1b7": {
+   "agent": "ab-e-gpt-sonnet"
+  },
+  "71a9e2068ec8e766": {
+   "agent": "ab-e-gpt-sonnet"
+  },
+  "30f693b0ee0379c6": {
+   "agent": "ab-e-gpt-sonnet"
+  },
+  "27cd05c9226d7da0": {
+   "agent": "ab-e-gpt-sonnet"
+  },
+  "8f44b2137733daa0": {
+   "agent": "ab-e-gpt-sonnet"
+  },
+  "3cc0adcef4ddf02f": {
+   "agent": "ab-e-gpt-sonnet"
+  },
+  "1e13e7d608f32ee6": {
+   "agent": "parley-v1.3-llm"
+  },
+  "60552ba04bebe0bc": {
+   "agent": "parley-v1.3-llm"
+  },
+  "66e8a3c59da1a8d3": {
+   "agent": "parley-v1.3-llm"
+  },
+  "d495ccfc47028806": {
+   "agent": "parley-v1.3-llm"
+  },
+  "e7850afcaa51459f": {
+   "agent": "parley-v1.3-llm-manualclose"
+  },
+  "5ad937ff6ca7377e": {
+   "agent": "parley-v1.4-llm"
+  },
+  "ec505f94f4057752": {
+   "agent": "parley-v1.4-llm"
+  },
+  "9bb16db6bc5aff28": {
+   "agent": "parley-v1.4-llm"
+  },
+  "409104d9c60f73c1": {
+   "agent": "parley-v1.4-llm"
+  },
+  "cac418d744578e10": {
+   "agent": "parley-v1.4-llm"
+  },
+  "61088a19a6d5a7c8": {
+   "agent": "parley-v1.4-llm"
+  },
+  "9804a7a81e0fa7dc": {
+   "agent": "parley-v1.5-llm"
+  },
+  "015625d7ac34308a": {
+   "agent": "parley-v1.5-llm"
+  },
+  "bf48d8c4dd291da9": {
+   "agent": "parley-v1.5-llm"
+  },
+  "cb2bd877010beaf1": {
+   "agent": "parley-v1.5-llm"
+  },
+  "e61e7af763da03e7": {
+   "agent": "parley-v1.5-llm"
+  },
+  "6da74b5e95f7ac8a": {
+   "agent": "parley-v1.5-llm"
+  },
+  "660252fa1e356991": {
+   "agent": "parley-v1.5-llm"
+  },
+  "892852561a56d1a5": {
+   "agent": "parley-v1.5-llm"
+  },
+  "51b015e73f489979": {
+   "agent": "parley-v1.6-llm"
+  },
+  "25ce228b19aa9d04": {
+   "agent": "parley-v1.6-llm"
+  },
+  "4c55521012fbd737": {
+   "agent": "parley-v1.6-llm"
+  },
+  "46d209cb36640829": {
+   "agent": "parley-v1.6-llm"
+  },
+  "04546cffccb83f0b": {
+   "agent": "parley-v1.6-llm"
+  },
+  "0b342f5253d060b5": {
+   "agent": "parley-v1.6-llm"
+  },
+  "d26e74099320cd1b": {
+   "agent": "parley-v1.7-llm"
+  },
+  "f024920f16a785a2": {
+   "agent": "parley-v1.7-llm"
+  },
+  "ea871fb4ac8813ad": {
+   "agent": "parley-v1.7-llm"
+  },
+  "7417dc9a842685c2": {
+   "agent": "parley-v1.7-llm"
+  },
+  "0645c94e67d863c8": {
+   "agent": "parley-v1.7-llm"
+  },
+  "1c6a8ce93821c362": {
+   "agent": "parley-v1.7-llm"
+  },
+  "e5392c0ee0d95c9f": {
+   "agent": "parley-v1.7-llm"
+  },
+  "a02e33db8c69da87": {
+   "agent": "parley-v1.7-llm"
+  },
+  "58531a2717c8c89b": {
+   "agent": "parley-v1.6-llm"
+  },
+  "7c3eb56e47b85e78": {
+   "agent": "parley-v1.6-llm"
+  },
+  "8c8257d83e0c063d": {
+   "agent": "parley-v1.9-llm"
+  },
+  "dc2eb631f6810b8a": {
+   "agent": "parley-v1.9-llm"
+  },
+  "fe86e174c0e60fa7": {
+   "agent": "parley-v1.9-llm"
+  },
+  "d92d993396747079": {
+   "agent": "parley-v1.9-llm"
+  },
+  "3128fbadb8b3a1ab": {
+   "agent": "parley-v1.9-llm"
+  },
+  "2765aead96e0516e": {
+   "agent": "parley-v1.9-llm"
+  },
+  "8db1a449417df761": {
+   "agent": "parley-v1.10-llm"
+  },
+  "eaaa59272fd337bc": {
+   "agent": "parley-v1.10-llm"
+  },
+  "72bbd3e6d0995bbf": {
+   "agent": "parley-v1.10-llm"
+  },
+  "b098e86d76031890": {
+   "agent": "parley-v1.10-llm"
+  },
+  "12512f7cb216cf75": {
+   "agent": "parley-v1.10-llm"
+  },
+  "02ed207abec4318a": {
+   "agent": "parley-v1.10-llm"
+  },
+  "95191e6cf538a589": {
+   "agent": "parley-v1.10-llm"
+  },
+  "a9701ec289848851": {
+   "agent": "parley-v1.10-llm"
+  },
+  "64285f2cf4bcecdc": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "5c27ecceb5ac16bc": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "8be3bfc3edf7e4b2": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "ff7ffaa3df951a40": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "98decc0c5d77813f": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "951ba54ae69fcb36": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "0ef752aacc8cdf2e": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "dfc498b5bc884b61": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "5e0235ca191cd4c7": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "af65b1c2fd218acd": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "b71f8c6fa5cc8f19": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "0695e83bdcde4bb4": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "be6fa9e0f6387820": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "51374daa1b7bf469": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "a40d3289facdd4b5": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "a80272fd18a6780e": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "180267186b549ed0": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "6999a94e8a9f316f": {
+   "agent": "parley-v1.10-llm-snapshot"
+  },
+  "bb2388430285df96": {
+   "agent": "parley-v1.11-llm"
+  },
+  "061e0786200384c3": {
+   "agent": "parley-v1.11-llm"
+  },
+  "205871233ff097ae": {
+   "agent": "parley-v1.11-llm"
+  },
+  "15ee5eb861d27ce0": {
+   "agent": "parley-v1.11-llm"
+  },
+  "01f9422786091f2b": {
+   "agent": "parley-v1.11-llm"
+  },
+  "b1d6f9e39c69c5a6": {
+   "agent": "parley-v1.11-llm"
+  },
+  "ad2de7a7d072c953": {
+   "agent": "parley-v1.11-llm"
+  },
+  "8693b0d40b5caaa4": {
+   "agent": "parley-v1.11-llm"
+  },
+  "324c64480026f4c6": {
+   "agent": "parley-v1.11-llm"
+  },
+  "91371afa1294b1d9": {
+   "agent": "parley-v1.11-llm"
+  },
+  "81aeebe86043d4ff": {
+   "agent": "parley-v1.11-llm"
+  },
+  "50196fab52ee08ed": {
+   "agent": "parley-v1.11-llm"
+  },
+  "0e151c035612d55f": {
+   "agent": "parley-v1.11-llm"
+  },
+  "0cd3c944c92f58c5": {
+   "agent": "parley-v1.11-llm"
+  },
+  "7a208d0b9eb8fb80": {
+   "agent": "parley-v1.11-llm"
+  },
+  "5955aaae85799f41": {
+   "agent": "parley-v1.11-llm"
+  },
+  "66c625ac1a301be7": {
+   "agent": "parley-v1.11-llm"
+  },
+  "02a9ba876df2e318": {
+   "agent": "parley-v1.11-llm"
+  },
+  "95cebdf44759deca": {
+   "agent": "parley-v1.11-llm"
+  },
+  "5fb0bb31b6099308": {
+   "agent": "parley-v1.11-llm"
+  },
+  "1e41d379142c9684": {
+   "agent": "parley-v1.12-llm"
+  },
+  "ab864db074e55b31": {
+   "agent": "parley-v1.12-llm"
+  },
+  "15e4147b42d28ea7": {
+   "agent": "parley-v1.12-llm"
+  },
+  "5d809c03a62bbdf2": {
+   "agent": "parley-v1.12-llm"
+  },
+  "99c3ba83a15a9c96": {
+   "agent": "parley-v1.12-llm"
+  },
+  "cebfc8b7cf417f53": {
+   "agent": "parley-v1.12-llm"
+  },
+  "266ed970d24bcaae": {
+   "agent": "parley-v1.12-llm"
+  },
+  "2bcbace598823a2b": {
+   "agent": "parley-v1.12-llm"
+  },
+  "1161ff7cdf8507be": {
+   "agent": "parley-v1.12-llm"
+  },
+  "761bbb5822237751": {
+   "agent": "parley-v1.12-llm"
+  },
+  "22f4ae5f0d205d24": {
+   "agent": "parley-v1.12-llm"
+  },
+  "337e994496348a59": {
+   "agent": "parley-v1.12-llm"
+  },
+  "a940b701103de9b2": {
+   "agent": "parley-v1.13-llm"
+  },
+  "df2ecacfc749e626": {
+   "agent": "parley-v1.13-llm"
+  },
+  "ceb61cb7be5b3712": {
+   "agent": "parley-v1.13-llm"
+  },
+  "bff0620a3f69f1d4": {
+   "agent": "parley-v1.13-llm"
+  },
+  "44e7bcd96d626253": {
+   "agent": "parley-v1.13-llm"
+  },
+  "623a7d3ec0b87d46": {
+   "agent": "parley-v1.13-llm"
+  },
+  "535839810d19c330": {
+   "agent": "parley-v1.13-llm"
+  },
+  "f901b0c358aa3911": {
+   "agent": "parley-v1.13-llm"
+  },
+  "cf839c994b1d9f92": {
+   "agent": "parley-v1.13-llm"
+  },
+  "bee755cae187188e": {
+   "agent": "parley-v1.13-llm"
+  },
+  "6c72eed78e25c653": {
+   "agent": "parley-v1.13-llm"
+  },
+  "44b7a86341f233e4": {
+   "agent": "parley-v1.13-llm"
+  },
+  "d1d5b24dbfe0cb16": {
+   "agent": "parley-v1.13-llm"
+  },
+  "401131496e627ce4": {
+   "agent": "parley-v1.13-llm"
+  },
+  "99528274c9bfed7e": {
+   "agent": "parley-v1.14-llm"
+  },
+  "06d02f2e45840699": {
+   "agent": "parley-v1.14-llm"
+  },
+  "3b63a422917663ba": {
+   "agent": "parley-v1.14-llm"
+  },
+  "96d2f6766bc9d237": {
+   "agent": "parley-v1.14-llm"
+  },
+  "c80db885364064a6": {
+   "agent": "parley-v1.14-llm"
+  },
+  "5af9648fa7a60a84": {
+   "agent": "parley-v1.14-llm"
+  },
+  "a11187c977e347fd": {
+   "agent": "parley-v1.15-nollm"
+  },
+  "14c90abc132df8c2": {
+   "agent": "parley-v1.15-nollm"
+  },
+  "720b02938446b604": {
+   "agent": "parley-v1.15-nollm"
+  },
+  "94fc1de23376f16b": {
+   "agent": "parley-v1.15-nollm"
+  },
+  "01d1b016291b30df": {
+   "agent": "parley-v1.15-nollm"
+  },
+  "4d7e5126e1faf918": {
+   "agent": "parley-v1.15-nollm"
+  },
+  "d0738351f433f2f3": {
+   "agent": "parley-v1.16-nollm"
+  },
+  "56440c808f93f0bd": {
+   "agent": "parley-v1.16-nollm"
+  },
+  "a0962fcc7bf42386": {
+   "agent": "parley-v1.16-nollm"
+  },
+  "c376032cef5ab6a1": {
+   "agent": "parley-v1.16-nollm"
+  },
+  "6d3c9fcf3711be45": {
+   "agent": "parley-v1.16-nollm"
+  },
+  "a884a526601767fd": {
+   "agent": "parley-v1.16-nollm"
+  },
+  "3a03914386eda342": {
+   "agent": "parley-v1.17-nollm"
+  },
+  "e27dbb4437988c1a": {
+   "agent": "parley-v1.17-nollm"
+  },
+  "5a64175ef9ea27f8": {
+   "agent": "parley-v1.17-nollm"
+  },
+  "2535cdf4ff6a679b": {
+   "agent": "parley-v1.17-nollm"
+  },
+  "7340003667f0111b": {
+   "agent": "parley-v1.17-nollm"
+  },
+  "388603e67f0cb1c9": {
+   "agent": "parley-v1.17-nollm"
+  },
+  "119955d29967869c": {
+   "agent": "parley-v1.17-hybrid"
+  },
+  "91bd6f235f509657": {
+   "agent": "parley-v1.17-hybrid"
+  },
+  "8bc9e9f3a2c7a5a9": {
+   "agent": "parley-v1.17-hybrid"
+  },
+  "42513f45a7ccb67a": {
+   "agent": "parley-v1.17-hybrid"
+  },
+  "0f0df78577628819": {
+   "agent": "parley-v1.17-hybrid"
+  },
+  "cb2d3d07fcca920f": {
+   "agent": "parley-v1.17-hybrid"
+  },
+  "7b81b7f2e6b06fce": {
+   "agent": "parley-v1.17-A"
+  },
+  "fd0e4114e7e305da": {
+   "agent": "parley-v1.17-H"
+  },
+  "43fce8d837b72694": {
+   "agent": "parley-v1.17-B"
+  },
+  "07df38b729791133": {
+   "agent": "parley-v1.17-H"
+  },
+  "560dc5c14b31ab78": {
+   "agent": "parley-v1.17-B"
+  },
+  "289905c089761384": {
+   "agent": "parley-v1.17-A"
+  },
+  "12cf8cea680d6d65": {
+   "agent": "parley-v1.17-B"
+  },
+  "03a49ca0f26fa422": {
+   "agent": "parley-v1.17-A"
+  },
+  "054fc1b609c84aae": {
+   "agent": "parley-v1.17-H"
+  },
+  "e1a71fb0e138ece5": {
+   "agent": "parley-v1.17-A"
+  },
+  "16dd4ed4ef16374b": {
+   "agent": "parley-v1.17-H"
+  },
+  "3061a491ec0efa39": {
+   "agent": "parley-v1.17-B"
+  },
+  "8c2d2145e8dde019": {
+   "agent": "parley-v1.17-H"
+  },
+  "26be5c60a560d550": {
+   "agent": "parley-v1.17-B"
+  },
+  "48aec644f32dac9f": {
+   "agent": "parley-v1.17-A"
+  },
+  "e618c8560a3573e5": {
+   "agent": "parley-v1.17-A"
+  },
+  "47507609a6116a16": {
+   "agent": "parley-v1.17-H"
+  },
+  "c46d15670ff4cf8d": {
+   "agent": "parley-v1.17-B"
+  },
+  "ea751823e739b463": {
+   "agent": "parley-v1.17-H"
+  },
+  "24ccc957ccd4e864": {
+   "agent": "parley-v1.17-B"
+  },
+  "968b7b80f6d656e8": {
+   "agent": "parley-v1.17-A"
+  },
+  "5f75637f461b2d28": {
+   "agent": "parley-v1.17-H"
+  },
+  "29d665981d239c72": {
+   "agent": "parley-v1.17-A"
+  },
+  "afc98beb6a37f76f": {
+   "agent": "parley-v1.17-H"
+  },
+  "2d58ecdf35e9d5e3": {
+   "agent": "parley-v1.17-B"
+  },
+  "7424bbc8a196e76f": {
+   "agent": "parley-v1.17-H"
+  },
+  "0af6255faf490775": {
+   "agent": "parley-v1.17-B"
+  },
+  "32a9204d3d70155e": {
+   "agent": "parley-v1.17-A"
+  },
+  "5e0bd7e4f55206a4": {
+   "agent": "parley-v1.17-A"
+  },
+  "a0c7c73c448d7b9f": {
+   "agent": "parley-v1.17-B"
+  },
+  "f70eb06f68a3e1df": {
+   "agent": "netfail-v1.17-B"
+  }
+ },
+ "exclude_best": [
+  "00cd8799ef7beabd",
+  "00d51a411c152686",
+  "12975c0197cbd97e",
+  "13b84912434cab1d",
+  "1949af9c1a9ba379",
+  "34ab2945dda85858",
+  "3bd2997e124490bb",
+  "3ea61b210f33d521",
+  "3fede11a832dec93",
+  "580e4123588c3545",
+  "5aca1773532dcc25",
+  "5d395fa64bb22bcb",
+  "77e8e03cc4b6906c",
+  "7b0a4c912dc53918",
+  "809b29995f0f5e27",
+  "81f30521200a2d37",
+  "88f10ebed18c9896",
+  "893b3ae9195b8762",
+  "8b6cd8de3b1d8a91",
+  "8eb3c437cd43244e",
+  "974bd8984a61b823",
+  "982fb5859c185ca6",
+  "ab8a1ab5bc4d33de",
+  "adb91d59a5a5adc3",
+  "c4124f40f61c7727",
+  "c87772a07749f2d1",
+  "d92b96d520d60e60",
+  "e046abe20917c464",
+  "e4b267ddcd5029d6",
+  "e7850afcaa51459f",
+  "ea8e6b7ce5c04778",
+  "f7e8a0717b6fd410",
+  "fc6b564d9c4b8ec4"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "raw": "{\n  \"supplier_id\": \"sup:70520\",\n  \"approval_threshold_pct\": {\n    \"value\": 2,\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260426-70520-M5\",\n        \"quote\": \"price changes above 2 % need the approval of their pricing committee\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"approval_cycle\": {\n    \"value\": \"pricing committee, every two weeks\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260426-70520-M5\",\n        \"quote\": \"their pricing committee, which meets every two weeks.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"approval_cycle_days\": {\n    \"value\": 14,\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260426-70520-M5\",\n        \"quote\": \"their pricing committee, which meets every two weeks.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"preferred_levers\": [],\n  \"avoid_levers\": [],\n  \"capacity_tight\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"price_freeze\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"cash_need\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"hedged_inputs\": [\n    {\n      \"input\": \"copper\",\n      \"until\": \"2027-03\",\n      \"evidence\": [\n        {\n          \"source\": \"doc:20260620-70520-M1\",\n          \"quote\": \"our copper requirement is covered at fixed prices until March 2027.\"\n        },\n        {\n          \"source\": \"doc:20260701-70520-M4\",\n          \"quote\": \"they bought their copper forward until March 2027\"\n        }\n      ],\n      \"confidence\": \"high\"\n    }\n  ],\n  \"uninformed_owner\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"decision_maker\": {\n    \"value\": \"kam\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260426-70520-M5\",\n        \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"patience\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"past_goodwill_claim\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"volume_posture\": {\n    \"value\": \"wants_volume\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260413-70520-M2\",\n        \"quote\": \"they are reviewing small accounts and will focus on customers with volume.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"open_calculation\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"margin_floor\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"account_deprioritised\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  }\n}\n",
+ "data": {
+  "supplier_id": "sup:70520",
+  "approval_threshold_pct": {
+   "value": 2,
+   "evidence": [
+    {
+     "source": "doc:20260426-70520-M5",
+     "quote": "price changes above 2 % need the approval of their pricing committee"
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle": {
+   "value": "pricing committee, every two weeks",
+   "evidence": [
+    {
+     "source": "doc:20260426-70520-M5",
+     "quote": "their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle_days": {
+   "value": 14,
+   "evidence": [
+    {
+     "source": "doc:20260426-70520-M5",
+     "quote": "their pricing committee, which meets every two weeks."
+    }
+   ],
+   "confidence": "high"
+  },
+  "preferred_levers": [],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [
+   {
+    "input": "copper",
+    "until": "2027-03",
+    "evidence": [
+     {
+      "source": "doc:20260620-70520-M1",
+      "quote": "our copper requirement is covered at fixed prices until March 2027."
+     },
+     {
+      "source": "doc:20260701-70520-M4",
+      "quote": "they bought their copper forward until March 2027"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "kam",
+   "evidence": [
+    {
+     "source": "doc:20260426-70520-M5",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee"
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "wants_volume",
+   "evidence": [
+    {
+     "source": "doc:20260413-70520-M2",
+     "quote": "they are reviewing small accounts and will focus on customers with volume."
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 64.7
+}

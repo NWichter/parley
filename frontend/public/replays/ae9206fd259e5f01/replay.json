@@ -1,0 +1,573 @@
+{
+ "session_id": "ae9206fd259e5f01",
+ "case_id": "case:P11",
+ "set": "practice",
+ "title": "Kalwisz: bearing brackets in red",
+ "type": "quality",
+ "rounds": 7,
+ "end_reason": "accepted",
+ "house_score": 0.3144,
+ "agent": null,
+ "replay_url": "https://arena.tacto.ai/replay/ae9206fd259e5f01",
+ "result": {
+  "deal": true,
+  "supplier_id": "sup:70140",
+  "score": 0.7935118099900735,
+  "c_open": 817578.0,
+  "c_deal": 742132.5,
+  "c_best": 722500.02,
+  "c_alt": 894383.19,
+  "terms": {
+   "payment_days": 60,
+   "lead_time_days": 56,
+   "volume_per_year": 15900,
+   "contract_months": 12,
+   "effective_date": "2027-01-01",
+   "index_clause": null,
+   "incoterm": "FCA",
+   "tooling_eur": 0.0,
+   "ppm_commitment": 300,
+   "chargeback_eur_per_complaint": 0.0,
+   "unit_price": 45.0
+  }
+ },
+ "speakers": {
+  "narrator": {
+   "label": "Narrator",
+   "kind": "narrator",
+   "voice": "Alice"
+  },
+  "buyer": {
+   "label": "Parley · Hollerau Pumpenwerke",
+   "kind": "buyer",
+   "voice": "Daniel"
+  },
+  "sup:70140": {
+   "label": "Marek Lis · Export Manager",
+   "kind": "supplier",
+   "id": "sup:70140",
+   "company": "Odlewnia Kalwisz Sp. z o.o.",
+   "contact": "Marek Lis",
+   "role": "Export Manager",
+   "country": "PL",
+   "voice": "Charlie",
+   "voice_id": "IKne3meq5aSn9XLyUdCD",
+   "accent": "Polish accent",
+   "style": "eager, courteous"
+  }
+ },
+ "model_id": "eleven_v3",
+ "turns": [
+  {
+   "speaker": "narrator",
+   "kind": "narration",
+   "text": "Case P11: Kalwisz: bearing brackets in red. Hollerau Pumpenwerke negotiates with Odlewnia Kalwisz. The buyer is our agent, Parley.",
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "sup:70140",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 0,
+   "subject": "Quote from Odlewnia Kalwisz Sp. z o.o.: Kalwisz: bearing brackets in red",
+   "text": "We are very eager to work with you and to prove ourselves as a great long-term partner for your business! We are happy to present our offer for a price of €47.00 per unit, along with a quality commitment of 6400 ppm.",
+   "full": "Hello,\n\nThank you for your enquiry. Please find our Angebot below. We are very eager to work with you and to prove ourselves as a great long-term partner for your business!\n\nWe are happy to present our offer for a price of €47.00 per unit, along with a quality commitment of 6400 ppm. \n\nPlease note that this offer stays valid for 30 days. We remain flexible and look forward to hearing from you soon so we can start building a strong partnership together.\n\nKind regards\nMarek Lis\nExport Manager, Odlewnia Kalwisz Sp. z o.o.",
+   "condensed": true,
+   "placeholder": false,
+   "status": "open",
+   "action": null,
+   "terms": [
+    {
+     "id": "offer:70140-0",
+     "label": "standing offer",
+     "terms": {
+      "unit_price": 47.0,
+      "ppm_commitment": 6400
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "buyer",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 1,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "Thank you for your quote; we propose clear and measurable quality terms for this part below. We commit to a binding volume of 15900 pieces a year over 12 months, our full need for this part, as in our demand forecast (fc:310020@2026-09). Your on-time delivery averaged 70.8% over the last two scorecard quarters (sc:70140@2026Q2, sc:70140@2026Q3). Producer prices DE: basic iron and steel, ferro-alloys (PPI-C241) changed -4.3% from 2024-10 to 2025-10 (idx:PPI-C241@2024-10, idx:PPI-C241@2025-10). We will pay on the agreed due date; our accounts payable team has this in hand. We have set out 3 packages below. Each would be an acceptable basis for agreement for us; if none fits, please tell us which term is the hardest for you: 1. EUR 43.13 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint 2. EUR 43.17 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint 3. EUR 42.90 per unit, quality commitment 800 ppm, chargeback EUR 0.00 per complaint Could you send us a cost breakdown for this part? And what would you need from us to move further on the price?",
+   "full": "Dear Marek Lis,\n\nThank you for your quote; we propose clear and measurable quality terms for this part below.\n\nWe commit to a binding volume of 15900 pieces a year over 12 months, our full need for this part, as in our demand forecast (fc:310020@2026-09).\nYour on-time delivery averaged 70.8% over the last two scorecard quarters (sc:70140@2026Q2, sc:70140@2026Q3).\nProducer prices DE: basic iron and steel, ferro-alloys (PPI-C241) changed -4.3% from 2024-10 to 2025-10 (idx:PPI-C241@2024-10, idx:PPI-C241@2025-10).\nWe will pay on the agreed due date; our accounts payable team has this in hand.\n\nWe have set out 3 packages below. Each would be an acceptable basis for agreement for us; if none fits, please tell us which term is the hardest for you:\n1. EUR 43.13 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint\n2. EUR 43.17 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint\n3. EUR 42.90 per unit, quality commitment 800 ppm, chargeback EUR 0.00 per complaint\n\nCould you send us a cost breakdown for this part? And what would you need from us to move further on the price?\n\nKind regards\nHollerau Pumpenwerke, Purchasing",
+   "condensed": true,
+   "placeholder": false,
+   "status": null,
+   "action": null,
+   "terms": [
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0,
+      "unit_price": 43.13
+     }
+    },
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 150,
+      "unit_price": 43.17
+     }
+    },
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 800,
+      "chargeback_eur_per_complaint": 0,
+      "unit_price": 42.9
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "sup:70140",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 1,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "We checked the index change data you cited; it holds and we took it into account. We checked the delivery record data you cited; it holds and we took it into account. We checked the volume change data you cited; it holds and we took it into account. We see your figures, but we cannot give up margin right now. Faster payment would help us more than anything. We don't do cost breakdowns, sorry. Material accounts for about 30 % of our cost; more detail we do not share. I can offer 46.00 EUR. If you want a better price, we need you to actually pay on time, as your payments are often late. Currently, our offer is a price of €46.50 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. Alternatively, with a quality commitment of 800 ppm: €46.00 per unit, a chargeback of €0.00 per complaint.",
+   "full": "Hello,\n\nWe have reviewed your offer and can adjust our Angebot as follows. We checked the index change data you cited; it holds and we took it into account. We checked the delivery record data you cited; it holds and we took it into account. We checked the volume change data you cited; it holds and we took it into account. We see your figures, but we cannot give up margin right now. Faster payment would help us more than anything. Hi, we don't do cost breakdowns, sorry. Material accounts for about 30 % of our cost; more detail we do not share. Our price follows our main cost drivers: LCI-C, PPI-C241, PPI-D351.\n\nI can offer 46.00 EUR. If you want a better price, we need you to actually pay on time, as your payments are often late. Currently, our offer is a price of €46.50 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. Alternatively, with a quality commitment of 800 ppm: €46.00 per unit, a chargeback of €0.00 per complaint. This offer is valid for 30 days.\n\nKind regards\nMarek Lis\nExport Manager, Odlewnia Kalwisz Sp. z o.o.",
+   "condensed": true,
+   "placeholder": false,
+   "status": "open",
+   "action": null,
+   "terms": [
+    {
+     "id": "offer:70140-1",
+     "label": "standing offer",
+     "terms": {
+      "unit_price": 46.5,
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0.0
+     }
+    },
+    {
+     "id": "offer:70140-1-a",
+     "label": "alternative",
+     "terms": {
+      "unit_price": 46.0,
+      "ppm_commitment": 800,
+      "chargeback_eur_per_complaint": 0.0
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "buyer",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 2,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "Thank you for moving on the terms; this helps. We understand that faster payment matters to you; payment terms are fixed for this part, so our proposal works on the terms below. We understand the pressure on your margin. The PPI-D351 index changed -17.1% from 2025-02 to 2026-02 (idx:PPI-D351@2025-02, idx:PPI-D351@2026-02). We will pay on the agreed due date; our accounts payable team has this in hand. Below are 2 packages we could sign. If one term is the obstacle, please name it: 1. EUR 43.98 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint 2. EUR 44.02 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint What would you need from us to move further?",
+   "full": "Dear Marek Lis,\n\nThank you for moving on the terms; this helps. We understand that faster payment matters to you; payment terms are fixed for this part, so our proposal works on the terms below. We understand the pressure on your margin.\n\nThe PPI-D351 index changed -17.1% from 2025-02 to 2026-02 (idx:PPI-D351@2025-02, idx:PPI-D351@2026-02).\nWe will pay on the agreed due date; our accounts payable team has this in hand.\n\nBelow are 2 packages we could sign. If one term is the obstacle, please name it:\n1. EUR 43.98 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint\n2. EUR 44.02 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint\n\nWhat would you need from us to move further?\n\nKind regards\nHollerau Pumpenwerke, Purchasing",
+   "condensed": true,
+   "placeholder": false,
+   "status": null,
+   "action": null,
+   "terms": [
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0,
+      "unit_price": 43.98
+     }
+    },
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 150,
+      "unit_price": 44.02
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "sup:70140",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 2,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "We checked the index change data you cited; it holds and we took it into account. We see your figures, but we cannot give up margin right now. Faster payment would help us more than anything. Since you say payment terms are fixed, we need proof that your accounts payable will actually pay on the due date, as late payments are a big problem for us. I can offer 45.50 EUR for the 300 ppm and 0 EUR chargeback package. So, our offer is a price of €45.50 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. Our standard Zahlungsziel is 60 days net. Faster payment is welcome; we can reflect it in the price.",
+   "full": "Hello,\n\nWe have reviewed your offer and can adjust our Angebot as follows. We checked the index change data you cited; it holds and we took it into account. We see your figures, but we cannot give up margin right now. Faster payment would help us more than anything. Since you say payment terms are fixed, we need proof that your accounts payable will actually pay on the due date, as late payments are a big problem for us. \n\nI can offer 45.50 EUR for the 300 ppm and 0 EUR chargeback package. So, our offer is a price of €45.50 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. Our standard Zahlungsziel is 60 days net. Faster payment is welcome; we can reflect it in the price. Our price follows our main cost drivers: LCI-C, PPI-C241, PPI-D351. This offer stays valid for 30 days.\n\nKind regards\nMarek Lis\nExport Manager, Odlewnia Kalwisz Sp. z o.o.",
+   "condensed": true,
+   "placeholder": false,
+   "status": "open",
+   "action": null,
+   "terms": [
+    {
+     "id": "offer:70140-2",
+     "label": "standing offer",
+     "terms": {
+      "unit_price": 45.5,
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0.0
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "buyer",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 3,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "Thank you for your revised offer. We understand that faster payment matters to you; payment terms are fixed for this part, so our proposal works on the terms below. We understand the pressure on your margin. We will pay on the agreed due date; our accounts payable team has this in hand. We have set out 2 packages below. Each would be an acceptable basis for agreement for us; if none fits, please tell us which term is the hardest for you: 1. EUR 44.36 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint 2. EUR 44.40 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint What is the best price you could sign on one of these packages?",
+   "full": "Dear Marek Lis,\n\nThank you for your revised offer. We understand that faster payment matters to you; payment terms are fixed for this part, so our proposal works on the terms below. We understand the pressure on your margin.\n\nWe will pay on the agreed due date; our accounts payable team has this in hand.\n\nWe have set out 2 packages below. Each would be an acceptable basis for agreement for us; if none fits, please tell us which term is the hardest for you:\n1. EUR 44.36 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint\n2. EUR 44.40 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint\n\nWhat is the best price you could sign on one of these packages?\n\nKind regards\nHollerau Pumpenwerke, Purchasing",
+   "condensed": true,
+   "placeholder": false,
+   "status": null,
+   "action": null,
+   "terms": [
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0,
+      "unit_price": 44.36
+     }
+    },
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 150,
+      "unit_price": 44.4
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "sup:70140",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 3,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "You just repeated the same thing about your accounts payable, but we really need some actual proof that you will pay on time. Late payments hurt us a lot, so without proof, I cannot move the price. I have to stick to a price of €45.50 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. I have to stick to 45.50 EUR for the 300 ppm and 0 chargeback package. Our standard Zahlungsziel is 60 days net. Faster payment is welcome; we can reflect it in the price.",
+   "full": "Hello,\n\nWe have reviewed your offer and can adjust our Angebot as follows.\n\nHi, you just repeated the same thing about your accounts payable, but we really need some actual proof that you will pay on time. Late payments hurt us a lot, so without proof, I cannot move the price.\n\nI have to stick to a price of €45.50 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. I have to stick to 45.50 EUR for the 300 ppm and 0 chargeback package.\n\nOur price follows our main cost drivers: LCI-C, PPI-C241, PPI-D351. Our standard Zahlungsziel is 60 days net. Faster payment is welcome; we can reflect it in the price. This offer is valid for 30 days.\n\nKind regards\nMarek Lis\nExport Manager, Odlewnia Kalwisz Sp. z o.o.",
+   "condensed": true,
+   "placeholder": false,
+   "status": "open",
+   "action": null,
+   "terms": [
+    {
+     "id": "offer:70140-3",
+     "label": "standing offer",
+     "terms": {
+      "unit_price": 45.5,
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0.0
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "buyer",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 4,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "We will pay on the agreed due date; our accounts payable team has this in hand. Below are 2 packages we could sign. If one term is the obstacle, please name it: 1. EUR 44.48 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint 2. EUR 44.52 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint What is the best price you could sign on one of these packages?",
+   "full": "Dear Marek Lis,\n\nThank you for your reply.\n\nWe will pay on the agreed due date; our accounts payable team has this in hand.\n\nBelow are 2 packages we could sign. If one term is the obstacle, please name it:\n1. EUR 44.48 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint\n2. EUR 44.52 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint\n\nWhat is the best price you could sign on one of these packages?\n\nKind regards\nHollerau Pumpenwerke, Purchasing",
+   "condensed": true,
+   "placeholder": false,
+   "status": null,
+   "action": null,
+   "terms": [
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0,
+      "unit_price": 44.48
+     }
+    },
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 150,
+      "unit_price": 44.52
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "sup:70140",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 4,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "Our current offer is a price of €45.00 per unit, a quality commitment of 300 ppm, and a chargeback of €0.00 per complaint. You just copy-pasted the same sentence about your accounts payable again, which is not the proof we asked for. Without actual proof that you will pay on time, this is the best price I can offer. Which figures is that based on? Please send us the data.",
+   "full": "Hello,\n\nWe have reviewed your offer and can adjust our Angebot as follows. \n\nOur current offer is a price of €45.00 per unit, a quality commitment of 300 ppm, and a chargeback of €0.00 per complaint. This offer stays valid for 30 days.\n\nHi, you just copy-pasted the same sentence about your accounts payable again, which is not the proof we asked for. Without actual proof that you will pay on time, this is the best price I can offer. Which figures is that based on? Please send us the data. \n\nOur price follows our main cost drivers: LCI-C, PPI-C241, PPI-D351.\n\nKind regards\nMarek Lis\nExport Manager, Odlewnia Kalwisz Sp. z o.o.",
+   "condensed": true,
+   "placeholder": false,
+   "status": "open",
+   "action": null,
+   "terms": [
+    {
+     "id": "offer:70140-4",
+     "label": "standing offer",
+     "terms": {
+      "unit_price": 45.0,
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0.0
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "buyer",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 5,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "Thank you for moving on the terms; this helps. We commit to a binding volume of 15900 pieces a year over 12 months, our full need for this part. We will pay on the agreed due date; our accounts payable team has this in hand. We have set out 2 packages below. Each would be an acceptable basis for agreement for us; if none fits, please tell us which term is the hardest for you: 1. EUR 44.56 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint 2. EUR 44.60 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint What is the best price you could sign on one of these packages?",
+   "full": "Dear Marek Lis,\n\nThank you for moving on the terms; this helps.\n\nWe commit to a binding volume of 15900 pieces a year over 12 months, our full need for this part.\nWe will pay on the agreed due date; our accounts payable team has this in hand.\n\nWe have set out 2 packages below. Each would be an acceptable basis for agreement for us; if none fits, please tell us which term is the hardest for you:\n1. EUR 44.56 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint\n2. EUR 44.60 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint\n\nWhat is the best price you could sign on one of these packages?\n\nKind regards\nHollerau Pumpenwerke, Purchasing",
+   "condensed": true,
+   "placeholder": false,
+   "status": null,
+   "action": null,
+   "terms": [
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0,
+      "unit_price": 44.56
+     }
+    },
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 150,
+      "unit_price": 44.6
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "sup:70140",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 5,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "You mentioned the volume again, but without any new data to back it up. You also keep repeating the same line about your accounts payable, but we still need actual proof that you will pay on time. Until we see that proof, I have to hold my price at 45.00 EUR for the 300 ppm and 0 EUR chargeback package. So our current offer remains a price of €45.00 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. Which volume can you commit to?",
+   "full": "Hello,\n\nWe have reviewed your offer and can adjust our Angebot as follows. Hi, you mentioned the volume again, but without any new data to back it up. You also keep repeating the same line about your accounts payable, but we still need actual proof that you will pay on time. Until we see that proof, I have to hold my price at 45.00 EUR for the 300 ppm and 0 EUR chargeback package. \n\nSo our current offer remains a price of €45.00 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. This offer is valid for 30 days. Which volume can you commit to? Our price follows our main cost drivers: LCI-C, PPI-C241, PPI-D351.\n\nKind regards\nMarek Lis\nExport Manager, Odlewnia Kalwisz Sp. z o.o.",
+   "condensed": true,
+   "placeholder": false,
+   "status": "open",
+   "action": null,
+   "terms": [
+    {
+     "id": "offer:70140-5",
+     "label": "standing offer",
+     "terms": {
+      "unit_price": 45.0,
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0.0
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "buyer",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 6,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "Thank you. We have looked at your answer again. We commit to a binding volume of 15900 pieces a year over 12 months, our full need for this part. We will pay on the agreed due date; our accounts payable team has this in hand. Below are 2 packages we could sign. If one term is the obstacle, please name it: 1. EUR 44.61 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint 2. EUR 44.65 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint What is the best price you could sign on one of these packages?",
+   "full": "Dear Marek Lis,\n\nThank you. We have looked at your answer again.\n\nWe commit to a binding volume of 15900 pieces a year over 12 months, our full need for this part.\nWe will pay on the agreed due date; our accounts payable team has this in hand.\n\nBelow are 2 packages we could sign. If one term is the obstacle, please name it:\n1. EUR 44.61 per unit, quality commitment 300 ppm, chargeback EUR 0.00 per complaint\n2. EUR 44.65 per unit, quality commitment 300 ppm, chargeback EUR 150.00 per complaint\n\nWhat is the best price you could sign on one of these packages?\n\nKind regards\nHollerau Pumpenwerke, Purchasing",
+   "condensed": true,
+   "placeholder": false,
+   "status": null,
+   "action": null,
+   "terms": [
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0,
+      "unit_price": 44.61
+     }
+    },
+    {
+     "id": null,
+     "label": "package",
+     "terms": {
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 150,
+      "unit_price": 44.65
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "sup:70140",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 6,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "Many thanks, good to have your reply! We can move a bit: Our terms: a price of €45.00 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint. Please let me explain. You mentioned the volume again without new data, and you keep repeating the same line about your accounts payable without the proof we asked for. Until we see actual proof that you will pay on time, I have to hold my price at 45.00 EUR for the 300 ppm and 0 EUR chargeback package. Which figures is that based on? Please send us the data. We are ready when you are!",
+   "full": "Hello,\nmany thanks, good to have your reply!\nwe can move a bit:\nOur terms: a price of €45.00 per unit, a quality commitment of 300 ppm, a chargeback of €0.00 per complaint.\nPlease let me explain.\nHi, you mentioned the volume again without new data, and you keep repeating the same line about your accounts payable without the proof we asked for.\nUntil we see actual proof that you will pay on time, I have to hold my price at 45.00 EUR for the 300 ppm and 0 EUR chargeback package.\nWhich figures is that based on? Please send us the data.\nOur price follows our main cost drivers: LCI-C, PPI-C241, PPI-D351.\nWe are ready when you are!\nKind regards\nMarek Lis\nExport Manager, Odlewnia Kalwisz Sp. z o.o.",
+   "condensed": true,
+   "placeholder": false,
+   "status": "open",
+   "action": null,
+   "terms": [
+    {
+     "id": "offer:70140-6",
+     "label": "standing offer",
+     "terms": {
+      "unit_price": 45.0,
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0.0
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "buyer",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 7,
+   "subject": "",
+   "text": "We accept your offer.",
+   "full": "",
+   "condensed": false,
+   "placeholder": true,
+   "status": null,
+   "action": "accept",
+   "terms": [
+    {
+     "id": "offer:70140-6",
+     "label": "accepted",
+     "terms": {
+      "unit_price": 45.0,
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0.0
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "sup:70140",
+   "supplier": "sup:70140",
+   "kind": "turn",
+   "round": 7,
+   "subject": "Re: Kalwisz: bearing brackets in red",
+   "text": "Thank you for your order. We are very glad to work together with you and are looking forward to being a strong long-term partner for your company.",
+   "full": "Hello,\n\nThank you for your order. Our order confirmation is attached. We are very glad to work together with you and are looking forward to being a strong long-term partner for your company.\n\nKind regards\nMarek Lis\nExport Manager, Odlewnia Kalwisz Sp. z o.o.",
+   "condensed": true,
+   "placeholder": false,
+   "status": "agreed",
+   "action": null,
+   "terms": [
+    {
+     "id": "offer:70140-6",
+     "label": "standing offer",
+     "terms": {
+      "unit_price": 45.0,
+      "ppm_commitment": 300,
+      "chargeback_eur_per_complaint": 0.0
+     }
+    }
+   ],
+   "reason": null,
+   "spoken": true,
+   "start": null,
+   "end": null
+  },
+  {
+   "speaker": "narrator",
+   "kind": "narration",
+   "text": "Deal with Odlewnia Kalwisz at €45.00 per unit after 7 rounds. Score 0.79; Tacto's house agent scored 0.31 on this case.",
+   "spoken": true,
+   "start": null,
+   "end": null
+  }
+ ],
+ "characters": 8006,
+ "audio": null,
+ "duration": null,
+ "generated_at": "2026-10-25T08:32:58+00:00"
+}

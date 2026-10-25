@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parley Pitch</title>
+    <meta name="description" content="Parley, the AI buyer that negotiates with industrial suppliers. Pitch deck, Industrial Agents Hackathon Munich 2026." />
+    <meta property="og:title" content="Parley · Pitch" />
+    <meta property="og:image" content="og.png" />
+    <link rel="icon" href="../brand/mark.svg" type="image/svg+xml" />
+    <link rel="preload" href="fonts/barlow-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/barlow-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="pitch.css" />
+  </head>
+  <body>
+    <section class="slide s-cover" data-id="cover">
+      <div class="logo a-rise">
+        <img src="../brand/mark.svg" alt="" width="88" height="88" />
+        <span>Parley</span>
+      </div>
+      <p class="kicker a-rise" style="--d: 0.15s">Industrial Agents Hackathon · Munich 2026 · Track Tacto</p>
+      <h1 class="a-rise" style="--d: 0.3s">Parley.<br /><em>The AI buyer that negotiates.</em></h1>
+      <p class="lead a-rise" style="--d: 0.6s">Code does the math, AI does the talking: verified facts and equal-cost trades, built on game theory.</p>
+      <div class="cover-meta a-rise" style="--d: 0.825s">
+        <span>Track <b>Tacto Negotiation Arena</b></span>
+        <span>Team <b>Clooless</b></span>
+        <span><b>parley.sorevo.de</b></span>
+      </div>
+      <div class="lock" aria-hidden="true">
+        <svg viewBox="0 0 64 64">
+          <rect class="lk-bg" width="64" height="64" />
+          <path class="lk-a" d="M13 29V13h16" />
+          <path class="lk-b" d="M51 35v16H35" />
+          <rect class="lk-sq" x="25" y="25" width="14" height="14" />
+        </svg>
+        <span class="lk-dim lk-dim-x"><i></i><b>Total cost</b></span>
+        <span class="lk-tag">Deal locked</span>
+      </div>
+      <div class="tb"><span>Parley</span><span>Sheet <b>01/10</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <section class="slide" data-id="problem">
+      <p class="kicker">Problem</p>
+      <h2 class="a-rise">Every price increase <em>starts as an e-mail.</em></h2>
+      <div class="pb-grid mid">
+        <article class="mail a-rise" style="--d: 0.3s">
+          <header>
+            <span class="from">Gießerei Brandlhuber GmbH &amp; Co. KG</span>
+            <span class="tag">Practice case P01</span>
+          </header>
+          <p class="subj">Price adjustment from 01 November 2026</p>
+          <p class="body">Owing to sustained increases in energy, raw material and wage costs, we are forced to adjust our prices for volute casing HN 50-200 by <mark class="hit" data-n="p01_raise">9.5 %</mark>: from EUR 126.53 to EUR 138.55 per piece.</p>
+          <p class="to">to: Purchasing, Hollerau Pumpenwerke</p>
+        </article>
+        <div class="pb-side">
+          <p class="lab a-rise" style="--d: 0.75s">To answer it well, a buyer checks</p>
+          <ul class="facts">
+            <li class="a-rise" style="--d: 0.9s"><b>3</b><span>years of orders, invoices and scorecards</span></li>
+            <li class="a-rise" style="--d: 1.125s"><b data-n="data_indices">33</b><span>market price indices</span></li>
+            <li class="a-rise" style="--d: 1.35s"><b data-n="data_suppliers">447</b><span>suppliers, each with notes, news and contracts</span></li>
+          </ul>
+          <p class="pb-punch a-rise" style="--d: 1.65s">The supplier checks every argument against the same data. <b>Only solid facts move the price.</b></p>
+        </div>
+      </div>
+      <p class="src">Source: supplier letter of 11 Sep 2026, practice case P01; Tacto Negotiation Arena data package (33,000 rows in 24 tables).</p>
+      <div class="tb"><span>Parley</span><span>Sheet <b>02/10</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <section class="slide" data-id="does">
+      <p class="kicker">What Parley does</p>
+      <h2 class="a-rise">Reads. Negotiates. <em>Signs or walks.</em></h2>
+      <div class="do-grid mid">
+        <ol class="do-steps">
+          <li class="a-rise" style="--d: 0.225s"><span class="num">01 · Read</span><p>The e-mail, the quote PDF and three years of history with this supplier.</p></li>
+          <li class="a-rise" style="--d: 0.45s"><span class="num">02 · Negotiate</span><p>Up to ten e-mails. Every offer becomes one <b>total cost</b> over the contract term.</p></li>
+          <li class="a-rise hl" style="--d: 0.675s"><span class="num">03 · Close</span><p>Accept the cheapest offer that keeps every must-have, or walk away when the alternative is cheaper.</p></li>
+        </ol>
+        <figure class="path">
+          <figcaption><span>Total cost per round</span><span>schematic</span></figcaption>
+          <svg viewBox="0 0 760 440" aria-label="Total cost per round, stepping down from the opening offer toward the best possible deal">
+            <g class="axis">
+              <path d="M60 24V400H740" />
+              <text x="60" y="432">opening</text>
+              <text x="236" y="432">round 1</text>
+              <text x="406" y="432">round 2</text>
+              <text x="566" y="432">round 3</text>
+            </g>
+            <path class="alt" d="M60 140H740" />
+            <text class="alt-t" x="736" y="128">alternative: no deal</text>
+            <path class="best" d="M60 350H740" />
+            <text class="best-t" x="736" y="378">best possible deal</text>
+            <path class="step" pathLength="1" d="M60 60H250V190H420V262H580V305H700" />
+            <circle class="dot d0" cx="60" cy="60" r="9" />
+            <circle class="dot d1" cx="250" cy="190" r="9" />
+            <circle class="dot d2" cx="420" cy="262" r="9" />
+            <circle class="dot d3" cx="580" cy="305" r="9" />
+            <circle class="dot d4 deal" cx="700" cy="305" r="13" />
+          </svg>
+          <p class="path-score"><b>Score</b> = share of the possible saving it captures, from the opening offer to the best possible deal.</p>
+          <span class="stamp">Accept</span>
+        </figure>
+      </div>
+      <div class="tb"><span>Parley</span><span>Sheet <b>03/10</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <section class="slide" data-id="how">
+      <p class="kicker">How it works</p>
+      <h2 class="a-rise">Facts. Priced choices. <em>A logged decision.</em></h2>
+      <div class="pipe mid" style="grid-template-columns: 1fr 44px 1fr 44px 1fr">
+        <div class="mod"><span class="num">01 · Code checks</span><h3>Supplier facts</h3><p>Each with its source ID. Profiles built offline, checked by code; we keep only what passes our gate.</p></div>
+        <span class="arrow" aria-hidden="true"></span>
+        <div class="mod"><span class="num">02 · Code prices</span><h3>Priced choices</h3><p>Two or three packages per round at about the same estimated total cost. The supplier&rsquo;s pick shows what it values; our steps answer its steps.</p></div>
+        <span class="arrow" aria-hidden="true"></span>
+        <div class="mod"><span class="num">03 · Code logs</span><h3>Logged decision</h3><p>Accept, hold or walk, with the reason. Templates write the e-mail; the model stays off.</p></div>
+      </div>
+      <div class="compose mailgen" aria-label="Every e-mail: wording from templates, every figure filled in by code">
+        <span class="c-lab">Every e-mail</span>
+        <p class="mg-line">On-time delivery averaged <b class="slot s1">81.8 %</b> <code class="slot s2">sc:70210@2026Q3</code>. Package 1: <b class="slot s3" data-n="p05_pkg1">€28.58</b>, <b class="slot s4">14</b> days net, <b class="slot s5">35</b> days lead time.</p>
+        <span class="mg-key"><i class="k-t"></i>template <i class="k-c"></i>code</span>
+      </div>
+      <p class="src">Game-theory-inspired bargaining: preference probing and bounded reciprocal concessions (agent/policy.py, packages()). Details: backup B1.</p>
+      <div class="tb"><span>Parley</span><span>Sheet <b>04/10</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <section class="slide" data-id="formula">
+      <p class="kicker">Backup · how it works in detail</p>
+      <h2 class="a-rise">Code owns every number. <em>The numbers win.</em></h2>
+      <div class="pipe mid">
+        <div class="mod"><span class="num">Code</span><h3>Dossier</h3><p>Supplier profile, cost floor, and facts with checked data IDs.</p></div>
+        <span class="arrow" aria-hidden="true"></span>
+        <div class="mod"><span class="num">Code</span><h3>Valuation</h3><p>Prices every combination of terms as total cost, and finds sheets at about the same estimated cost.</p></div>
+        <span class="arrow" aria-hidden="true"></span>
+        <div class="mod"><span class="num">Code</span><h3>Policy</h3><p>Anchor, concession steps, guards G1–G9, accept or walk away.</p></div>
+        <span class="arrow" aria-hidden="true"></span>
+        <div class="mod"><span class="num">Code</span><h3>Reader</h3><p>Reads the reply: status, verdicts, signal sentences.</p></div>
+        <span class="arrow" aria-hidden="true"></span>
+        <div class="mod llm"><span class="num">Model · off</span><h3>Writer</h3><p>No measurable gain in our paired tests, so the final runs on templates.</p></div>
+      </div>
+      <div class="opt a-rise" style="--d: 1.8s">
+        <div class="opt-h">
+          <span class="opt-lab">What we optimise</span>
+          <p class="opt-f"><b>Arena score</b> =
+            <span class="frac"><span>C<sub>open</sub> − C<sub>deal</sub></span><span>C<sub>open</sub> − C<sub>best</sub></span></span>
+          </p>
+          <p class="opt-n">Share of the possible saving. <b>C</b> = total cost over the contract horizon. <b>Hard:</b> every must-have kept, never worse than the opening, walk if the alternative is cheaper. <b>Tie:</b> fewer rounds, in 8-minute waves.</p>
+        </div>
+        <p class="chips"><span class="ch-k">C counts</span><span>price × volume</span><span>uncovered need + risk</span><span>payment interest</span><span>freight (Incoterm)</span><span>late lead time</span><span>defects − chargebacks</span><span>tooling</span><span>index path + risk</span><span>supplier margin</span></p>
+        <p class="chips lv"><span class="ch-k">Levers</span><span>price</span><span>payment days</span><span>lead time</span><span>contract months</span><span>volume</span><span>effective date</span><span>index clause</span><span>ppm · chargeback</span></p>
+      </div>
+      <div class="tb"><span>Parley</span><span>Sheet <b>B1</b></span><span class="tb-mark">Backup</span></div>
+    </section>
+
+    <section class="slide s-sup" data-id="supplier">
+      <p class="kicker">Saturday practice · v1 · case P05 · RFQ</p>
+      <h2 class="a-rise">Knows the supplier. <em>Moves the price.</em></h2>
+      <div class="sup-grid mid" data-persona></div>
+      <p class="src">Source: our Saturday practice session P05, Parley v1, Sat 24 Oct (replay e642aeb72a327558). Round 1 offered <span data-n="p05_pkg1">€28.58</span> paid in 14 days or <span data-n="p05_pkg2">€28.68</span> in 30 days, both 35-day delivery, similar estimated cost. Figures and packages from code; the final build writes every e-mail from templates. Dossier: Tacto&rsquo;s data package. Supplier and portrait fictional.</p>
+      <div class="tb"><span>Parley</span><span>Sheet <b>05/10</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <section class="slide s-fail" data-id="fail">
+      <p class="kicker">From our own practice runs · case P02</p>
+      <h2 class="a-rise">Our zero. <em>Found, fixed, tested.</em></h2>
+      <div class="mo-grid">
+        <div class="fx">
+          <p class="lab">Practice case P02 · arena score by build</p>
+          <ol class="fx-bars">
+            <li class="b1" style="--w: 0"><span>v1.16</span><i></i><b data-n="p02_zero">0.000</b></li>
+            <li class="b2" style="--w: 0.269"><span>v1.22</span><i></i><b data-n="p02_v122">0.269</b></li>
+            <li class="b3" style="--w: 0.562"><span>v1.30</span><i></i><b data-n="p02_v130">0.562</b></li>
+            <li class="b4 last" style="--w: 0.626"><span>Final build</span><i></i><b data-n="p02_final">0.626</b></li>
+          </ol>
+          <p class="fx-note">Strategic supplier: the brief says a healthy supplier counts, not only the lowest price.</p>
+        </div>
+        <aside class="sheet">
+          <p class="sh-h">What went wrong</p>
+          <ul class="ticks">
+            <li class="t1"><span>Price it accepted</span><b data-n="p02_price">€340.94</b></li>
+            <li class="t2"><span>Supplier-health charge</span><b data-n="p02_health">€224,039</b></li>
+            <li class="t3"><span>Total cost vs. opening</span><b>higher &middot; score 0</b></li>
+            <li class="t4"><span>Our cost vs. arena, now</span><b class="ok">within <span data-n="p02_match">1 %</span></b></li>
+          </ul>
+          <p class="sh-read"><b>The fix:</b> price the supplier&rsquo;s full cost, not just the unit price. A test fails if our cost drifts from the arena&rsquo;s.</p>
+        </aside>
+      </div>
+      <p class="src">Source: our arena practice runs on P02 (our arena practice log): v1.16 029552b2c280199e, v1.22 0885001f42db6d2e, v1.30 da71ec8f9b9db3e1, final build settings ebe0c9d87c1f3cc8; arena cost breakdown of the v1.16 deal; agent test test_our_cost_matches_the_arena_including_the_supplier_health_charge.</p>
+      <div class="tb"><span>Parley</span><span>Sheet <b>06/10</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <section class="slide s-why" data-id="why">
+      <p class="kicker">Decision log · Saturday practice · v1 · case P05</p>
+      <h2 class="a-rise">Why did it write that? <em>It says.</em></h2>
+      <div class="mo-grid">
+        <div class="thread">
+          <article class="msg buy m1">
+            <header><span>Parley &rarr; Dralveck</span><span>Round 1</span></header>
+            <code class="r">anchor at 28.80 on the standing structure (20.0% below)</code>
+            <p>Cites <code>offer:70240-0</code> <code>idx:AS-14404</code> <code>sc:70210</code>. Three packages, about the same estimated cost for us: <b data-n="p05_pkg1">€28.58</b>, <span data-n="p05_pkg2">€28.68</span>, <span data-n="p05_pkg3">€28.41</span>.</p>
+          </article>
+          <article class="msg buy m2">
+            <header><span>Parley &rarr; Dralveck</span><span>Round 2</span></header>
+            <code class="r">move 4% of the gap (the supplier announced an internal step: hold)</code>
+            <p>He said he had to check internally. Two packages: <b data-n="p05_deal">€28.64</b>, <span data-n="p05_r2b">€28.74</span>.</p>
+          </article>
+          <article class="msg buy m3">
+            <header><span>Parley &middot; close</span><span>Round 3</span></header>
+            <code class="r">every thread has finished; accept the cheapest standing offer C=244,164</code>
+            <p>Accepts <b data-n="p05_deal">€28.64</b>, cheapest by total cost over 24 months.</p>
+          </article>
+        </div>
+        <aside class="sheet">
+          <p class="sh-h">Audit trail</p>
+          <ul class="ticks">
+            <li class="t1"><span>Facts cited, data IDs</span><b class="ok">3 verified</b></li>
+            <li class="t2"><span>Packages, &asymp; same est. cost</span><b>3 &rarr; 2</b></li>
+            <li class="t3"><span>Engine</span><b>deterministic</b></li>
+            <li class="t4"><span>Same inputs</span><b>same decision</b></li>
+          </ul>
+          <p class="sh-read"><b>On /replay:</b> the replay shows the reason for each buyer move it recorded, with the packages and the data IDs it cited.</p>
+        </aside>
+      </div>
+      <p class="src">Source: decision journal of our Saturday practice session P05, Parley v1, Sat 24 Oct (replay e642aeb72a327558); reasons verbatim, e-mails condensed. Supplier fictional.</p>
+      <div class="tb"><span>Parley</span><span>Sheet <b>07/10</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <section class="slide s-moment" data-id="moment">
+      <p class="kicker">Backup · from our own practice run · case P11</p>
+      <h2 class="a-rise">Facts checked. <em>Then it moved.</em></h2>
+      <div class="mo-grid">
+        <div class="thread">
+          <article class="msg sup m1">
+            <header><span>Supplier · Odlewnia Kalwisz</span><span>Round 0</span></header>
+            <p>We are happy to present our offer: <b>€47.00</b> per unit, quality commitment <b>6,400 ppm</b>.</p>
+          </article>
+          <article class="msg buy m2">
+            <header><span>Parley · Hollerau Purchasing</span><span>Round 1</span></header>
+            <p>Your on-time delivery averaged <b>70.8 %</b> over the last two quarters <code>sc:70140@2026Q3</code>, plus two price indices that fell. Three packages, each equal cost for us.</p>
+          </article>
+          <article class="msg sup m3">
+            <header><span>Supplier · Odlewnia Kalwisz</span><span>Round 1</span></header>
+            <p>We checked the delivery record data you cited; <b>it holds.</b> Our terms: €46.50 per unit, <b>300 ppm</b>.</p>
+          </article>
+        </div>
+        <aside class="sheet">
+          <p class="sh-h">The decision journal</p>
+          <ul class="ticks">
+            <li class="t1"><span>3 claims, data IDs</span><b class="ok">verified</b></li>
+            <li class="t2"><span>ppm_commitment</span><b><s>6,400</s> 300</b></li>
+            <li class="t3"><span>unit_price, rounds 0–3</span><b><s>47.00</s> 45.50</b></li>
+          </ul>
+          <div class="pair t4">
+            <p><span>Package 1</span><b>€43.13</b>300 ppm, no chargeback<i>C €712,400</i></p>
+            <p><span>Package 2</span><b>€43.17</b>300 ppm, €150 chargeback<i>C €712,320</i></p>
+          </div>
+          <p class="sh-read"><b>Logged reason:</b> <code>anchor at 42.30 on the standing structure (10.0% below)</code></p>
+        </aside>
+      </div>
+      <p class="src">Source: Parley v1 practice session, Sat 24 Oct, decision journal and arena replay. E-mails condensed.</p>
+      <div class="tb"><span>Parley</span><span>Sheet <b>05/08</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <section class="slide s-dark" data-id="results">
+      <p class="kicker">Results · practice, Sat 24 – Sun 25 Oct</p>
+      <h2 class="a-rise">Measured <em>in practice.</em></h2>
+      <div class="kpis k4">
+        <div class="kpi" style="grid-column: span 2">
+          <p class="v" data-n="final_build_practice">0.792</p>
+          <p class="t">equal-weight mean over ten practice cases, v1.38 candidate, no model, one session each, no zeros</p>
+        </div>
+        <div class="kpi">
+          <p class="v" data-n="final_seven">0.850</p>
+          <p class="t">on seven cases</p>
+        </div>
+        <div class="kpi">
+          <p class="v" data-n="final_holdout">0.658</p>
+          <p class="t">on the three earlier-labelled hold-outs</p>
+        </div>
+      </div>
+      <p class="abl live"><span class="abl-h">Model test · v1.9</span><span><i data-n="llm_pairs" style="font-style: normal">90</i> paired games, full model minus none <b data-n="llm_delta">+0.0001</b></span><span>worst-5 % decision time, without / with <b><i data-n="llm_t_off" style="font-style: normal">0.21 s</i> / <i data-n="llm_t_on" style="font-style: normal">7.43 s</i></b></span><span>final: buyer model calls <b data-n="llm_calls">0</b></span></p>
+      <p class="src">Identical repeats show it reproduces, not that it is independently validated. Source: our arena practice runs (agent/MERGES.md, v1.38 live record); ablation from the v1.9 test, not measured on v1.38 (README.md).</p>
+      <div class="tb"><span>Parley</span><span>Sheet <b>08/10</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <section class="slide" data-id="general">
+      <p class="kicker">Real suppliers</p>
+      <h2 class="a-rise">Built for suppliers <em>it has never met.</em></h2>
+      <div class="rs-grid mid">
+        <ul class="list rs-list">
+          <li class="a-rise" style="--d: 0.225s"><b>No memorised bots.</b> No rule names a supplier; a test fails if one does.</li>
+          <li class="a-rise" style="--d: 0.45s"><b>Reads the supplier live:</b> step sizes, final-offer timing, signal sentences.</li>
+          <li class="a-rise" style="--d: 0.675s"><b>Safe by construction:</b> accepts only below the cheapest opening, every must-have kept, cheaper than the alternative.</li>
+          <li class="a-rise" style="--d: 0.8s"><b>Tested on the unknown:</b> held-out generated cases, suppliers voiced by Claude, Gemini, GPT and DeepSeek.</li>
+          <li class="a-rise" style="--d: 0.9s"><b>Reads new data:</b> Sunday&rsquo;s release (supplier news and letters) became dossier facts: cash need, free capacity, cited by ID.</li>
+        </ul>
+        <div class="learn">
+          <p class="lab">Rules it plays by</p>
+          <ol>
+            <li class="l1">Round one is the negotiation.</li>
+            <li class="l2">Lead with the cost drivers that fell.</li>
+            <li class="l3">Never push after a final offer.</li>
+            <li class="l4">Walk away when the alternative is cheaper.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="tb"><span>Parley</span><span>Sheet <b>09/10</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <section class="slide s-close" data-id="close">
+      <div class="close-grid mid">
+        <div>
+          <p class="kicker">Parley</p>
+          <h2 class="a-rise">Lowest total cost. <em>A reason for every trade.</em></h2>
+          <ol class="asks">
+            <li class="a-rise" style="--d: 0.3s"><span><b>Watch it:</b> every decision is logged with its reason; our runs are in the replays.</span></li>
+            <li class="a-rise" style="--d: 0.525s"><span><b>Try it:</b> demo, technical video and architecture at parley.sorevo.de.</span></li>
+            <li class="a-rise" style="--d: 0.75s"><span><b>Team Clooless:</b> built in 25 hours in Munich.</span></li>
+          </ol>
+          <div class="team" data-team></div>
+        </div>
+        <div class="contact">
+          <div class="shake" aria-hidden="true">
+            <span class="sk-l">Buyer</span>
+            <svg viewBox="0 0 64 64">
+              <rect class="sk-bg" width="64" height="64" />
+              <path class="sk-a" d="M13 29V13h16" />
+              <path class="sk-b" d="M51 35v16H35" />
+              <rect class="sk-sq" x="25" y="25" width="14" height="14" />
+            </svg>
+            <span class="sk-r">Supplier</span>
+            <span class="sk-tag">Deal locked</span>
+          </div>
+          <div class="qr"><img data-qr src="img/qr-site.svg" alt="QR code for https://parley.sorevo.de" /></div>
+          <p class="url" data-site>parley.sorevo.de</p>
+          <p class="who">Demo, videos and replays</p>
+        </div>
+      </div>
+      <div class="tb"><span>Parley</span><span>Sheet <b>10/10</b></span><span class="tb-mark">Rev D</span></div>
+    </section>
+
+    <div class="ui">
+      <div class="prog"><i></i></div>
+      <nav class="ctl" aria-label="Slides">
+        <button type="button" data-go="-1" aria-label="Previous slide">‹</button>
+        <span class="cnt">01 / 12</span>
+        <button type="button" data-go="1" aria-label="Next slide">›</button>
+        <a href="/demo">Demo</a>
+        <button type="button" data-fs aria-label="Full screen">Full screen</button>
+      </nav>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="pitch.js"></script>
+  </body>
+</html>

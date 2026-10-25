@@ -1,0 +1,105 @@
+{
+ "raw": "{\n  \"supplier_id\": \"sup:70550\",\n  \"approval_threshold_pct\": {\n    \"value\": 2,\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260417-70550-M1\",\n        \"quote\": \"price changes above 2 % need the approval of their pricing committee\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"approval_cycle\": {\n    \"value\": \"pricing committee, every two weeks\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260417-70550-M1\",\n        \"quote\": \"their pricing committee, which meets every two weeks\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"approval_cycle_days\": {\n    \"value\": 14,\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260417-70550-M1\",\n        \"quote\": \"their pricing committee, which meets every two weeks\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"preferred_levers\": [],\n  \"avoid_levers\": [],\n  \"capacity_tight\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"price_freeze\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"cash_need\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"hedged_inputs\": [],\n  \"uninformed_owner\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"decision_maker\": {\n    \"value\": \"kam\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260417-70550-M1\",\n        \"quote\": \"Their key account manager explained that price changes above 2 % need the approval of their pricing committee\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"patience\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"past_goodwill_claim\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"volume_posture\": {\n    \"value\": \"accepts_below_cost\",\n    \"evidence\": [\n      {\n        \"source\": \"EV-2026-70550-350030\",\n        \"quote\": \"accepted below full cost to keep the volume\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"open_calculation\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"margin_floor\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  },\n  \"account_deprioritised\": {\n    \"value\": null,\n    \"evidence\": [],\n    \"confidence\": null\n  }\n}\n",
+ "data": {
+  "supplier_id": "sup:70550",
+  "approval_threshold_pct": {
+   "value": 2,
+   "evidence": [
+    {
+     "source": "doc:20260417-70550-M1",
+     "quote": "price changes above 2 % need the approval of their pricing committee"
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle": {
+   "value": "pricing committee, every two weeks",
+   "evidence": [
+    {
+     "source": "doc:20260417-70550-M1",
+     "quote": "their pricing committee, which meets every two weeks"
+    }
+   ],
+   "confidence": "high"
+  },
+  "approval_cycle_days": {
+   "value": 14,
+   "evidence": [
+    {
+     "source": "doc:20260417-70550-M1",
+     "quote": "their pricing committee, which meets every two weeks"
+    }
+   ],
+   "confidence": "high"
+  },
+  "preferred_levers": [],
+  "avoid_levers": [],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": "kam",
+   "evidence": [
+    {
+     "source": "doc:20260417-70550-M1",
+     "quote": "Their key account manager explained that price changes above 2 % need the approval of their pricing committee"
+    }
+   ],
+   "confidence": "high"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": "accepts_below_cost",
+   "evidence": [
+    {
+     "source": "EV-2026-70550-350030",
+     "quote": "accepted below full cost to keep the volume"
+    }
+   ],
+   "confidence": "high"
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 63.8
+}

@@ -1,0 +1,138 @@
+{
+ "raw": "{\"supplier_id\": \"sup:70295\", \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"preferred_levers\": [{\"lever\": \"payment_days_short\", \"stance\": \"requested\", \"condition\": \"pay within 10 days against a cash discount\", \"evidence\": [{\"source\": \"doc:20260505-70295-M2\", \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"}], \"confidence\": \"high\"}], \"avoid_levers\": [{\"lever\": \"payment_days_long\", \"stance\": \"rejected\", \"condition\": \"complains about overdue invoices, insists on agreed payment terms\", \"evidence\": [{\"source\": \"doc:20260515-70295-P\", \"quote\": \"Several of our invoices are overdue again. We ask you to keep to the agreed payment terms\"}], \"confidence\": \"medium\"}], \"capacity_tight\": {\"value\": false, \"evidence\": [{\"source\": \"doc:20260419-70295-M5\", \"quote\": \"they could take additional parts at short notice; the second shift has been on hold since spring.\"}, {\"source\": \"news:20260514-12\", \"quote\": \"is advertising free machine capacity and has paused hiring\"}], \"confidence\": \"high\"}, \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"cash_need\": {\"value\": \"weak\", \"evidence\": [{\"source\": \"doc:20260505-70295-M2\", \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"}], \"confidence\": \"medium\"}, \"hedged_inputs\": [], \"uninformed_owner\": {\"value\": true, \"evidence\": [{\"source\": \"doc:20260909-70295-M4\", \"quote\": \"The owner of Drehzentrum Ilzauer GmbH admitted he had not followed his material and energy prices closely since the 2022 peak\"}, {\"source\": \"doc:20260717-70295-M1\", \"quote\": \"admitted he had not followed his material and energy prices closely since the 2022 peak\"}], \"confidence\": \"high\"}, \"decision_maker\": {\"value\": \"owner\", \"evidence\": [{\"source\": \"doc:20260909-70295-M4\", \"quote\": \"The owner of Drehzentrum Ilzauer GmbH admitted\"}], \"confidence\": \"medium\"}, \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"volume_posture\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"margin_floor\": {\"value\": null, \"evidence\": [], \"confidence\": null}, \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}}",
+ "data": {
+  "supplier_id": "sup:70295",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "payment_days_short",
+    "stance": "requested",
+    "condition": "pay within 10 days against a cash discount",
+    "evidence": [
+     {
+      "source": "doc:20260505-70295-M2",
+      "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [
+   {
+    "lever": "payment_days_long",
+    "stance": "rejected",
+    "condition": "complains about overdue invoices, insists on agreed payment terms",
+    "evidence": [
+     {
+      "source": "doc:20260515-70295-P",
+      "quote": "Several of our invoices are overdue again. We ask you to keep to the agreed payment terms"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "capacity_tight": {
+   "value": false,
+   "evidence": [
+    {
+     "source": "doc:20260419-70295-M5",
+     "quote": "they could take additional parts at short notice; the second shift has been on hold since spring."
+    },
+    {
+     "source": "news:20260514-12",
+     "quote": "is advertising free machine capacity and has paused hiring"
+    }
+   ],
+   "confidence": "high"
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": "weak",
+   "evidence": [
+    {
+     "source": "doc:20260505-70295-M2",
+     "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+    }
+   ],
+   "confidence": "medium"
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260909-70295-M4",
+     "quote": "The owner of Drehzentrum Ilzauer GmbH admitted he had not followed his material and energy prices closely since the 2022 peak"
+    },
+    {
+     "source": "doc:20260717-70295-M1",
+     "quote": "admitted he had not followed his material and energy prices closely since the 2022 peak"
+    }
+   ],
+   "confidence": "high"
+  },
+  "decision_maker": {
+   "value": "owner",
+   "evidence": [
+    {
+     "source": "doc:20260909-70295-M4",
+     "quote": "The owner of Drehzentrum Ilzauer GmbH admitted"
+    }
+   ],
+   "confidence": "medium"
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "usage": {
+  "in": 5310,
+  "out": 1834
+ },
+ "s": 14.1
+}

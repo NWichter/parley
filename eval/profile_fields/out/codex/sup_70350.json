@@ -1,0 +1,116 @@
+{
+ "raw": "{\n  \"supplier_id\": \"sup:70350\",\n  \"approval_threshold_pct\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"approval_cycle\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"approval_cycle_days\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"preferred_levers\": [\n    {\n      \"lever\": \"payment_days_short\",\n      \"stance\": \"requested\",\n      \"condition\": \"Payment within 10 days in exchange for a cash discount\",\n      \"evidence\": [\n        {\n          \"source\": \"doc:20260821-70350-M2\",\n          \"quote\": \"Could you pay our invoices within 10 days? In return we would grant a cash discount.\"\n        }\n      ],\n      \"confidence\": \"high\"\n    }\n  ],\n  \"avoid_levers\": [\n    {\n      \"lever\": \"payment_days_long\",\n      \"stance\": \"rejected\",\n      \"condition\": \"Payment beyond agreed terms\",\n      \"evidence\": [\n        {\n          \"source\": \"doc:20260820-70350-P\",\n          \"quote\": \"Several of our invoices are overdue again. We ask you to keep to the agreed payment terms; otherwise we will have to review our conditions.\"\n        }\n      ],\n      \"confidence\": \"high\"\n    }\n  ],\n  \"capacity_tight\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"price_freeze\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"cash_need\": {\n    \"value\": \"strong\",\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260912-70350-M1\",\n        \"quote\": \"he asked twice whether we could pay earlier and said the bank is watching every month.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"hedged_inputs\": [],\n  \"uninformed_owner\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"decision_maker\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"patience\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"past_goodwill_claim\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"volume_posture\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"open_calculation\": {\"value\": null, \"evidence\": [], \"confidence\": null},\n  \"margin_floor\": {\n    \"value\": true,\n    \"evidence\": [\n      {\n        \"source\": \"doc:20260912-70350-M1\",\n        \"quote\": \"I cannot sign anything that lowers our margin now.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"account_deprioritised\": {\"value\": null, \"evidence\": [], \"confidence\": null}\n}\n",
+ "data": {
+  "supplier_id": "sup:70350",
+  "approval_threshold_pct": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "approval_cycle_days": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "preferred_levers": [
+   {
+    "lever": "payment_days_short",
+    "stance": "requested",
+    "condition": "Payment within 10 days in exchange for a cash discount",
+    "evidence": [
+     {
+      "source": "doc:20260821-70350-M2",
+      "quote": "Could you pay our invoices within 10 days? In return we would grant a cash discount."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "avoid_levers": [
+   {
+    "lever": "payment_days_long",
+    "stance": "rejected",
+    "condition": "Payment beyond agreed terms",
+    "evidence": [
+     {
+      "source": "doc:20260820-70350-P",
+      "quote": "Several of our invoices are overdue again. We ask you to keep to the agreed payment terms; otherwise we will have to review our conditions."
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "capacity_tight": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "price_freeze": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "cash_need": {
+   "value": "strong",
+   "evidence": [
+    {
+     "source": "doc:20260912-70350-M1",
+     "quote": "he asked twice whether we could pay earlier and said the bank is watching every month."
+    }
+   ],
+   "confidence": "high"
+  },
+  "hedged_inputs": [],
+  "uninformed_owner": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "decision_maker": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "patience": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "past_goodwill_claim": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "volume_posture": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "open_calculation": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  },
+  "margin_floor": {
+   "value": true,
+   "evidence": [
+    {
+     "source": "doc:20260912-70350-M1",
+     "quote": "I cannot sign anything that lowers our margin now."
+    }
+   ],
+   "confidence": "high"
+  },
+  "account_deprioritised": {
+   "value": null,
+   "evidence": [],
+   "confidence": null
+  }
+ },
+ "s": 79.7
+}

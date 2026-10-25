@@ -1,0 +1,19 @@
+{
+ "_meta": {
+  "commit": "558ad14 (v1.31 code)",
+  "machine": "gaming-pc",
+  "cmd": "uv run eval/bank.py run --agent parley --no-baseline --seeds 2",
+  "games_per_persona": 40,
+  "all": 0.7018,
+  "zeros": 5
+ },
+ "personas": {
+  "floor_stop": 0.9039,
+  "index_lover": 0.8743,
+  "short_fuse": 0.8397,
+  "cash_constrained": 0.8169,
+  "announced_steps": 0.8084,
+  "mirror": 0.7144,
+  "holder": 0.4243
+ }
+}
