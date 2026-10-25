@@ -1,0 +1,89 @@
+agent/tests/test_v1_mechanisms.py
+  s_1a8297fe401fa7::t_d2273ee399de9e 1-239
+agent/uv.lock
+  s_1a8297fe401fa7::t_bcf853c0493abe 1-561
+audio/voices.json
+  s_1a8297fe401fa7::t_66d3be98030c00 1-989
+backend/.dockerignore
+  s_1a8297fe401fa7::t_a8fc10f60e7dc0 1-5
+backend/.python-version
+  s_1a8297fe401fa7::t_115a8454817ce8 1
+backend/Dockerfile
+  s_1a8297fe401fa7::t_c1d066d407738c 1-17
+backend/app/config.py
+  s_1a8297fe401fa7::t_5c82d34b09e0f8 1-30
+eval/profile_fields/out/gemini/sup_70720.json
+  s_1a8297fe401fa7::t_726be3a6e3394d 1-111
+eval/profile_fields/out/gemini/sup_70730.json
+  s_1a8297fe401fa7::t_d05774a25edeca 1-147
+eval/profile_fields/out/gemini/sup_70740.json
+  s_1a8297fe401fa7::t_feb9c1a7b1a198 1-135
+eval/profile_fields/prompt_v1.txt
+  s_1a8297fe401fa7::t_29a7c0123e865c 1-42
+eval/profile_fields/review_prompt.py
+  s_1a8297fe401fa7::t_8a83096c3c0154 1-17
+eval/profile_fields/reviews/review_codex.txt
+  s_1a8297fe401fa7::t_d040ab30fcf0a2 1-82
+eval/profile_fields/reviews/review_gemini.txt
+  s_1a8297fe401fa7::t_37e030c39fb0d1 1-212
+eval/profile_fields/run_claude.py
+  s_1a8297fe401fa7::t_039fd54d571919 1-25
+eval/profile_fields/run_cli.py
+  s_1a8297fe401fa7::t_905348942c098e 1-32
+eval/profile_fields/schema_draft.md
+  s_1a8297fe401fa7::t_2895cc9c533236 1-49
+eval/profile_fields/setmeta.py
+  s_1a8297fe401fa7::t_330ee31539b313 1-9
+eval/profile_fields/show.py
+  s_1a8297fe401fa7::t_7661074094bda9 1-13
+eval/profile_fields/stats.json
+  s_1a8297fe401fa7::t_9d65db0b1e44e0 1-192
+eval/profile_fields/stats.py
+  s_1a8297fe401fa7::t_c4554717dfc09d 1-30
+eval/server.py
+  s_1a8297fe401fa7::t_a1357ebdafc818 1-201
+eval/supplier_llm.py
+  s_1a8297fe401fa7::t_697de13ab80ac0 1-555
+eval/tests/test_bank_health.py
+  s_1a8297fe401fa7::t_e4e2ba0d1d0f4c 1-81
+eval/writer_ab/.gitignore
+  s_1a8297fe401fa7::t_25518a75774d27 1
+eval/writer_ab/aggregate.py
+  s_1a8297fe401fa7::t_1b05da85c22894 1-92
+eval/writer_ab/blind.py
+  s_1a8297fe401fa7::t_53819232e1eb30 1-57
+eval/writer_ab/collect.py
+  s_1a8297fe401fa7::t_2a926d05b8ecf0 1-58
+eval/writer_ab/common.py
+  s_1a8297fe401fa7::t_1175db1972ab56 1-16
+eval/writer_ab/gen.py
+  s_1a8297fe401fa7::t_db6023b2760c35 1-162
+eval/writer_ab/judge.py
+  s_1a8297fe401fa7::t_04a2c25fa32996 1-72
+experiments/REPORT.md
+  s_1a8297fe401fa7::t_ff2beefd7bbf0d 1-72
+experiments/hypotheses.md
+  s_1a8297fe401fa7::t_4e8f1946608cdb 1-118
+frontend/.dockerignore
+  s_1a8297fe401fa7::t_1cc701d5370afb 1-2
+frontend/.gitignore
+  s_1a8297fe401fa7::t_67f504bb4faa4e 1-41
+frontend/Dockerfile
+  s_1a8297fe401fa7::t_5e6664ec63f1fb 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fd5f5520f21c06841b8ceff3e48d742a57bb6fcf",
+  "prompts": {},
+  "sessions": {
+    "s_1a8297fe401fa7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "be4ffa31-f562-4ba7-b3c4-5ec54d7b6fdc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "NWichter <niklaswichter@gmail.com>"
+    }
+  }
+}
