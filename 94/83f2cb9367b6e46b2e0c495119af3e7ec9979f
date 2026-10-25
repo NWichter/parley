@@ -1,0 +1,169 @@
+agent/parley/writer.py
+  s_1a8297fe401fa7::t_f8f9cf51a35130 1-409
+agent/pyproject.toml
+  s_1a8297fe401fa7::t_5cb5d0a09819b3 1-37
+agent/tests/conftest.py
+  s_1a8297fe401fa7::t_9cf4ae701c7c7a 1-197
+agent/tests/fixtures/health_charge.json
+  s_1a8297fe401fa7::t_5650ad3178e988 1-142
+agent/tests/test_candidates.py
+  s_1a8297fe401fa7::t_f6612c699423fc 1-207
+agent/tests/test_dossier_fallback.py
+  s_1a8297fe401fa7::t_50424296c03de7 1-49
+agent/tests/test_engine.py
+  s_1a8297fe401fa7::t_3360f6284bd1f0 1-787
+agent/tests/test_final_guards.py
+  s_1a8297fe401fa7::t_139ef7676513ba 1-49
+agent/tests/test_guards_g.py
+  s_1a8297fe401fa7::t_c752cadf945a4f 1-282
+agent/tests/test_hedge_docs.py
+  s_1a8297fe401fa7::t_8d03751f3b5927 1-50
+agent/tests/test_mail_lint.py
+  s_1a8297fe401fa7::t_4b626591bafb31 1-146
+agent/tests/test_no_overfit.py
+  s_1a8297fe401fa7::t_7d34132c53df28 1-65
+agent/tests/test_pacing.py
+  s_1a8297fe401fa7::t_33734f95dc9659 1-191
+agent/tests/test_panel_flags.py
+  s_1a8297fe401fa7::t_09b615e6dc2325 1-226
+agent/tests/test_release.py
+  s_1a8297fe401fa7::t_4f22dab50b4995 1-140
+agent/tests/test_review_fixes.py
+  s_1a8297fe401fa7::t_edab54420fd4ff 1-222
+agent/tests/test_robust.py
+  s_1a8297fe401fa7::t_3e4d2948f1ddce 1-437
+agent/tests/test_rules.py
+  s_1a8297fe401fa7::t_bd0d4370001f3f 1-41
+agent/tests/test_strength_guard.py
+  s_1a8297fe401fa7::t_75816f6a799976 1-29
+agent/tests/test_v1_mechanisms.py
+  s_1a8297fe401fa7::t_4eaf5e564c5050 1-239
+agent/uv.lock
+  s_1a8297fe401fa7::t_98e6f6e6ae19d2 1-561
+audio/voices.json
+  s_1a8297fe401fa7::t_7484057240c770 1-989
+backend/.dockerignore
+  s_1a8297fe401fa7::t_0e00397da2bc78 1-5
+backend/.python-version
+  s_1a8297fe401fa7::t_a60c20674030e2 1
+backend/Dockerfile
+  s_1a8297fe401fa7::t_9bc7eff919c104 1-17
+backend/app/config.py
+  s_1a8297fe401fa7::t_e548e688be6eb8 1-30
+backend/app/live/service.py
+  s_1a8297fe401fa7::t_5db9d788e84c32 1-145
+backend/app/llm.py
+  s_1a8297fe401fa7::t_396bb1f204dd1c 1-22
+backend/app/main.py
+  s_1a8297fe401fa7::t_b27f3e252ad349 1-14
+eval/profile_fields/out/gemini/sup_70740.json
+  s_1a8297fe401fa7::t_823d19b713c481 1-135
+eval/profile_fields/prompt_v1.txt
+  s_1a8297fe401fa7::t_f20a0d9e795544 1-42
+eval/profile_fields/review_prompt.py
+  s_1a8297fe401fa7::t_7fb4f8b4ec507d 1-17
+eval/profile_fields/reviews/review_codex.txt
+  s_1a8297fe401fa7::t_f5b7561dd6304b 1-82
+eval/profile_fields/reviews/review_gemini.txt
+  s_1a8297fe401fa7::t_4b0d4b864b0247 1-212
+eval/profile_fields/run_claude.py
+  s_1a8297fe401fa7::t_96544f55548a2f 1-25
+eval/profile_fields/run_cli.py
+  s_1a8297fe401fa7::t_8227df7f816999 1-32
+eval/profile_fields/schema_draft.md
+  s_1a8297fe401fa7::t_0a6da81528aaf4 1-49
+eval/profile_fields/setmeta.py
+  s_1a8297fe401fa7::t_eb5a4c9d64b4a0 1-9
+eval/profile_fields/show.py
+  s_1a8297fe401fa7::t_1514e622a10a83 1-13
+eval/profile_fields/stats.json
+  s_1a8297fe401fa7::t_f4065ad72f36f7 1-192
+eval/profile_fields/stats.py
+  s_1a8297fe401fa7::t_a34230bc3fbf77 1-30
+eval/server.py
+  s_1a8297fe401fa7::t_d1e24b59aed014 1-201
+eval/supplier_llm.py
+  s_1a8297fe401fa7::t_3f671b535daf07 1-555
+eval/tests/test_bank_health.py
+  s_1a8297fe401fa7::t_d4250019c18d71 1-81
+eval/writer_ab/.gitignore
+  s_1a8297fe401fa7::t_a504b678ee24d9 1
+eval/writer_ab/aggregate.py
+  s_1a8297fe401fa7::t_cd097dfba87cdb 1-92
+eval/writer_ab/blind.py
+  s_1a8297fe401fa7::t_b12c546a5b9e6a 1-57
+eval/writer_ab/collect.py
+  s_1a8297fe401fa7::t_1af0b820222e7c 1-58
+eval/writer_ab/common.py
+  s_1a8297fe401fa7::t_7a13e07e9abd33 1-16
+eval/writer_ab/gen.py
+  s_1a8297fe401fa7::t_d564ffff93c41d 1-162
+eval/writer_ab/judge.py
+  s_1a8297fe401fa7::t_165044402c931c 1-72
+experiments/REPORT.md
+  s_1a8297fe401fa7::t_49e4608fad1752 1-72
+experiments/hypotheses.md
+  s_1a8297fe401fa7::t_d6637005fec24e 1-118
+frontend/.dockerignore
+  s_1a8297fe401fa7::t_eec2f30908d497 1-2
+frontend/.gitignore
+  s_1a8297fe401fa7::t_7ee538104f75f6 1-41
+frontend/Dockerfile
+  s_1a8297fe401fa7::t_d78d6f9c12189d 1-21
+frontend/bun.lock
+  s_1a8297fe401fa7::t_be7e47c2ec7ceb 1-1366
+frontend/components.json
+  s_1a8297fe401fa7::t_0d02ec900d8845 1-25
+frontend/eslint.config.mjs
+  s_1a8297fe401fa7::t_9380270e208162 1-18
+frontend/next.config.ts
+  s_1a8297fe401fa7::t_2819023a55d7dd 1-21
+frontend/package.json
+  s_1a8297fe401fa7::t_95171ebde99dc6 1-42
+frontend/public/brand/logo.svg
+  s_1a8297fe401fa7::t_0728e74e85fcac 1-7
+frontend/public/brand/mark.svg
+  s_1a8297fe401fa7::t_c437242feb4e26 1-6
+frontend/public/pitch/data.js
+  s_1a8297fe401fa7::t_2fddbc584b87b6 1-331
+frontend/public/pitch/img/qr-site.svg
+  s_1a8297fe401fa7::t_fd4a8e8d3512f0 1
+frontend/public/pitch/index.html
+  s_1a8297fe401fa7::t_43bebdfe33f474 1-354
+frontend/public/pitch/pitch.css
+  s_1a8297fe401fa7::t_d2e1c9304e48fe 1-2394
+frontend/public/pitch/pitch.js
+  s_1a8297fe401fa7::t_cff345614fea9f 1-266
+frontend/public/pitch/render.sh
+  s_1a8297fe401fa7::t_2e36f628c66316 1-27
+frontend/public/replays/0570f8f536396163/replay.json
+  s_1a8297fe401fa7::t_ae6f45f4c8a232 1-705
+frontend/public/replays/18d04e37b3dfa06f/replay.json
+  s_1a8297fe401fa7::t_496cc07eaa9341 1-604
+frontend/public/replays/1949af9c1a9ba379/replay.json
+  s_1a8297fe401fa7::t_0bf0b09513d0ed 1-295
+frontend/public/replays/2f11a5e9780a77cc/replay.json
+  s_1a8297fe401fa7::t_eca3ed4e6ae7d9 1-315
+frontend/public/replays/37acd418d7a987d8/replay.json
+  s_1a8297fe401fa7::t_048bd21ac5c94b 1-453
+frontend/public/replays/3a6fb4b15b2dc8af/replay.json
+  s_1a8297fe401fa7::t_caa3b0d70f88d8 1-491
+frontend/public/replays/3b124d9df0913e41/replay.json
+  s_1a8297fe401fa7::t_da85792d5bce6c 1-929
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9483f2cb9367b6e46b2e0c495119af3e7ec9979f",
+  "prompts": {},
+  "sessions": {
+    "s_1a8297fe401fa7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "be4ffa31-f562-4ba7-b3c4-5ec54d7b6fdc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "NWichter <niklaswichter@gmail.com>"
+    }
+  }
+}
